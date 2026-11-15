@@ -1,0 +1,222 @@
+_recording_structure:
+  _groupname: poisson_asmr_train10
+  _job_name: poisson_asmr_train10
+  _recording_dir: ./reports/poisson_asmr_train10/log/rep_00
+  _runname: poisson_asmr_train10_0
+algorithm:
+  batch_size: 32
+  bootstrap_truncated_dones: false
+  discount_factor: 1
+  dqn:
+    double_q_learning: true
+    dueling: true
+    exploration_method: boltzmann
+    exploration_rate_final: 0.01
+    exploration_rate_init: 1
+    initial_replay_buffer_samples: 100
+    initial_sampling_strategy: random
+    max_replay_buffer_size: 5000
+    normalize_mappings: 1
+    normalize_observations: false
+    num_exploration_decay_steps: null
+    num_gradient_steps: 1
+    prioritized_buffer:
+      alpha: 0.6
+      beta_final: 1
+      beta_init: 0.4
+    projection_type: mean
+    steps_per_iteration: 32
+    target_update_rate: 0.99
+    use_prioritized_buffer: true
+  mixed_return:
+    global_weight: 0.5
+  name: ppo
+  network:
+    actor:
+      mlp:
+        activation_function: tanh
+        num_layers: 2
+    base:
+      architecture: mpn
+      assert_graph_shapes: false
+      create_graph_copy: true
+      edge_dropout: 0.1
+      scatter_reduce: mean
+      stack:
+        attention_heads: 2
+        layer_norm: inner
+        mlp:
+          activation_function: leakyrelu
+          add_output_layer: false
+          num_layers: 2
+          regularization:
+            dropout: 0
+            latent_normalization: null
+            spectral_norm: false
+        node_update_type: message_passing
+        num_step_repeats: 1
+        num_steps: 2
+        residual_connections: inner
+    critic:
+      mlp:
+        activation_function: tanh
+        num_layers: 2
+    latent_dimension: 64
+    share_base: false
+    training:
+      l2_norm: 0
+      learning_rate: 0.0003
+      lr_scheduling_rate: 1
+      optimizer: adam
+    type_of_base: mpn
+  ppo:
+    clip_range: 0.2
+    entropy_coefficient: 0
+    epochs_per_iteration: 5
+    gae_lambda: 0.95
+    initial_log_std: 0
+    max_grad_norm: 0.5
+    normalize_mappings: 1
+    normalize_observations: true
+    normalize_rewards: false
+    num_rollout_steps: 256
+    orthogonal_initialization: false
+    projection_type: mean
+    value_function_aggr: spatial
+    value_function_clip_range: 0.2
+    value_function_coefficient: 0.5
+  sample_buffer_on_gpu: false
+  use_gpu: false
+  verbose: true
+environment:
+  environment: mesh_refinement
+  mesh_refinement:
+    edge_features:
+      distance_vector: false
+      euclidean_distance: true
+    element_features:
+      element_penalty: true
+      error: false
+      num_elements: false
+      solution_max: false
+      solution_mean: true
+      solution_median: false
+      solution_min: false
+      solution_std: true
+      timestep: true
+      volume: true
+      x_position: false
+      y_position: false
+    element_limit_penalty: 1000
+    element_penalty:
+      max: 0.1
+      min: 0.001
+      sample_penalty: true
+      sampling_type: loguniform
+      value: 0.01
+    evaluation:
+      fem:
+        domain:
+          fixed_domain:
+          - true
+          - false
+          maximum_position_distortion:
+          - 0.0
+          - 0.3
+        num_pdes:
+        - 1
+        - 0
+    fem:
+      domain:
+        dimension: 2
+        domain_type: square_hole
+        fixed_domain: false
+        initial_meshing_method: meshpy
+        max_initial_element_volume: 0.05
+        maximum_distortion: 0.2
+        maximum_position_distortion: 0.3
+        maximum_size_distortion: 0.1
+        mean_hole_size: 0.15
+        num_boundary_nodes: 10
+        num_integration_refinements: 4
+      error_metric: maximum
+      heat_diffusion:
+        element_features:
+          distance_to_end: true
+          distance_to_start: true
+        fixed_diffusion: false
+        last_step_only: true
+        lower_diffusivity: 0.001
+        upper_diffusivity: 0.001
+      laplace:
+        element_features:
+          distance_to_source: true
+      linear_elasticity:
+        element_features:
+          x_displacement: true
+          y_displacement: true
+        fixed_displacement: false
+        lower_displacement_magnitude: 0.2
+        relative_stress_weight: 0.5
+        upper_displacement_magnitude: 0.8
+      num_pdes: 100
+      pde_type: poisson
+      poisson:
+        boundary_inlet_rate: 0.95
+        boundary_type: zero
+        corner_inlet_rate: 0.8
+        density_mode: density
+        element_features:
+          distance_to_dirichlet: false
+          distance_to_neumann: false
+          load_function: true
+        fixed_load: false
+        gmm_noise_scale: 0.2
+        gmm_sample_mode: random
+        lower_covariance_bound: 0.0001
+        lower_random_scale: -1
+        mean_position_range: 0.4
+        num_components: 3
+        upper_covariance_bound: 0.001
+      scale_integration_by_volume: true
+      stokes_flow:
+        element_features:
+          distance_to_inlet: false
+          velocity: 0
+        fixed_inlet: false
+        inlet_type: parabolic
+        lower_std: 0.05
+        lower_velocity: 1
+        mean_range: 0.4
+        upper_std: 0.5
+        upper_velocity: 5
+    half_half_reward: false
+    manual_normalization: false
+    maximum_elements: 20000
+    num_timesteps: 4
+    refinement_strategy: absolute_discrete
+    reward_type: spatial_max
+iterations: 10
+random_seeds:
+  numpy: 0
+  pytorch: 0
+recording:
+  checkpoint: true
+  checkpoint_frequency: 100
+  config: true
+  defaults: true
+  end_of_training_evaluation: true
+  rollout_video: false
+  wandb:
+    additional_plots: true
+    enabled: false
+    entity: null
+    plot_first_iteration: false
+    plot_frequency: 2
+    project_name: local
+    start_method: thread
+    tags:
+    - asmr_pp
+    task_name: local_tests
+    use_env_wandb_dir: true
+    video_frequency: null

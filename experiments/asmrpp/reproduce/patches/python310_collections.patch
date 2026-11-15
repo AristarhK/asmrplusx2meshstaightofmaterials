@@ -1,0 +1,28 @@
+diff --git a/util/function.py b/util/function.py
+index c6b5806..6959b33 100644
+--- a/util/function.py
++++ b/util/function.py
+@@ -1,4 +1,4 @@
+-import collections
++import collections.abc
+ from functools import update_wrapper
+ 
+ import numpy as np
+@@ -179,14 +179,14 @@ def list_of_dicts_from_dict_of_lists(nested_dict: ConfigDict) -> List[ConfigDict
+     return list_of_dicts
+ 
+ 
+-def flatten_dict_to_tuple_keys(d: collections.MutableMapping):
++def flatten_dict_to_tuple_keys(d: collections.abc.MutableMapping):
+     flat_dict = {}
+     for k, v in d.items():
+-        if isinstance(v, collections.MutableMapping):
++        if isinstance(v, collections.abc.MutableMapping):
+             sub_dict = flatten_dict_to_tuple_keys(v)
+             flat_dict.update({(k, *sk): sv for sk, sv in sub_dict.items()})
+ 
+-        elif isinstance(v, collections.MutableSequence):
++        elif isinstance(v, collections.abc.MutableSequence):
+             flat_dict[(k,)] = v
+ 
+     return flat_dict

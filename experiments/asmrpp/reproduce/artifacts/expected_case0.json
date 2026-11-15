@@ -1,0 +1,40 @@
+{
+  "source": "experiments/asmrpp/results/cases.csv",
+  "source_sha256": "cd7cca8cc82fa3859a3aa195a5c08084f16cc88e5458dde2694f037bfb7c0a44",
+  "case": 0,
+  "seed": 123,
+  "environment_index": 1,
+  "penalty": 0.001274,
+  "states": [
+    {
+      "step": 0,
+      "elements": 34,
+      "vertices": 26,
+      "error": 0.9999999999942032
+    },
+    {
+      "step": 1,
+      "elements": 71,
+      "vertices": 45,
+      "error": 0.9696784757742809
+    },
+    {
+      "step": 2,
+      "elements": 71,
+      "vertices": 45,
+      "error": 0.9696784757742809
+    },
+    {
+      "step": 3,
+      "elements": 71,
+      "vertices": 45,
+      "error": 0.9696784757742809
+    },
+    {
+      "step": 4,
+      "elements": 89,
+      "vertices": 55,
+      "error": 0.9687853785841744
+    }
+  ]
+}

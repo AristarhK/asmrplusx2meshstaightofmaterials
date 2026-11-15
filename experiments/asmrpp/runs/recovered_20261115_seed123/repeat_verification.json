@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "independent_processes": 2,
+  "seed": 123,
+  "states_compared": 5,
+  "timings_compared": false,
+  "policy_unchanged_both": true,
+  "legacy_case0_matches_both": true,
+  "mesh_hashes_identical": true,
+  "maximum_error_difference": 0.0
+}

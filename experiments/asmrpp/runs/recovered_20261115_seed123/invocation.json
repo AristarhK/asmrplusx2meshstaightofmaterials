@@ -1,0 +1,10 @@
+{
+  "upstream_commit": "228bb6389cc8c0af9be8c94df7569fd6013a4e89",
+  "checkpoint_sha256": "132cb2432f162c0b1513910ecd5f5837456dc9ab4d455c088e83018ab54b1144",
+  "seed": 123,
+  "environment_index": 1,
+  "penalty": 0.001274,
+  "threads": 1,
+  "python_executable": "/home/agripollo/miniconda3/envs/ASMRpp_cpu/bin/python",
+  "training_requested": false
+}

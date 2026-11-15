@@ -1,0 +1,1562 @@
+[
+  {
+    "name": "_libgcc_mutex",
+    "version": "0.1",
+    "build": "main",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "_openmp_mutex",
+    "version": "5.1",
+    "build": "52_gnu",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "alsa-lib",
+    "version": "1.2.15.3",
+    "build": "h47b2149_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "aom",
+    "version": "3.14.0",
+    "build": "h145e769_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "appdirs",
+    "version": "1.4.4",
+    "build": "pyhd3eb1b0_0",
+    "subdir": "noarch"
+  },
+  {
+    "name": "attr",
+    "version": "2.5.2",
+    "build": "h47b2149_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "aws-c-auth",
+    "version": "1.0.0",
+    "build": "h47b2149_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "aws-c-cal",
+    "version": "1.0.0",
+    "build": "h1b28b03_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "aws-c-common",
+    "version": "1.0.1",
+    "build": "h47b2149_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "aws-c-compression",
+    "version": "1.0.0",
+    "build": "h47b2149_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "aws-c-http",
+    "version": "1.0.0",
+    "build": "h47b2149_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "aws-c-io",
+    "version": "1.0.0",
+    "build": "hae8756c_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "aws-c-s3",
+    "version": "1.2.0",
+    "build": "h1b28b03_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "aws-c-sdkutils",
+    "version": "1.0.0",
+    "build": "h47b2149_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "aws-checksums",
+    "version": "1.0.0",
+    "build": "h47b2149_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "blas",
+    "version": "1.0",
+    "build": "mkl",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "blosc",
+    "version": "1.21.6",
+    "build": "h7b32871_2",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "bottleneck",
+    "version": "1.6.0",
+    "build": "py310h44c8d7b_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "brotlicffi",
+    "version": "1.2.1.0",
+    "build": "py310h7354ed3_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "bzip2",
+    "version": "1.0.8",
+    "build": "h5eee18b_6",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "c-ares",
+    "version": "1.34.8",
+    "build": "hd44998d_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "ca-certificates",
+    "version": "2026.10.20",
+    "build": "h59cdc77_1",
+    "subdir": "noarch"
+  },
+  {
+    "name": "cairo",
+    "version": "1.18.6",
+    "build": "ha82d1dd_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "certifi",
+    "version": "2026.10.23",
+    "build": "pyhd3eb1b0_1",
+    "subdir": "noarch"
+  },
+  {
+    "name": "cffi",
+    "version": "2.1.1",
+    "build": "py310h3b52fac_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "cftime",
+    "version": "1.6.5",
+    "build": "py310h5912d4b_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "charset-normalizer",
+    "version": "3.4.7",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "click",
+    "version": "8.5.0",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "cloudpickle",
+    "version": "3.1.2",
+    "build": "py310h06a4308_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "colorama",
+    "version": "0.4.6",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "contourpy",
+    "version": "1.2.0",
+    "build": "py310hdb19cb5_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "cpuonly",
+    "version": "2.0",
+    "build": "0",
+    "subdir": "noarch"
+  },
+  {
+    "name": "cycler",
+    "version": "0.12.1",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "dav1d",
+    "version": "1.5.3",
+    "build": "h12c9f22_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "dbus",
+    "version": "1.16.2",
+    "build": "h5bd4931_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "docker-pycreds",
+    "version": "0.4.0",
+    "build": "pyhd3eb1b0_0",
+    "subdir": "noarch"
+  },
+  {
+    "name": "expat",
+    "version": "2.9.0",
+    "build": "h7354ed3_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "ffmpeg",
+    "version": "8.1.2",
+    "build": "h76dcffe_2",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "fftw",
+    "version": "3.3.11",
+    "build": "hba8e2a3_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "filelock",
+    "version": "4.0.12",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "fontconfig",
+    "version": "2.18.2",
+    "build": "h9ad01e1_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "fonttools",
+    "version": "4.63.0",
+    "build": "py310h47b2149_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "freetype",
+    "version": "2.14.3",
+    "build": "h93b6a7b_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "fribidi",
+    "version": "1.0.16",
+    "build": "h10f3c28_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "gdk-pixbuf",
+    "version": "2.44.8",
+    "build": "h62f32bd_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "geos",
+    "version": "3.11.0",
+    "build": "h27087fc_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "gettext",
+    "version": "0.25.1",
+    "build": "h92eb808_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "gettext-tools",
+    "version": "0.25.1",
+    "build": "h6a67909_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "giflib",
+    "version": "6.1.3",
+    "build": "h621bd71_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "gitdb",
+    "version": "4.0.12",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "gitpython",
+    "version": "3.2.1",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "glslang",
+    "version": "15.3.0",
+    "build": "h24f8bec_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "gmp",
+    "version": "6.3.0",
+    "build": "haace2f4_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "gmpy2",
+    "version": "2.3.1",
+    "build": "py310h1cd8627_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "graphite2",
+    "version": "1.3.15",
+    "build": "h9ba177b_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "gstreamer-orc",
+    "version": "0.4.44",
+    "build": "h6664e14_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "gtest",
+    "version": "1.18.0",
+    "build": "hf01770c_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "gym",
+    "version": "0.21.0",
+    "build": "py310hfdc917e_2",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "h5py",
+    "version": "3.16.0",
+    "build": "py310hbc3df90_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "harfbuzz",
+    "version": "12.3.0",
+    "build": "h572a7f1_2",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "hdf4",
+    "version": "4.2.13",
+    "build": "hc0e78d3_4",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "hdf5",
+    "version": "2.0.0",
+    "build": "h351b610_5",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "icu",
+    "version": "78.3",
+    "build": "h53478e7_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "idna",
+    "version": "3.20",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "importlib-metadata",
+    "version": "9.0.1",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "importlib_metadata",
+    "version": "9.0.1",
+    "build": "py310hd3eb1b0_0",
+    "subdir": "noarch"
+  },
+  {
+    "name": "intel-gmmlib",
+    "version": "22.9.0",
+    "build": "h24d9097_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "intel-media-driver",
+    "version": "26.1.0",
+    "build": "h7354ed3_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "intel-openmp",
+    "version": "2023.0.0",
+    "build": "h9e868ea_25371",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "jack",
+    "version": "1.9.22",
+    "build": "h8fd242f_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "jansson",
+    "version": "2.15.0",
+    "build": "hbcba0ee_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "jinja2",
+    "version": "3.1.6",
+    "build": "py310h06a4308_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "joblib",
+    "version": "1.6.0",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "kiwisolver",
+    "version": "1.5.0",
+    "build": "py310h7354ed3_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "lame",
+    "version": "3.100",
+    "build": "hbd0596d_2",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "lcms2",
+    "version": "2.19.1",
+    "build": "h425df66_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "ld_impl_linux-64",
+    "version": "2.44",
+    "build": "h9e0c5a2_3",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "leptonica",
+    "version": "1.87.0",
+    "build": "he9e53ea_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "lerc",
+    "version": "4.1.0",
+    "build": "h912f75b_2",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libabseil",
+    "version": "20240116.2",
+    "build": "cxx17_h6a678d5_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libaec",
+    "version": "1.1.7",
+    "build": "h5385a5a_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libarchive",
+    "version": "3.8.8",
+    "build": "h54a5bc8_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libasprintf",
+    "version": "0.25.1",
+    "build": "hf2ab22a_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libasprintf-devel",
+    "version": "0.25.1",
+    "build": "hf2ab22a_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libass",
+    "version": "0.17.5",
+    "build": "h682e061_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libavif",
+    "version": "1.4.2",
+    "build": "h571aff8_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libblas",
+    "version": "3.9.0",
+    "build": "1_h86c2bf4_netlib",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libbrotlicommon",
+    "version": "1.2.1",
+    "build": "hd9d9df0_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libbrotlidec",
+    "version": "1.2.1",
+    "build": "h00a96f0_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libbrotlienc",
+    "version": "1.2.1",
+    "build": "h32027a1_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libcap",
+    "version": "2.78",
+    "build": "h2f14ded_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libcblas",
+    "version": "3.9.0",
+    "build": "14_h8e06fc2_netlib",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libcurl",
+    "version": "8.23.0",
+    "build": "hd8fa685_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libdeflate",
+    "version": "1.26",
+    "build": "hbf53a0a_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libdrm",
+    "version": "2.4.134",
+    "build": "h22c3c2f_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libegl",
+    "version": "1.7.0",
+    "build": "h4cac700_3",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libev",
+    "version": "4.33",
+    "build": "h7f8727e_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libexpat",
+    "version": "2.9.0",
+    "build": "h7354ed3_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libffi",
+    "version": "3.4.8",
+    "build": "h06d3fd0_3",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libflac",
+    "version": "1.5.0",
+    "build": "hb705b29_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libgcc",
+    "version": "15.2.0",
+    "build": "h69a1729_8",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libgcc-ng",
+    "version": "15.2.0",
+    "build": "h166f726_8",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libgettextpo",
+    "version": "0.25.1",
+    "build": "hf2ab22a_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libgettextpo-devel",
+    "version": "0.25.1",
+    "build": "hf2ab22a_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libgfortran",
+    "version": "15.2.0",
+    "build": "h166f726_8",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libgfortran-ng",
+    "version": "15.2.0",
+    "build": "h166f726_8",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libgfortran5",
+    "version": "15.2.0",
+    "build": "hc633d37_8",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libgl",
+    "version": "1.7.0",
+    "build": "hb0f338c_3",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libglib",
+    "version": "2.88.3",
+    "build": "h722c6ac_2",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libglvnd",
+    "version": "1.7.0",
+    "build": "h47b2149_3",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libglx",
+    "version": "1.7.0",
+    "build": "h71acf41_3",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libgomp",
+    "version": "15.2.0",
+    "build": "h4751f2c_8",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libiconv",
+    "version": "1.18",
+    "build": "h75a1612_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libidn2",
+    "version": "2.3.8",
+    "build": "hf80d704_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libjpeg-turbo",
+    "version": "3.1.3",
+    "build": "h47b2149_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libkrb5",
+    "version": "1.22.2",
+    "build": "hbd13c29_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "liblapack",
+    "version": "3.9.0",
+    "build": "14_h8876d29_netlib",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libllvm11",
+    "version": "11.1.0",
+    "build": "h9e868ea_6",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libltdl",
+    "version": "2.6.2",
+    "build": "h416670d_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libnetcdf",
+    "version": "4.10.1",
+    "build": "he9b1ec7_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libnghttp2",
+    "version": "1.69.0",
+    "build": "h8214106_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libnsl",
+    "version": "2.0.0",
+    "build": "h5eee18b_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libogg",
+    "version": "1.3.5",
+    "build": "h5a08620_2",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libopenjpeg",
+    "version": "2.5.4",
+    "build": "h47b2149_2",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libopus",
+    "version": "1.6.1",
+    "build": "h9f10d21_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libpciaccess",
+    "version": "0.19",
+    "build": "h5739cea_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libpng",
+    "version": "1.6.56",
+    "build": "h22898a0_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libprotobuf",
+    "version": "4.25.3",
+    "build": "he621ea3_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "librsvg",
+    "version": "2.62.1",
+    "build": "hcee6305_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libsndfile",
+    "version": "1.2.2",
+    "build": "ha54c36a_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libssh2",
+    "version": "1.11.1",
+    "build": "hfbabe93_2",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libstdcxx",
+    "version": "15.2.0",
+    "build": "h39759b7_8",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libstdcxx-ng",
+    "version": "15.2.0",
+    "build": "hc03a8fd_8",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libtheora",
+    "version": "1.2.0",
+    "build": "h32ad74f_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libtiff",
+    "version": "4.7.2",
+    "build": "hb610873_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libtirpc",
+    "version": "1.3.8",
+    "build": "hde106bd_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libunistring",
+    "version": "1.4.2",
+    "build": "h34b0ebb_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libuuid",
+    "version": "1.41.5",
+    "build": "h5eee18b_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libva",
+    "version": "2.23.0",
+    "build": "h80f46ad_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libvorbis",
+    "version": "1.3.7",
+    "build": "h536e056_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libvpl",
+    "version": "2.16.0",
+    "build": "h76b8884_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libvpx",
+    "version": "1.16.0",
+    "build": "h4b463fa_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libwebp",
+    "version": "1.6.0",
+    "build": "he6490cb_2",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libwebp-base",
+    "version": "1.6.0",
+    "build": "hb7bb969_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libxcb",
+    "version": "1.17.0",
+    "build": "h9b100fa_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libxml2",
+    "version": "2.15.4",
+    "build": "h00c5e6d_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libzip",
+    "version": "1.11.4",
+    "build": "h1e16687_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "libzlib",
+    "version": "1.3.2",
+    "build": "h47b2149_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "llvm-openmp",
+    "version": "14.0.6",
+    "build": "h9e868ea_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "llvmlite",
+    "version": "0.39.1",
+    "build": "py310he621ea3_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "lmdb",
+    "version": "1.0.0",
+    "build": "hfe55579_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "lz4-c",
+    "version": "1.9.4",
+    "build": "h7354ed3_5",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "markdown-it-py",
+    "version": "4.2.0",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "markupsafe",
+    "version": "3.0.3",
+    "build": "py310h47b2149_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "matplotlib-base",
+    "version": "3.8.4",
+    "build": "py310h1128e8f_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "mdurl",
+    "version": "0.1.2",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "meshio",
+    "version": "5.3.4",
+    "build": "pyhd8ed1ab_0",
+    "subdir": "noarch"
+  },
+  {
+    "name": "mkl",
+    "version": "2023.1.0",
+    "build": "h213fc3f_46344",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "mkl-service",
+    "version": "2.4.0",
+    "build": "py310h5eee18b_2",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "mkl_fft",
+    "version": "1.3.11",
+    "build": "py310h5eee18b_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "mkl_random",
+    "version": "1.2.8",
+    "build": "py310h1128e8f_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "mpc",
+    "version": "1.3.1",
+    "build": "h5eee18b_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "mpfr",
+    "version": "4.2.1",
+    "build": "hcba2a6a_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "mpg123",
+    "version": "1.33.7",
+    "build": "h77133cf_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "mpi",
+    "version": "1.0",
+    "build": "mpich",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "mpi4py",
+    "version": "4.1.2",
+    "build": "py310ha730828_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "mpich",
+    "version": "4.3.2",
+    "build": "hf345156_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "mpmath",
+    "version": "1.3.0",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "ncurses",
+    "version": "6.6",
+    "build": "hfaaeb4e_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "netcdf4",
+    "version": "1.7.4",
+    "build": "py310h02659f0_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "networkx",
+    "version": "3.2.1",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "numba",
+    "version": "0.56.4",
+    "build": "py310h1128e8f_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "numexpr",
+    "version": "2.8.7",
+    "build": "py310h85018f9_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "numpy",
+    "version": "1.22.3",
+    "build": "py310h5f9d8c6_2",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "openh264",
+    "version": "2.6.0",
+    "build": "ha05cbb4_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "openjpeg",
+    "version": "2.5.4",
+    "build": "h81d0f9f_2",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "openssl",
+    "version": "3.5.9",
+    "build": "h1b28b03_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "packaging",
+    "version": "26.3",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "pandas",
+    "version": "2.2.2",
+    "build": "py310h6a678d5_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "pango",
+    "version": "1.56.4",
+    "build": "h3ae9cb3_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "pathtools",
+    "version": "0.1.2",
+    "build": "pyhd3eb1b0_1",
+    "subdir": "noarch"
+  },
+  {
+    "name": "pcre2",
+    "version": "10.49",
+    "build": "h9438ae6_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "pillow",
+    "version": "12.3.0",
+    "build": "py310h652d24c_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "pip",
+    "version": "22.0.4",
+    "build": "pyhd8ed1ab_0",
+    "subdir": "noarch"
+  },
+  {
+    "name": "pixman",
+    "version": "0.46.4",
+    "build": "h86ba9f7_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "platformdirs",
+    "version": "4.12.3",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "plotly",
+    "version": "5.6.0",
+    "build": "pyhd3eb1b0_0",
+    "subdir": "noarch"
+  },
+  {
+    "name": "pooch",
+    "version": "1.9.0",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "protobuf",
+    "version": "4.25.3",
+    "build": "py310he36ed58_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "psutil",
+    "version": "7.2.2",
+    "build": "py310h47b2149_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "pthread-stubs",
+    "version": "0.3",
+    "build": "h47b2149_2",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "pulseaudio",
+    "version": "17.0",
+    "build": "h7354ed3_2",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "pulseaudio-client",
+    "version": "17.0",
+    "build": "he44e37d_2",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "pulseaudio-daemon",
+    "version": "17.0",
+    "build": "h545a120_2",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "pycparser",
+    "version": "3.11",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "pydantic",
+    "version": "1.10.7",
+    "build": "py310h1fa729e_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "pygments",
+    "version": "2.21.0",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "pyparsing",
+    "version": "3.0.9",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "pysocks",
+    "version": "1.7.1",
+    "build": "py310h06a4308_2",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "python",
+    "version": "3.10.22",
+    "build": "hd9cb797_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "python-dateutil",
+    "version": "2.9.0post0",
+    "build": "py310h06a4308_2",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "python-tzdata",
+    "version": "2026.5",
+    "build": "pyhd3eb1b0_0",
+    "subdir": "noarch"
+  },
+  {
+    "name": "python_abi",
+    "version": "3.10",
+    "build": "5_cp310",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "pytorch",
+    "version": "2.1.2",
+    "build": "py3.10_cpu_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "pytorch-mutex",
+    "version": "1.0",
+    "build": "cpu",
+    "subdir": "noarch"
+  },
+  {
+    "name": "pytz",
+    "version": "2026.5",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "pyyaml",
+    "version": "6.0.3",
+    "build": "py310h591646f_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "readline",
+    "version": "8.3",
+    "build": "hc2a1206_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "requests",
+    "version": "2.34.2",
+    "build": "py310h06a4308_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "rich",
+    "version": "15.0.0",
+    "build": "py310h06a4308_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "s2n",
+    "version": "1.7.7",
+    "build": "hf6aed72_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "scikit-learn",
+    "version": "1.0.2",
+    "build": "py310h1246948_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "scipy",
+    "version": "1.10.1",
+    "build": "py310ha4c1d20_3",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "sentry-sdk",
+    "version": "2.67.1",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "setproctitle",
+    "version": "1.3.8",
+    "build": "py310h47b2149_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "setuptools",
+    "version": "84.2.1",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "shaderc",
+    "version": "2025.5",
+    "build": "h5594cd2_2",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "shapely",
+    "version": "1.8.2",
+    "build": "py310h5e49deb_3",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "six",
+    "version": "1.17.0",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "smmap",
+    "version": "5.0.2",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "soxr",
+    "version": "0.1.3",
+    "build": "h6d1b9b4_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "spirv-tools",
+    "version": "2026.4",
+    "build": "h24d9097_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "sqlite",
+    "version": "3.53.4",
+    "build": "h795bf6d_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "stable-baselines3",
+    "version": "1.1.0",
+    "build": "pyhd8ed1ab_0",
+    "subdir": "noarch"
+  },
+  {
+    "name": "svt-av1",
+    "version": "3.1.2",
+    "build": "h7354ed3_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "sympy",
+    "version": "1.14.0",
+    "build": "py310h06a4308_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "tbb",
+    "version": "2021.8.0",
+    "build": "hdb19cb5_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "tenacity",
+    "version": "9.2.1",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "tesseract",
+    "version": "5.5.2",
+    "build": "h64b2be7_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "threadpoolctl",
+    "version": "3.7.0",
+    "build": "py310h7040dfc_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "tikzplotlib",
+    "version": "0.10.1",
+    "build": "pyh050c7b8_0",
+    "subdir": "noarch"
+  },
+  {
+    "name": "tk",
+    "version": "8.6.15",
+    "build": "h54e0aa7_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "torchaudio",
+    "version": "2.1.2",
+    "build": "py310_cpu",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "torchvision",
+    "version": "0.16.2",
+    "build": "py310_cpu",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "tqdm",
+    "version": "4.63.0",
+    "build": "pyhd3eb1b0_0",
+    "subdir": "noarch"
+  },
+  {
+    "name": "typing-extensions",
+    "version": "4.16.0",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "typing_extensions",
+    "version": "4.16.0",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "tzdata",
+    "version": "2026c",
+    "build": "he532380_0",
+    "subdir": "noarch"
+  },
+  {
+    "name": "urllib3",
+    "version": "2.8.0",
+    "build": "py310h06a4308_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "wandb",
+    "version": "0.16.5",
+    "build": "pyhd8ed1ab_0",
+    "subdir": "noarch"
+  },
+  {
+    "name": "wayland",
+    "version": "1.25.0",
+    "build": "h9bbe5da_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "wayland-protocols",
+    "version": "1.49",
+    "build": "h6789b02_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "webcolors",
+    "version": "25.10.0",
+    "build": "pyhd8ed1ab_0",
+    "subdir": "noarch"
+  },
+  {
+    "name": "wheel",
+    "version": "0.48.0",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "xorg-libice",
+    "version": "1.1.2",
+    "build": "h0525522_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "xorg-libsm",
+    "version": "1.2.6",
+    "build": "h984eb1c_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "xorg-libx11",
+    "version": "1.8.14",
+    "build": "h65de747_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "xorg-libxau",
+    "version": "1.0.12",
+    "build": "h9b100fa_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "xorg-libxdmcp",
+    "version": "1.1.5",
+    "build": "h9b100fa_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "xorg-libxext",
+    "version": "1.3.7",
+    "build": "h1ce37a7_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "xorg-libxfixes",
+    "version": "6.0.2",
+    "build": "h5f4defd_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "xorg-libxi",
+    "version": "1.8.4",
+    "build": "h72d95de_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "xorg-libxrender",
+    "version": "0.9.13",
+    "build": "h5f4defd_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "xorg-libxtst",
+    "version": "1.2.6",
+    "build": "h8424592_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "xorg-xorgproto",
+    "version": "2025.1",
+    "build": "h47b2149_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "xz",
+    "version": "5.8.4",
+    "build": "h140a991_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "yaml",
+    "version": "0.2.5",
+    "build": "h591646f_1",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "zipp",
+    "version": "4.1.2",
+    "build": "py310h06a4308_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "zlib",
+    "version": "1.3.2",
+    "build": "h47b2149_0",
+    "subdir": "linux-64"
+  },
+  {
+    "name": "zstd",
+    "version": "1.5.7",
+    "build": "h11fc155_0",
+    "subdir": "linux-64"
+  }
+]

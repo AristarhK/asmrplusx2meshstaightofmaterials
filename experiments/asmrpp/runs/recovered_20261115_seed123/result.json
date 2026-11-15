@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "python": "3.10.22",
+  "versions": {
+    "numpy": "1.23.5",
+    "torch": "2.1.2",
+    "torch-geometric": "2.5.3",
+    "scikit-fem": "9.0.0",
+    "scipy": "1.10.1",
+    "meshpy": "2022.1.3",
+    "PyYAML": "6.0.3"
+  },
+  "seed": 123,
+  "environment_index": 1,
+  "penalty": 0.001274,
+  "threads": 1,
+  "training_performed": false,
+  "policy_sha256_before": "32d46fa7812edfa6f2034b79ec31f5331cea3769471aad12dc31bd099f78a7dd",
+  "policy_sha256_after": "32d46fa7812edfa6f2034b79ec31f5331cea3769471aad12dc31bd099f78a7dd",
+  "policy_unchanged": true,
+  "legacy_case0_matches": true,
+  "legacy_comparison_scope": "elements, vertices and legacy error at all five states; timing excluded",
+  "legacy_mismatches": [],
+  "states": [
+    {
+      "step": 0,
+      "elements": 34,
+      "vertices": 26,
+      "legacy_normalized_reference_error": 0.9999999999942032,
+      "decision_s": 0.0,
+      "fem_step_s": 0.0,
+      "cumulative_s": 0.0,
+      "mesh_sha256": "2288483776f86a7001e8c39a6d4012bb9df5383333c2ef08036dd6436bc84644"
+    },
+    {
+      "step": 1,
+      "elements": 71,
+      "vertices": 45,
+      "legacy_normalized_reference_error": 0.9696784757742809,
+      "decision_s": 0.024286489000587608,
+      "fem_step_s": 0.009216524999828835,
+      "cumulative_s": 0.03350301400041644,
+      "mesh_sha256": "c44306ec4b859a41c988292ec2b1d25331c9256b281fd8eb9ed7f9e10b897d21"
+    },
+    {
+      "step": 2,
+      "elements": 71,
+      "vertices": 45,
+      "legacy_normalized_reference_error": 0.9696784757742809,
+      "decision_s": 0.0029488790005416377,
+      "fem_step_s": 0.00906411100004334,
+      "cumulative_s": 0.04551600400100142,
+      "mesh_sha256": "c44306ec4b859a41c988292ec2b1d25331c9256b281fd8eb9ed7f9e10b897d21"
+    },
+    {
+      "step": 3,
+      "elements": 71,
+      "vertices": 45,
+      "legacy_normalized_reference_error": 0.9696784757742809,
+      "decision_s": 0.004401320999932068,
+      "fem_step_s": 0.008087453999905847,
+      "cumulative_s": 0.058004779000839335,
+      "mesh_sha256": "c44306ec4b859a41c988292ec2b1d25331c9256b281fd8eb9ed7f9e10b897d21"
+    },
+    {
+      "step": 4,
+      "elements": 89,
+      "vertices": 55,
+      "legacy_normalized_reference_error": 0.9687853785841744,
+      "decision_s": 0.0027503159999469062,
+      "fem_step_s": 0.00853653000012855,
+      "cumulative_s": 0.06929162500091479,
+      "mesh_sha256": "02e71df18d8807ae8d624907222f8d7821ad8b0ddce2c8e46c72d754969123ca"
+    }
+  ],
+  "limitation": "Single-case saved-policy reproduction; no new accuracy, speedup or elasticity benchmark."
+}
