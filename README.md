@@ -4,6 +4,7 @@
 холдинга ЭРСО «Новейшие методы расчета баков на механическую прочность».
 
 - [Цель, конкурсная привязка и критерии прототипа](docs/ERSO_ANSYS_SCOPE.md).
+- [Работа из Codex и получение проекта на Windows](docs/DEVELOPMENT_WORKFLOW.md).
 - [Научный журнал пяти этапов ASMR++](docs/ASMR_RESEARCH_LOG.md).
 - [Восстановленный запуск сохранённой модели](docs/ASMR_REPRODUCIBILITY.md).
 - [Команда воспроизведения одной задачи](experiments/asmrpp/reproduce/README.md).
