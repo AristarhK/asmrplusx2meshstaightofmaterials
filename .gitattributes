@@ -1,0 +1,6 @@
+# Preserve exact bytes checked by the ASMR++ manifest, including on Windows.
+/experiments/asmrpp/** -text
+
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

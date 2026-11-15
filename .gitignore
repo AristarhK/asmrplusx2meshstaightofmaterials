@@ -1,3 +1,32 @@
 /experiments/asmrpp/runs/*/runtime/
 /experiments/asmrpp/runs/*/cache/
 __pycache__/
+
+# Local environments and caches, never the saved environment descriptions.
+.venv/
+venv/
+.conda/
+/envs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+*.py[cod]
+
+# Local ANSYS models, scratch calculations and machine-specific settings.
+/.local/
+/tmp/
+/scratch/
+
+# Credentials must not be committed. Keep explicit example configurations usable.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+.ssh/
+.aws/
+.DS_Store
+Thumbs.db
