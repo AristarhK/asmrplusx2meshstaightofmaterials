@@ -1,0 +1,1860 @@
+{
+  "convergence": {
+    "P0": {
+      "transitions": [
+        {
+          "passed": false,
+          "values": {
+            "central_deflection": {
+              "absolute_difference": 0.002657099830469245,
+              "relative_difference": 0.004650071977454012,
+              "relative_tolerance": 0.002,
+              "passed": false
+            },
+            "max_abs_uz": {
+              "absolute_difference": 0.002657099830469245,
+              "relative_difference": 0.004650071977454012,
+              "relative_tolerance": 0.002,
+              "passed": false
+            },
+            "strain_energy": {
+              "absolute_difference": 4.352524219080806,
+              "relative_difference": 0.01191273841338144,
+              "relative_tolerance": 0.005,
+              "passed": false
+            }
+          },
+          "disks": {
+            "top": {
+              "center": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.04139113260085914,
+                    "normalization_scale_mpa": 8.237219675607767,
+                    "normalized_difference": 0.00502489119276829
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.09513098808854359,
+                    "normalization_scale_mpa": 15.062244499101796,
+                    "normalized_difference": 0.006315857380632515
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 2.835035026295112e-12,
+                    "normalization_scale_mpa": 0.013063383418769352,
+                    "normalized_difference": 2.170214970665072e-10
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.08192705355035734,
+                    "normalization_scale_mpa": 13.063383418769352,
+                    "normalized_difference": 0.006271503401840391
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              },
+              "near_y_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.02856622839437639,
+                    "normalization_scale_mpa": 2.3243616425027365,
+                    "normalized_difference": 0.012289924197689801
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.0708939601918459,
+                    "normalization_scale_mpa": 4.6572331230135475,
+                    "normalized_difference": 0.015222334446073998
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 1.1756817307889689e-18,
+                    "normalization_scale_mpa": 0.004034552540342172,
+                    "normalized_difference": 2.9140325204173913e-16
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.06129215853942016,
+                    "normalization_scale_mpa": 4.0345525403421725,
+                    "normalized_difference": 0.015191810721647447
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": false,
+                "quadrature_converged": true
+              },
+              "near_x_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.1312482786281821,
+                    "normalization_scale_mpa": 2.7999564736287823,
+                    "normalized_difference": 0.046875113904210994
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.0660800089979765,
+                    "normalization_scale_mpa": 2.9438554053676107,
+                    "normalized_difference": 0.02244675770334747
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 6.590525134569296e-18,
+                    "normalization_scale_mpa": 0.0028839092643638776,
+                    "normalized_difference": 2.2852747886376412e-15
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.09506953721408395,
+                    "normalization_scale_mpa": 2.8839092643638775,
+                    "normalized_difference": 0.03296550914026557
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": false,
+                "quadrature_converged": true
+              }
+            },
+            "bottom": {
+              "center": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.04139113260085914,
+                    "normalization_scale_mpa": 8.237219675607767,
+                    "normalized_difference": 0.00502489119276829
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.09513098808854359,
+                    "normalization_scale_mpa": 15.062244499101796,
+                    "normalized_difference": 0.006315857380632515
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 2.835035026295112e-12,
+                    "normalization_scale_mpa": 0.013063383418769352,
+                    "normalized_difference": 2.170214970665072e-10
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.08192705355035734,
+                    "normalization_scale_mpa": 13.063383418769352,
+                    "normalized_difference": 0.006271503401840391
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              },
+              "near_y_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.02856622839437639,
+                    "normalization_scale_mpa": 2.3243616425027365,
+                    "normalized_difference": 0.012289924197689801
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.0708939601918459,
+                    "normalization_scale_mpa": 4.6572331230135475,
+                    "normalized_difference": 0.015222334446073998
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 1.1756817307889689e-18,
+                    "normalization_scale_mpa": 0.004034552540342172,
+                    "normalized_difference": 2.9140325204173913e-16
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.06129215853942016,
+                    "normalization_scale_mpa": 4.0345525403421725,
+                    "normalized_difference": 0.015191810721647447
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": false,
+                "quadrature_converged": true
+              },
+              "near_x_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.1312482786281821,
+                    "normalization_scale_mpa": 2.7999564736287823,
+                    "normalized_difference": 0.046875113904210994
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.0660800089979765,
+                    "normalization_scale_mpa": 2.9438554053676107,
+                    "normalized_difference": 0.02244675770334747
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 6.590525134569296e-18,
+                    "normalization_scale_mpa": 0.0028839092643638776,
+                    "normalized_difference": 2.2852747886376412e-15
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.09506953721408395,
+                    "normalization_scale_mpa": 2.8839092643638775,
+                    "normalized_difference": 0.03296550914026557
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": false,
+                "quadrature_converged": true
+              }
+            }
+          },
+          "quadrature_converged": true,
+          "component_normalization": "max(abs(fine component),abs(coarse component),0.001*max(fine/coarse mean VM)); MPa absolute differences retained",
+          "relative_normalization": "absolute difference divided by absolute fine-mesh value"
+        },
+        {
+          "passed": false,
+          "values": {
+            "central_deflection": {
+              "absolute_difference": 0.0014711632057105017,
+              "relative_difference": 0.002568005520577447,
+              "relative_tolerance": 0.002,
+              "passed": false
+            },
+            "max_abs_uz": {
+              "absolute_difference": 0.0014711632057105017,
+              "relative_difference": 0.002568005520577447,
+              "relative_tolerance": 0.002,
+              "passed": false
+            },
+            "strain_energy": {
+              "absolute_difference": 1.7094608799088746,
+              "relative_difference": 0.004656958420191943,
+              "relative_tolerance": 0.005,
+              "passed": true
+            }
+          },
+          "disks": {
+            "top": {
+              "center": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.019623379490340653,
+                    "normalization_scale_mpa": 8.256843055098107,
+                    "normalized_difference": 0.002376620139125012
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.045230310253062456,
+                    "normalization_scale_mpa": 15.107474809354859,
+                    "normalized_difference": 0.0029939027417775284
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 3.3220652180765955e-12,
+                    "normalization_scale_mpa": 0.013102335963308615,
+                    "normalized_difference": 2.5354755269439026e-10
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.038952544539263556,
+                    "normalization_scale_mpa": 13.102335963308615,
+                    "normalized_difference": 0.002972946553068482
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              },
+              "near_y_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.023045652101701286,
+                    "normalization_scale_mpa": 2.3474072946044378,
+                    "normalized_difference": 0.009817491900392477
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.07416843988294186,
+                    "normalization_scale_mpa": 4.731401562896489,
+                    "normalized_difference": 0.015675786317646035
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 1.1045309632196076e-18,
+                    "normalization_scale_mpa": 0.004098805529892955,
+                    "normalized_difference": 2.6947630356311483e-16
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.0642529895507824,
+                    "normalization_scale_mpa": 4.098805529892955,
+                    "normalized_difference": 0.01567602782863925
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": false,
+                "quadrature_converged": true
+              },
+              "near_x_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.08043070387052387,
+                    "normalization_scale_mpa": 2.880387177499306,
+                    "normalized_difference": 0.027923573781616463
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.03199008824548022,
+                    "normalization_scale_mpa": 2.975845493613091,
+                    "normalized_difference": 0.010749915717781368
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 2.3886064414775253e-18,
+                    "normalization_scale_mpa": 0.002938519835812008,
+                    "normalized_difference": 8.128604110026286e-16
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.05461057144813042,
+                    "normalization_scale_mpa": 2.938519835812008,
+                    "normalized_difference": 0.018584380742503907
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": false,
+                "quadrature_converged": true
+              }
+            },
+            "bottom": {
+              "center": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.019623379490340653,
+                    "normalization_scale_mpa": 8.256843055098107,
+                    "normalized_difference": 0.002376620139125012
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.045230310253062456,
+                    "normalization_scale_mpa": 15.107474809354859,
+                    "normalized_difference": 0.0029939027417775284
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 3.3220652180765955e-12,
+                    "normalization_scale_mpa": 0.013102335963308615,
+                    "normalized_difference": 2.5354755269439026e-10
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.038952544539263556,
+                    "normalization_scale_mpa": 13.102335963308615,
+                    "normalized_difference": 0.002972946553068482
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              },
+              "near_y_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.023045652101701286,
+                    "normalization_scale_mpa": 2.3474072946044378,
+                    "normalized_difference": 0.009817491900392477
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.07416843988294186,
+                    "normalization_scale_mpa": 4.731401562896489,
+                    "normalized_difference": 0.015675786317646035
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 1.1045309632196076e-18,
+                    "normalization_scale_mpa": 0.004098805529892955,
+                    "normalized_difference": 2.6947630356311483e-16
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.0642529895507824,
+                    "normalization_scale_mpa": 4.098805529892955,
+                    "normalized_difference": 0.01567602782863925
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": false,
+                "quadrature_converged": true
+              },
+              "near_x_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.08043070387052387,
+                    "normalization_scale_mpa": 2.880387177499306,
+                    "normalized_difference": 0.027923573781616463
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.03199008824548022,
+                    "normalization_scale_mpa": 2.975845493613091,
+                    "normalized_difference": 0.010749915717781368
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 2.3886064414775253e-18,
+                    "normalization_scale_mpa": 0.002938519835812008,
+                    "normalized_difference": 8.128604110026286e-16
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.05461057144813042,
+                    "normalization_scale_mpa": 2.938519835812008,
+                    "normalized_difference": 0.018584380742503907
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": false,
+                "quadrature_converged": true
+              }
+            }
+          },
+          "quadrature_converged": true,
+          "component_normalization": "max(abs(fine component),abs(coarse component),0.001*max(fine/coarse mean VM)); MPa absolute differences retained",
+          "relative_normalization": "absolute difference divided by absolute fine-mesh value"
+        },
+        {
+          "passed": false,
+          "values": {
+            "central_deflection": {
+              "absolute_difference": 0.001082604637050233,
+              "relative_difference": 0.0018861883006999467,
+              "relative_tolerance": 0.002,
+              "passed": true
+            },
+            "max_abs_uz": {
+              "absolute_difference": 0.001082604637050233,
+              "relative_difference": 0.0018861883006999467,
+              "relative_tolerance": 0.002,
+              "passed": true
+            },
+            "strain_energy": {
+              "absolute_difference": 0.9733040971623268,
+              "relative_difference": 0.002644488830755291,
+              "relative_tolerance": 0.005,
+              "passed": true
+            }
+          },
+          "disks": {
+            "top": {
+              "center": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.012227868782515472,
+                    "normalization_scale_mpa": 8.269070923880623,
+                    "normalized_difference": 0.0014787475999512906
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.028582061942227455,
+                    "normalization_scale_mpa": 15.136056871297086,
+                    "normalized_difference": 0.001888342663169322
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 2.2048520016830608e-11,
+                    "normalization_scale_mpa": 0.013126942795289911,
+                    "normalized_difference": 1.6796386150735611e-09
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.024606831981294874,
+                    "normalization_scale_mpa": 13.12694279528991,
+                    "normalized_difference": 0.0018745287737617074
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              },
+              "near_y_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.011323812744181705,
+                    "normalization_scale_mpa": 2.3587311073486195,
+                    "normalized_difference": 0.004800806971554494
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.034939440371021924,
+                    "normalization_scale_mpa": 4.766341003267511,
+                    "normalized_difference": 0.007330453349239928
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 5.082197683525802e-20,
+                    "normalization_scale_mpa": 0.00412909037873734,
+                    "normalized_difference": 1.2308274262284174e-17
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.03028484884438498,
+                    "normalization_scale_mpa": 4.12909037873734,
+                    "normalized_difference": 0.007334508588219852
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              },
+              "near_x_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.04677471542028444,
+                    "normalization_scale_mpa": 2.9271618929195906,
+                    "normalized_difference": 0.015979545078605377
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.02053251981544335,
+                    "normalization_scale_mpa": 2.9963780134285343,
+                    "normalized_difference": 0.006852446428129241
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 1.5967894544723646e-18,
+                    "normalization_scale_mpa": 0.0029715933168390045,
+                    "normalized_difference": 5.373512739525641e-16
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.033073481026996365,
+                    "normalization_scale_mpa": 2.9715933168390043,
+                    "normalized_difference": 0.011129881346676964
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": false,
+                "quadrature_converged": true
+              }
+            },
+            "bottom": {
+              "center": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.012227868782515472,
+                    "normalization_scale_mpa": 8.269070923880623,
+                    "normalized_difference": 0.0014787475999512906
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.028582061942227455,
+                    "normalization_scale_mpa": 15.136056871297086,
+                    "normalized_difference": 0.001888342663169322
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 2.2048520016830608e-11,
+                    "normalization_scale_mpa": 0.013126942795289911,
+                    "normalized_difference": 1.6796386150735611e-09
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.024606831981294874,
+                    "normalization_scale_mpa": 13.12694279528991,
+                    "normalized_difference": 0.0018745287737617074
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              },
+              "near_y_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.011323812744181705,
+                    "normalization_scale_mpa": 2.3587311073486195,
+                    "normalized_difference": 0.004800806971554494
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.034939440371021924,
+                    "normalization_scale_mpa": 4.766341003267511,
+                    "normalized_difference": 0.007330453349239928
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 5.082197683525802e-20,
+                    "normalization_scale_mpa": 0.00412909037873734,
+                    "normalized_difference": 1.2308274262284174e-17
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.03028484884438498,
+                    "normalization_scale_mpa": 4.12909037873734,
+                    "normalized_difference": 0.007334508588219852
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              },
+              "near_x_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.04677471542028444,
+                    "normalization_scale_mpa": 2.9271618929195906,
+                    "normalized_difference": 0.015979545078605377
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.02053251981544335,
+                    "normalization_scale_mpa": 2.9963780134285343,
+                    "normalized_difference": 0.006852446428129241
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 1.5967894544723646e-18,
+                    "normalization_scale_mpa": 0.0029715933168390045,
+                    "normalized_difference": 5.373512739525641e-16
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.033073481026996365,
+                    "normalization_scale_mpa": 2.9715933168390043,
+                    "normalized_difference": 0.011129881346676964
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": false,
+                "quadrature_converged": true
+              }
+            }
+          },
+          "quadrature_converged": true,
+          "component_normalization": "max(abs(fine component),abs(coarse component),0.001*max(fine/coarse mean VM)); MPa absolute differences retained",
+          "relative_normalization": "absolute difference divided by absolute fine-mesh value"
+        },
+        {
+          "passed": true,
+          "values": {
+            "central_deflection": {
+              "absolute_difference": 0.0005423370514122672,
+              "relative_difference": 0.0009440049458153688,
+              "relative_tolerance": 0.002,
+              "passed": true
+            },
+            "max_abs_uz": {
+              "absolute_difference": 0.0005423370514122672,
+              "relative_difference": 0.0009440049458153688,
+              "relative_tolerance": 0.002,
+              "passed": true
+            },
+            "strain_energy": {
+              "absolute_difference": 0.4508197150134947,
+              "relative_difference": 0.0012233886568429851,
+              "relative_tolerance": 0.005,
+              "passed": true
+            }
+          },
+          "disks": {
+            "top": {
+              "center": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.0054295880698553844,
+                    "normalization_scale_mpa": 8.274500511950478,
+                    "normalized_difference": 0.0006561831813308467
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.012895810928313267,
+                    "normalization_scale_mpa": 15.1489526822254,
+                    "normalized_difference": 0.0008512674901575346
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 3.724487662481482e-11,
+                    "normalization_scale_mpa": 0.013138040674396145,
+                    "normalized_difference": 2.834888211101286e-09
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.011097879106234387,
+                    "normalization_scale_mpa": 13.138040674396144,
+                    "normalized_difference": 0.0008447134075221967
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              },
+              "near_y_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.004576712875361988,
+                    "normalization_scale_mpa": 2.3633078202239814,
+                    "normalized_difference": 0.0019365707827803118
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.014149138342426149,
+                    "normalization_scale_mpa": 4.7804901416099375,
+                    "normalized_difference": 0.002959767288142782
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 1.3305141554371478e-10,
+                    "normalization_scale_mpa": 0.0041413569590029896,
+                    "normalized_difference": 3.2127492718170865e-08
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.012266580265649196,
+                    "normalization_scale_mpa": 4.141356959002989,
+                    "normalized_difference": 0.002961971254127853
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              },
+              "near_x_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.020979028093979668,
+                    "normalization_scale_mpa": 2.9481409210135703,
+                    "normalized_difference": 0.0071160194359932705
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.009314569231591019,
+                    "normalization_scale_mpa": 3.0056925826601253,
+                    "normalized_difference": 0.003098976018148654
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 1.8550021544869177e-19,
+                    "normalization_scale_mpa": 0.0029865391826692156,
+                    "normalized_difference": 6.211209835288389e-17
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.01494586583021107,
+                    "normalization_scale_mpa": 2.9865391826692154,
+                    "normalized_difference": 0.00500440975860669
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              }
+            },
+            "bottom": {
+              "center": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.0054295880698553844,
+                    "normalization_scale_mpa": 8.274500511950478,
+                    "normalized_difference": 0.0006561831813308467
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.012895810928313267,
+                    "normalization_scale_mpa": 15.1489526822254,
+                    "normalized_difference": 0.0008512674901575346
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 3.724487662481482e-11,
+                    "normalization_scale_mpa": 0.013138040674396145,
+                    "normalized_difference": 2.834888211101286e-09
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.011097879106234387,
+                    "normalization_scale_mpa": 13.138040674396144,
+                    "normalized_difference": 0.0008447134075221967
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              },
+              "near_y_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.004576712875361988,
+                    "normalization_scale_mpa": 2.3633078202239814,
+                    "normalized_difference": 0.0019365707827803118
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.014149138342426149,
+                    "normalization_scale_mpa": 4.7804901416099375,
+                    "normalized_difference": 0.002959767288142782
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 1.3305141554371478e-10,
+                    "normalization_scale_mpa": 0.0041413569590029896,
+                    "normalized_difference": 3.2127492718170865e-08
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.012266580265649196,
+                    "normalization_scale_mpa": 4.141356959002989,
+                    "normalized_difference": 0.002961971254127853
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              },
+              "near_x_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.020979028093979668,
+                    "normalization_scale_mpa": 2.9481409210135703,
+                    "normalized_difference": 0.0071160194359932705
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.009314569231591019,
+                    "normalization_scale_mpa": 3.0056925826601253,
+                    "normalized_difference": 0.003098976018148654
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 1.8550021544869177e-19,
+                    "normalization_scale_mpa": 0.0029865391826692156,
+                    "normalized_difference": 6.211209835288389e-17
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.01494586583021107,
+                    "normalization_scale_mpa": 2.9865391826692154,
+                    "normalized_difference": 0.00500440975860669
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              }
+            }
+          },
+          "quadrature_converged": true,
+          "component_normalization": "max(abs(fine component),abs(coarse component),0.001*max(fine/coarse mean VM)); MPa absolute differences retained",
+          "relative_normalization": "absolute difference divided by absolute fine-mesh value"
+        }
+      ],
+      "consecutive_passes": 1,
+      "converged": false,
+      "required_consecutive_passes": 2
+    },
+    "P1": {
+      "transitions": [
+        {
+          "passed": false,
+          "values": {
+            "central_deflection": {
+              "absolute_difference": 0.001829550222104681,
+              "relative_difference": 0.011809885799643564,
+              "relative_tolerance": 0.002,
+              "passed": false
+            },
+            "max_abs_uz": {
+              "absolute_difference": 0.001829550222104681,
+              "relative_difference": 0.011809885799643564,
+              "relative_tolerance": 0.002,
+              "passed": false
+            },
+            "strain_energy": {
+              "absolute_difference": 1.5451095702592283,
+              "relative_difference": 0.020320387882204777,
+              "relative_tolerance": 0.005,
+              "passed": false
+            }
+          },
+          "disks": {
+            "top": {
+              "center": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.039309515818467755,
+                    "normalization_scale_mpa": 3.121083598565467,
+                    "normalized_difference": 0.012594829512588338
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.07904848624209126,
+                    "normalization_scale_mpa": 6.532994208931248,
+                    "normalized_difference": 0.012099886164604919
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 6.927465188513091e-14,
+                    "normalization_scale_mpa": 0.005659607485383033,
+                    "normalized_difference": 1.2240186632031516e-11
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.06844046217493993,
+                    "normalization_scale_mpa": 5.659607485383033,
+                    "normalized_difference": 0.012092793069431033
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": false,
+                "quadrature_converged": true
+              },
+              "near_y_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.022819139528625243,
+                    "normalization_scale_mpa": 2.0915516712937765,
+                    "normalized_difference": 0.010910148595329681
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.07342815531027025,
+                    "normalization_scale_mpa": 7.272047838739384,
+                    "normalized_difference": 0.010097314668243311
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 1.9856215170962273e-15,
+                    "normalization_scale_mpa": 0.006484436794192327,
+                    "normalized_difference": 3.0621341222334294e-13
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.0650576467059576,
+                    "normalization_scale_mpa": 6.419379147486369,
+                    "normalized_difference": 0.010134569903295424
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": false,
+                "quadrature_converged": true
+              },
+              "near_x_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.15609282628515508,
+                    "normalization_scale_mpa": 4.765154174975591,
+                    "normalized_difference": 0.0327571408087661
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.055728953382639945,
+                    "normalization_scale_mpa": 1.1189869538233186,
+                    "normalized_difference": 0.04980304121708216
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 1.031459296979441e-15,
+                    "normalization_scale_mpa": 0.004316539865939147,
+                    "normalized_difference": 2.3895511891792224e-13
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.13545326703231098,
+                    "normalization_scale_mpa": 4.181086598906836,
+                    "normalized_difference": 0.0323966662321048
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": false,
+                "quadrature_converged": true
+              }
+            },
+            "bottom": {
+              "center": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.039309515818467755,
+                    "normalization_scale_mpa": 3.121083598565467,
+                    "normalized_difference": 0.012594829512588338
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.07904848624209126,
+                    "normalization_scale_mpa": 6.532994208931248,
+                    "normalized_difference": 0.012099886164604919
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 6.927465188513091e-14,
+                    "normalization_scale_mpa": 0.005659607485383033,
+                    "normalized_difference": 1.2240186632031516e-11
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.06844046217493993,
+                    "normalization_scale_mpa": 5.659607485383033,
+                    "normalized_difference": 0.012092793069431033
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": false,
+                "quadrature_converged": true
+              },
+              "near_y_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.022819139528625243,
+                    "normalization_scale_mpa": 2.0915516712937765,
+                    "normalized_difference": 0.010910148595329681
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.07342815531027025,
+                    "normalization_scale_mpa": 7.272047838739384,
+                    "normalized_difference": 0.010097314668243311
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 1.9856215170962273e-15,
+                    "normalization_scale_mpa": 0.006484436794192327,
+                    "normalized_difference": 3.0621341222334294e-13
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.0650576467059576,
+                    "normalization_scale_mpa": 6.419379147486369,
+                    "normalized_difference": 0.010134569903295424
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": false,
+                "quadrature_converged": true
+              },
+              "near_x_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.15609282628515508,
+                    "normalization_scale_mpa": 4.765154174975591,
+                    "normalized_difference": 0.0327571408087661
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.055728953382639945,
+                    "normalization_scale_mpa": 1.1189869538233186,
+                    "normalized_difference": 0.04980304121708216
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 1.031459296979441e-15,
+                    "normalization_scale_mpa": 0.004316539865939147,
+                    "normalized_difference": 2.3895511891792224e-13
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.13545326703231098,
+                    "normalization_scale_mpa": 4.181086598906836,
+                    "normalized_difference": 0.0323966662321048
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": false,
+                "quadrature_converged": true
+              }
+            }
+          },
+          "quadrature_converged": true,
+          "component_normalization": "max(abs(fine component),abs(coarse component),0.001*max(fine/coarse mean VM)); MPa absolute differences retained",
+          "relative_normalization": "absolute difference divided by absolute fine-mesh value"
+        },
+        {
+          "passed": false,
+          "values": {
+            "central_deflection": {
+              "absolute_difference": 0.0004529309734823128,
+              "relative_difference": 0.002915180748698476,
+              "relative_tolerance": 0.002,
+              "passed": false
+            },
+            "max_abs_uz": {
+              "absolute_difference": 0.0004529309734823128,
+              "relative_difference": 0.002915180748698476,
+              "relative_tolerance": 0.002,
+              "passed": false
+            },
+            "strain_energy": {
+              "absolute_difference": 0.3870516280985612,
+              "relative_difference": 0.005064499551652359,
+              "relative_tolerance": 0.005,
+              "passed": false
+            }
+          },
+          "disks": {
+            "top": {
+              "center": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.011407517745605666,
+                    "normalization_scale_mpa": 3.1324911163110727,
+                    "normalized_difference": 0.0036416760086584203
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.024102671718133628,
+                    "normalization_scale_mpa": 6.5570968806493815,
+                    "normalized_difference": 0.003675814488766044
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 1.9842112751712567e-13,
+                    "normalization_scale_mpa": 0.00568049060666719,
+                    "normalized_difference": 3.493028001564492e-11
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.02088312128415737,
+                    "normalization_scale_mpa": 5.68049060666719,
+                    "normalized_difference": 0.0036762883226401
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              },
+              "near_y_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.022749327301774258,
+                    "normalization_scale_mpa": 2.0687325317651513,
+                    "normalized_difference": 0.01099674653560136
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.0770687920608113,
+                    "normalization_scale_mpa": 7.198619683429114,
+                    "normalized_difference": 0.010706051361238051
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 8.724439356719293e-20,
+                    "normalization_scale_mpa": 0.006419379147486369,
+                    "normalized_difference": 1.359078371330585e-17
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.06857867846112953,
+                    "normalization_scale_mpa": 6.3508004690252395,
+                    "normalized_difference": 0.010798430653837785
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": false,
+                "quadrature_converged": true
+              },
+              "near_x_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.0917776553273928,
+                    "normalization_scale_mpa": 4.609061348690436,
+                    "normalized_difference": 0.0199124395151454
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.028391759149105855,
+                    "normalization_scale_mpa": 1.0632580004406786,
+                    "normalized_difference": 0.026702605705612927
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 4.1783208845768576e-19,
+                    "normalization_scale_mpa": 0.004181086598906836,
+                    "normalized_difference": 9.993385178076192e-17
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.08101079690760749,
+                    "normalization_scale_mpa": 4.100075801999228,
+                    "normalized_difference": 0.019758365654631557
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": false,
+                "quadrature_converged": true
+              }
+            },
+            "bottom": {
+              "center": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.011407517745605666,
+                    "normalization_scale_mpa": 3.1324911163110727,
+                    "normalized_difference": 0.0036416760086584203
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.024102671718133628,
+                    "normalization_scale_mpa": 6.5570968806493815,
+                    "normalized_difference": 0.003675814488766044
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 1.9842112751712567e-13,
+                    "normalization_scale_mpa": 0.00568049060666719,
+                    "normalized_difference": 3.493028001564492e-11
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.02088312128415737,
+                    "normalization_scale_mpa": 5.68049060666719,
+                    "normalized_difference": 0.0036762883226401
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              },
+              "near_y_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.022749327301774258,
+                    "normalization_scale_mpa": 2.0687325317651513,
+                    "normalized_difference": 0.01099674653560136
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.0770687920608113,
+                    "normalization_scale_mpa": 7.198619683429114,
+                    "normalized_difference": 0.010706051361238051
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 8.724439356719293e-20,
+                    "normalization_scale_mpa": 0.006419379147486369,
+                    "normalized_difference": 1.359078371330585e-17
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.06857867846112953,
+                    "normalization_scale_mpa": 6.3508004690252395,
+                    "normalized_difference": 0.010798430653837785
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": false,
+                "quadrature_converged": true
+              },
+              "near_x_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.0917776553273928,
+                    "normalization_scale_mpa": 4.609061348690436,
+                    "normalized_difference": 0.0199124395151454
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.028391759149105855,
+                    "normalization_scale_mpa": 1.0632580004406786,
+                    "normalized_difference": 0.026702605705612927
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 4.1783208845768576e-19,
+                    "normalization_scale_mpa": 0.004181086598906836,
+                    "normalized_difference": 9.993385178076192e-17
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.08101079690760749,
+                    "normalization_scale_mpa": 4.100075801999228,
+                    "normalized_difference": 0.019758365654631557
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": false,
+                "quadrature_converged": true
+              }
+            }
+          },
+          "quadrature_converged": true,
+          "component_normalization": "max(abs(fine component),abs(coarse component),0.001*max(fine/coarse mean VM)); MPa absolute differences retained",
+          "relative_normalization": "absolute difference divided by absolute fine-mesh value"
+        },
+        {
+          "passed": true,
+          "values": {
+            "central_deflection": {
+              "absolute_difference": 0.00011313538581783633,
+              "relative_difference": 0.0007276387251661695,
+              "relative_tolerance": 0.002,
+              "passed": true
+            },
+            "max_abs_uz": {
+              "absolute_difference": 0.00011313538581783633,
+              "relative_difference": 0.0007276387251661695,
+              "relative_tolerance": 0.002,
+              "passed": true
+            },
+            "strain_energy": {
+              "absolute_difference": 0.09696071967715625,
+              "relative_difference": 0.0012671056364987941,
+              "relative_tolerance": 0.005,
+              "passed": true
+            }
+          },
+          "disks": {
+            "top": {
+              "center": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.0036204872312017855,
+                    "normalization_scale_mpa": 3.1361116035422745,
+                    "normalized_difference": 0.0011544510173402002
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.008134813461192714,
+                    "normalization_scale_mpa": 6.565231694110574,
+                    "normalized_difference": 0.0012390748476539149
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 7.49365978920058e-13,
+                    "normalization_scale_mpa": 0.005687544717626175,
+                    "normalized_difference": 1.3175561971367195e-10
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.007054110958984339,
+                    "normalization_scale_mpa": 5.687544717626174,
+                    "normalized_difference": 0.0012402734939600671
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              },
+              "near_y_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.00604896042045322,
+                    "normalization_scale_mpa": 2.045983204463377,
+                    "normalized_difference": 0.0029565054137576604
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.02131064038901087,
+                    "normalization_scale_mpa": 7.121550891368303,
+                    "normalized_difference": 0.002992415656937943
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 1.979374618934678e-12,
+                    "normalization_scale_mpa": 0.00635080046902524,
+                    "normalized_difference": 3.1167324947283136e-10
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.019020740887972565,
+                    "normalization_scale_mpa": 6.331779728137267,
+                    "normalized_difference": 0.003004011779412964
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              },
+              "near_x_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.024889044494524448,
+                    "normalization_scale_mpa": 4.517283693363043,
+                    "normalized_difference": 0.005509736864897888
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.007054061459457639,
+                    "normalization_scale_mpa": 1.0348662412915728,
+                    "normalized_difference": 0.006816399238855993
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 9.627389713382179e-19,
+                    "normalization_scale_mpa": 0.004100075801999228,
+                    "normalized_difference": 2.348100420164864e-16
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.022161760691402854,
+                    "normalization_scale_mpa": 4.077914041307825,
+                    "normalized_difference": 0.005434582599562439
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              }
+            },
+            "bottom": {
+              "center": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.0036204872312017855,
+                    "normalization_scale_mpa": 3.1361116035422745,
+                    "normalized_difference": 0.0011544510173402002
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.008134813461192714,
+                    "normalization_scale_mpa": 6.565231694110574,
+                    "normalized_difference": 0.0012390748476539149
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 7.49365978920058e-13,
+                    "normalization_scale_mpa": 0.005687544717626175,
+                    "normalized_difference": 1.3175561971367195e-10
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.007054110958984339,
+                    "normalization_scale_mpa": 5.687544717626174,
+                    "normalized_difference": 0.0012402734939600671
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              },
+              "near_y_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.00604896042045322,
+                    "normalization_scale_mpa": 2.045983204463377,
+                    "normalized_difference": 0.0029565054137576604
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.02131064038901087,
+                    "normalization_scale_mpa": 7.121550891368303,
+                    "normalized_difference": 0.002992415656937943
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 1.979374618934678e-12,
+                    "normalization_scale_mpa": 0.00635080046902524,
+                    "normalized_difference": 3.1167324947283136e-10
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.019020740887972565,
+                    "normalization_scale_mpa": 6.331779728137267,
+                    "normalized_difference": 0.003004011779412964
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              },
+              "near_x_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.024889044494524448,
+                    "normalization_scale_mpa": 4.517283693363043,
+                    "normalized_difference": 0.005509736864897888
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.007054061459457639,
+                    "normalization_scale_mpa": 1.0348662412915728,
+                    "normalized_difference": 0.006816399238855993
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 9.627389713382179e-19,
+                    "normalization_scale_mpa": 0.004100075801999228,
+                    "normalized_difference": 2.348100420164864e-16
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.022161760691402854,
+                    "normalization_scale_mpa": 4.077914041307825,
+                    "normalized_difference": 0.005434582599562439
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              }
+            }
+          },
+          "quadrature_converged": true,
+          "component_normalization": "max(abs(fine component),abs(coarse component),0.001*max(fine/coarse mean VM)); MPa absolute differences retained",
+          "relative_normalization": "absolute difference divided by absolute fine-mesh value"
+        },
+        {
+          "passed": true,
+          "values": {
+            "central_deflection": {
+              "absolute_difference": 2.8307397421156733e-05,
+              "relative_difference": 0.0001820280108722637,
+              "relative_tolerance": 0.002,
+              "passed": true
+            },
+            "max_abs_uz": {
+              "absolute_difference": 2.8307397421156733e-05,
+              "relative_difference": 0.0001820280108722637,
+              "relative_tolerance": 0.002,
+              "passed": true
+            },
+            "strain_energy": {
+              "absolute_difference": 0.02427748747896885,
+              "relative_difference": 0.00031716332865429624,
+              "relative_tolerance": 0.005,
+              "passed": true
+            }
+          },
+          "disks": {
+            "top": {
+              "center": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.0008725642283229362,
+                    "normalization_scale_mpa": 3.1369841677705974,
+                    "normalized_difference": 0.00027815385148821235
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.0019446351416192442,
+                    "normalization_scale_mpa": 6.567176329252193,
+                    "normalized_difference": 0.00029611434871289357
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 9.136744497019705e-12,
+                    "normalization_scale_mpa": 0.005689230832520771,
+                    "normalized_difference": 1.605971838019344e-09
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.0016861148945963578,
+                    "normalization_scale_mpa": 5.689230832520771,
+                    "normalized_difference": 0.0002963695698473317
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              },
+              "near_y_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.0015203139658472864,
+                    "normalization_scale_mpa": 2.039934244042924,
+                    "normalized_difference": 0.0007452759667557678
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.005351886750101009,
+                    "normalization_scale_mpa": 7.100240250979292,
+                    "normalized_difference": 0.0007537613603093017
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 4.1099987024208595e-11,
+                    "normalization_scale_mpa": 0.006331779728137267,
+                    "normalized_difference": 6.491063932873059e-09
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.0047766205161883235,
+                    "normalization_scale_mpa": 6.327003107621079,
+                    "normalized_difference": 0.0007549578267844898
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              },
+              "near_x_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.006253678723974865,
+                    "normalization_scale_mpa": 4.492394648868519,
+                    "normalized_difference": 0.0013920590715577389
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.0017753830526783254,
+                    "normalization_scale_mpa": 1.0278121798321151,
+                    "normalized_difference": 0.0017273419088770867
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 1.6083832179379079e-18,
+                    "normalization_scale_mpa": 0.004077914041307825,
+                    "normalized_difference": 3.9441322245774565e-16
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.005568846441891928,
+                    "normalization_scale_mpa": 4.0723451948659335,
+                    "normalized_difference": 0.0013674789772027815
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              }
+            },
+            "bottom": {
+              "center": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.0008725642283229362,
+                    "normalization_scale_mpa": 3.1369841677705974,
+                    "normalized_difference": 0.00027815385148821235
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.0019446351416192442,
+                    "normalization_scale_mpa": 6.567176329252193,
+                    "normalized_difference": 0.00029611434871289357
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 9.136744497019705e-12,
+                    "normalization_scale_mpa": 0.005689230832520771,
+                    "normalized_difference": 1.605971838019344e-09
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.0016861148945963578,
+                    "normalization_scale_mpa": 5.689230832520771,
+                    "normalized_difference": 0.0002963695698473317
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              },
+              "near_y_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.0015203139658472864,
+                    "normalization_scale_mpa": 2.039934244042924,
+                    "normalized_difference": 0.0007452759667557678
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.005351886750101009,
+                    "normalization_scale_mpa": 7.100240250979292,
+                    "normalized_difference": 0.0007537613603093017
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 4.1099987024208595e-11,
+                    "normalization_scale_mpa": 0.006331779728137267,
+                    "normalized_difference": 6.491063932873059e-09
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.0047766205161883235,
+                    "normalization_scale_mpa": 6.327003107621079,
+                    "normalized_difference": 0.0007549578267844898
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              },
+              "near_x_edge": {
+                "changes": {
+                  "mean_sx": {
+                    "absolute_difference_mpa": 0.006253678723974865,
+                    "normalization_scale_mpa": 4.492394648868519,
+                    "normalized_difference": 0.0013920590715577389
+                  },
+                  "mean_sy": {
+                    "absolute_difference_mpa": 0.0017753830526783254,
+                    "normalization_scale_mpa": 1.0278121798321151,
+                    "normalized_difference": 0.0017273419088770867
+                  },
+                  "mean_txy": {
+                    "absolute_difference_mpa": 1.6083832179379079e-18,
+                    "normalization_scale_mpa": 0.004077914041307825,
+                    "normalized_difference": 3.9441322245774565e-16
+                  },
+                  "mean_von_mises": {
+                    "absolute_difference_mpa": 0.005568846441891928,
+                    "normalization_scale_mpa": 4.0723451948659335,
+                    "normalized_difference": 0.0013674789772027815
+                  }
+                },
+                "mean_von_mises_relative_tolerance": 0.01,
+                "mean_von_mises_passed": true,
+                "quadrature_converged": true
+              }
+            }
+          },
+          "quadrature_converged": true,
+          "component_normalization": "max(abs(fine component),abs(coarse component),0.001*max(fine/coarse mean VM)); MPa absolute differences retained",
+          "relative_normalization": "absolute difference divided by absolute fine-mesh value"
+        }
+      ],
+      "consecutive_passes": 2,
+      "converged": true,
+      "required_consecutive_passes": 2
+    }
+  },
+  "navier": {
+    "rows": [
+      {
+        "odd_terms_per_axis": 4,
+        "largest_odd_index": 7,
+        "central_deflection": 0.5703220083701953,
+        "absolute_difference": null,
+        "relative_difference": null,
+        "transition_passed": false
+      },
+      {
+        "odd_terms_per_axis": 8,
+        "largest_odd_index": 15,
+        "central_deflection": 0.5704120477287011,
+        "absolute_difference": 9.003935850582234e-05,
+        "relative_difference": 0.00015784967877930723,
+        "transition_passed": false
+      },
+      {
+        "odd_terms_per_axis": 16,
+        "largest_odd_index": 31,
+        "central_deflection": 0.570415311871592,
+        "absolute_difference": 3.2641428908686265e-06,
+        "relative_difference": 5.7223970376226994e-06,
+        "transition_passed": false
+      },
+      {
+        "odd_terms_per_axis": 32,
+        "largest_odd_index": 63,
+        "central_deflection": 0.5704154183851787,
+        "absolute_difference": 1.0651358672841837e-07,
+        "relative_difference": 1.867298521311954e-07,
+        "transition_passed": false
+      },
+      {
+        "odd_terms_per_axis": 64,
+        "largest_odd_index": 127,
+        "central_deflection": 0.5704154217528158,
+        "absolute_difference": 3.367637058104833e-09,
+        "relative_difference": 5.903832417006718e-09,
+        "transition_passed": true
+      },
+      {
+        "odd_terms_per_axis": 128,
+        "largest_odd_index": 255,
+        "central_deflection": 0.5704154218583822,
+        "absolute_difference": 1.0556644447490271e-10,
+        "relative_difference": 1.8506940806574445e-10,
+        "transition_passed": true
+      }
+    ],
+    "central_deflection": 0.5704154218583822,
+    "relative_tolerance": 1e-07,
+    "consecutive_passes": 2,
+    "converged": true,
+    "rigidity_n_mm": 9846153.846153846
+  },
+  "nonlinear": {
+    "passed": true,
+    "values": {
+      "central_deflection": {
+        "absolute_difference": 3.441443808602229e-05,
+        "relative_difference": 0.0002213477355683026,
+        "relative_tolerance": 0.002,
+        "passed": true
+      },
+      "max_abs_uz": {
+        "absolute_difference": 3.441443808602229e-05,
+        "relative_difference": 0.0002213477355683026,
+        "relative_tolerance": 0.002,
+        "passed": true
+      },
+      "strain_energy": {
+        "absolute_difference": 0.02045022941638308,
+        "relative_difference": 0.00026723507292666205,
+        "relative_tolerance": 0.005,
+        "passed": true
+      }
+    },
+    "disks": {
+      "top": {
+        "center": {
+          "changes": {
+            "mean_sx": {
+              "absolute_difference_mpa": 0.021279432735217263,
+              "normalization_scale_mpa": 3.1582636005058147,
+              "normalized_difference": 0.006737700023458851
+            },
+            "mean_sy": {
+              "absolute_difference_mpa": 0.03783052184258118,
+              "normalization_scale_mpa": 6.605006851094775,
+              "normalized_difference": 0.005727552248687039
+            },
+            "mean_txy": {
+              "absolute_difference_mpa": 2.296183717657422e-10,
+              "normalization_scale_mpa": 0.005721922126114611,
+              "normalized_difference": 4.012958699975549e-08
+            },
+            "mean_von_mises": {
+              "absolute_difference_mpa": 0.03269129359383971,
+              "normalization_scale_mpa": 5.7219221261146105,
+              "normalized_difference": 0.00571334122927644
+            }
+          },
+          "mean_von_mises_relative_tolerance": 0.01,
+          "mean_von_mises_passed": true,
+          "quadrature_converged": true
+        },
+        "near_y_edge": {
+          "changes": {
+            "mean_sx": {
+              "absolute_difference_mpa": 0.009226083504951799,
+              "normalization_scale_mpa": 2.0384139300770765,
+              "normalized_difference": 0.004526108936374342
+            },
+            "mean_sy": {
+              "absolute_difference_mpa": 0.03892751765131308,
+              "normalization_scale_mpa": 7.094888364229191,
+              "normalized_difference": 0.005486699106863576
+            },
+            "mean_txy": {
+              "absolute_difference_mpa": 5.176500144338709e-10,
+              "normalization_scale_mpa": 0.006327003107621079,
+              "normalized_difference": 8.181598864877192e-08
+            },
+            "mean_von_mises": {
+              "absolute_difference_mpa": 0.035179735858517525,
+              "normalization_scale_mpa": 6.291823371762561,
+              "normalized_difference": 0.005591341933787064
+            }
+          },
+          "mean_von_mises_relative_tolerance": 0.01,
+          "mean_von_mises_passed": true,
+          "quadrature_converged": true
+        },
+        "near_x_edge": {
+          "changes": {
+            "mean_sx": {
+              "absolute_difference_mpa": 0.01583580873348911,
+              "normalization_scale_mpa": 4.486140970144544,
+              "normalized_difference": 0.0035299400618208567
+            },
+            "mean_sy": {
+              "absolute_difference_mpa": 0.00264069410896961,
+              "normalization_scale_mpa": 1.0260367967794368,
+              "normalized_difference": 0.0025736836312872215
+            },
+            "mean_txy": {
+              "absolute_difference_mpa": 2.3568471971966155e-10,
+              "normalization_scale_mpa": 0.004072345194865934,
+              "normalized_difference": 5.787444542196295e-08
+            },
+            "mean_von_mises": {
+              "absolute_difference_mpa": 0.014665022300686559,
+              "normalization_scale_mpa": 4.057680172565247,
+              "normalized_difference": 0.0036141395272696907
+            }
+          },
+          "mean_von_mises_relative_tolerance": 0.01,
+          "mean_von_mises_passed": true,
+          "quadrature_converged": true
+        }
+      },
+      "bottom": {
+        "center": {
+          "changes": {
+            "mean_sx": {
+              "absolute_difference_mpa": 0.023370197705161466,
+              "normalization_scale_mpa": 3.1369841677705974,
+              "normalized_difference": 0.007449893418419857
+            },
+            "mean_sy": {
+              "absolute_difference_mpa": 0.04139458611012614,
+              "normalization_scale_mpa": 6.567176329252193,
+              "normalized_difference": 0.006303254859435114
+            },
+            "mean_txy": {
+              "absolute_difference_mpa": 2.470880048341066e-10,
+              "normalization_scale_mpa": 0.005689230832520771,
+              "normalized_difference": 4.343082784085725e-08
+            },
+            "mean_von_mises": {
+              "absolute_difference_mpa": 0.03576683447606044,
+              "normalization_scale_mpa": 5.65346399804471,
+              "normalized_difference": 0.0063265344023470645
+            }
+          },
+          "mean_von_mises_relative_tolerance": 0.01,
+          "mean_von_mises_passed": true,
+          "quadrature_converged": true
+        },
+        "near_y_edge": {
+          "changes": {
+            "mean_sx": {
+              "absolute_difference_mpa": 0.0083559524554766,
+              "normalization_scale_mpa": 2.046769882532553,
+              "normalized_difference": 0.0040825070403798566
+            },
+            "mean_sy": {
+              "absolute_difference_mpa": 0.03578573952044284,
+              "normalization_scale_mpa": 7.130674103749634,
+              "normalized_difference": 0.0050185633223126915
+            },
+            "mean_txy": {
+              "absolute_difference_mpa": 6.14087170309109e-10,
+              "normalization_scale_mpa": 0.006359377633065215,
+              "normalized_difference": 9.656403593901994e-08
+            },
+            "mean_von_mises": {
+              "absolute_difference_mpa": 0.032374525444136104,
+              "normalization_scale_mpa": 6.359377633065215,
+              "normalized_difference": 0.005090832360042065
+            }
+          },
+          "mean_von_mises_relative_tolerance": 0.01,
+          "mean_von_mises_passed": true,
+          "quadrature_converged": true
+        },
+        "near_x_edge": {
+          "changes": {
+            "mean_sx": {
+              "absolute_difference_mpa": 0.014518985156245279,
+              "normalization_scale_mpa": 4.500659955300789,
+              "normalized_difference": 0.003225968035897736
+            },
+            "mean_sy": {
+              "absolute_difference_mpa": 0.0023488902534956058,
+              "normalization_scale_mpa": 1.0283856870329324,
+              "normalized_difference": 0.002284055761484345
+            },
+            "mean_txy": {
+              "absolute_difference_mpa": 2.705785458402279e-10,
+              "normalization_scale_mpa": 0.0040858133922374315,
+              "normalized_difference": 6.622391182972172e-08
+            },
+            "mean_von_mises": {
+              "absolute_difference_mpa": 0.013468197371498292,
+              "normalization_scale_mpa": 4.085813392237432,
+              "normalized_difference": 0.0032963319854710676
+            }
+          },
+          "mean_von_mises_relative_tolerance": 0.01,
+          "mean_von_mises_passed": true,
+          "quadrature_converged": true
+        }
+      }
+    },
+    "quadrature_converged": true,
+    "component_normalization": "max(abs(fine component),abs(coarse component),0.001*max(fine/coarse mean VM)); MPa absolute differences retained",
+    "relative_normalization": "absolute difference divided by absolute fine-mesh value",
+    "maximum_deflection_or_disk_vm_relative_difference": 0.0063265344023470645,
+    "linear_approximation_2percent_check": true
+  },
+  "maximum_force_imbalance": 5.198704002395971e-09,
+  "maximum_moment_imbalance": 5.198747029292065e-09,
+  "maximum_linear_energy_imbalance": 5.723157520376029e-09,
+  "all_disk_quadratures_converged": true,
+  "maximum_global_vm": 13.141151314642531,
+  "p0_navier_comparison": [
+    {
+      "h": 50.0,
+      "shell_deflection_mm": 0.5687533736745127,
+      "navier_deflection_mm": 0.5704154218583822,
+      "signed_relative_difference": -0.0029137504355241095
+    },
+    {
+      "h": 25.0,
+      "shell_deflection_mm": 0.571410473504982,
+      "navier_deflection_mm": 0.5704154218583822,
+      "signed_relative_difference": 0.0017444332822522668
+    },
+    {
+      "h": 12.5,
+      "shell_deflection_mm": 0.5728816367106925,
+      "navier_deflection_mm": 0.5704154218583822,
+      "signed_relative_difference": 0.0043235416817368755
+    },
+    {
+      "h": 6.25,
+      "shell_deflection_mm": 0.5739642413477427,
+      "navier_deflection_mm": 0.5704154218583822,
+      "signed_relative_difference": 0.006221464836624779
+    },
+    {
+      "h": 3.125,
+      "shell_deflection_mm": 0.574506578399155,
+      "navier_deflection_mm": 0.5704154218583822,
+      "signed_relative_difference": 0.007172240412862685
+    }
+  ]
+}

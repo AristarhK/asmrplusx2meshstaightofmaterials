@@ -1,0 +1,884 @@
+{
+  "case": "P0_h25_linear",
+  "support": "P0",
+  "nonlinear": false,
+  "h": 25.0,
+  "nx": 40,
+  "ny": 24,
+  "elements": 960,
+  "nodes": 1025,
+  "active_dof": 6019,
+  "dof_source": "MAPDL sparse solver Number of equations",
+  "expected_free_dof": 6019,
+  "converged": true,
+  "raw_solu_cnvg": 0,
+  "central_deflection": 0.571410473504982,
+  "max_abs_uz": 0.571410473504982,
+  "strain_energy": 365.3672285955399,
+  "artificial_energy": 0.0,
+  "half_external_work": 365.367228671249,
+  "linear_energy_relative_check": 2.0721362381269697e-10,
+  "reaction_force": [
+    -3.791482138760794e-15,
+    4.175652534386298e-15,
+    -2999.99999998314
+  ],
+  "reaction_moment_origin": [
+    -899999.9999946952,
+    1499999.9999900635,
+    4.762196862507961e-12
+  ],
+  "external_force": [
+    0,
+    0,
+    3000.0
+  ],
+  "external_moment_origin": [
+    900000.0,
+    -1500000.0,
+    0.0
+  ],
+  "force_balance_relative": 5.620070927155514e-12,
+  "moment_balance_relative": 6.439140505739985e-12,
+  "disks": {
+    "top": {
+      "center": {
+        "center_mm": [
+          500.0,
+          300.0
+        ],
+        "radius_mm": 8.0,
+        "area_mm2": 201.06192982974676,
+        "mean_sx": 8.237219675607767,
+        "mean_sy": 15.062244499101796,
+        "mean_txy": 1.3978253330855164e-12,
+        "mean_von_mises": 13.063383418769352,
+        "quadrature_converged": true,
+        "quadrature": {
+          "method": "Gauss-Legendre in s=r^2/R^2; periodic midpoint in theta; bilinear tensor interpolation",
+          "relative_tolerance": 0.0005,
+          "absolute_tolerance_mpa": 1e-09,
+          "component_scale_floor_fraction": 0.001,
+          "consecutive_required": 2,
+          "consecutive_passes": 2,
+          "radial_points": 32,
+          "angular_points": 128,
+          "sample_count": 4096,
+          "total_sample_count": 5376,
+          "changes": {
+            "mean_sx": {
+              "absolute_difference_mpa": 2.830265803055454e-06,
+              "normalization_scale_mpa": 8.237219675607767,
+              "normalized_difference": 3.43594794665547e-07
+            },
+            "mean_sy": {
+              "absolute_difference_mpa": 5.754989132356059e-06,
+              "normalization_scale_mpa": 15.062244499101796,
+              "normalized_difference": 3.82080448415191e-07
+            },
+            "mean_txy": {
+              "absolute_difference_mpa": 1.320584438761441e-16,
+              "normalization_scale_mpa": 0.013063383418769352,
+              "normalized_difference": 1.0109053653466506e-14
+            },
+            "mean_von_mises": {
+              "absolute_difference_mpa": 4.9743368339960625e-06,
+              "normalization_scale_mpa": 13.063383418769352,
+              "normalized_difference": 3.8078472280381667e-07
+            }
+          },
+          "levels": [
+            {
+              "radial_points": 8,
+              "angular_points": 32,
+              "sample_count": 256,
+              "mean_sx": 8.237204663321593,
+              "mean_sy": 15.062213972312513,
+              "mean_txy": 1.3971145099460339e-12,
+              "mean_von_mises": 13.063357032960681,
+              "transition_passed": false,
+              "changes": null
+            },
+            {
+              "radial_points": 16,
+              "angular_points": 64,
+              "sample_count": 1024,
+              "mean_sx": 8.237216845341964,
+              "mean_sy": 15.062238744112664,
+              "mean_txy": 1.3976932746416403e-12,
+              "mean_von_mises": 13.063378444432518,
+              "transition_passed": true,
+              "changes": {
+                "mean_sx": {
+                  "absolute_difference_mpa": 1.2182020370232749e-05,
+                  "normalization_scale_mpa": 8.237216845341964,
+                  "normalized_difference": 1.4789000458475873e-06
+                },
+                "mean_sy": {
+                  "absolute_difference_mpa": 2.477180015070246e-05,
+                  "normalization_scale_mpa": 15.062238744112664,
+                  "normalized_difference": 1.6446293656303215e-06
+                },
+                "mean_txy": {
+                  "absolute_difference_mpa": 5.787646956064178e-16,
+                  "normalization_scale_mpa": 0.013063378444432517,
+                  "normalized_difference": 4.4304365679085225e-14
+                },
+                "mean_von_mises": {
+                  "absolute_difference_mpa": 2.1411471836429996e-05,
+                  "normalization_scale_mpa": 13.063378444432518,
+                  "normalized_difference": 1.6390455139539613e-06
+                }
+              }
+            },
+            {
+              "radial_points": 32,
+              "angular_points": 128,
+              "sample_count": 4096,
+              "mean_sx": 8.237219675607767,
+              "mean_sy": 15.062244499101796,
+              "mean_txy": 1.3978253330855164e-12,
+              "mean_von_mises": 13.063383418769352,
+              "transition_passed": true,
+              "changes": {
+                "mean_sx": {
+                  "absolute_difference_mpa": 2.830265803055454e-06,
+                  "normalization_scale_mpa": 8.237219675607767,
+                  "normalized_difference": 3.43594794665547e-07
+                },
+                "mean_sy": {
+                  "absolute_difference_mpa": 5.754989132356059e-06,
+                  "normalization_scale_mpa": 15.062244499101796,
+                  "normalized_difference": 3.82080448415191e-07
+                },
+                "mean_txy": {
+                  "absolute_difference_mpa": 1.320584438761441e-16,
+                  "normalization_scale_mpa": 0.013063383418769352,
+                  "normalized_difference": 1.0109053653466506e-14
+                },
+                "mean_von_mises": {
+                  "absolute_difference_mpa": 4.9743368339960625e-06,
+                  "normalization_scale_mpa": 13.063383418769352,
+                  "normalized_difference": 3.8078472280381667e-07
+                }
+              }
+            }
+          ]
+        }
+      },
+      "near_y_edge": {
+        "center_mm": [
+          500.0,
+          48.0
+        ],
+        "radius_mm": 8.0,
+        "area_mm2": 201.06192982974676,
+        "mean_sx": 2.3243616425027365,
+        "mean_sy": 4.6572331230135475,
+        "mean_txy": -5.049163398582884e-18,
+        "mean_von_mises": 4.0345525403421725,
+        "quadrature_converged": true,
+        "quadrature": {
+          "method": "Gauss-Legendre in s=r^2/R^2; periodic midpoint in theta; bilinear tensor interpolation",
+          "relative_tolerance": 0.0005,
+          "absolute_tolerance_mpa": 1e-09,
+          "component_scale_floor_fraction": 0.001,
+          "consecutive_required": 2,
+          "consecutive_passes": 2,
+          "radial_points": 32,
+          "angular_points": 128,
+          "sample_count": 4096,
+          "total_sample_count": 5376,
+          "changes": {
+            "mean_sx": {
+              "absolute_difference_mpa": 6.375210857001434e-07,
+              "normalization_scale_mpa": 2.324362280023822,
+              "normalized_difference": 2.7427784867237197e-07
+            },
+            "mean_sy": {
+              "absolute_difference_mpa": 1.2739482793122647e-06,
+              "normalization_scale_mpa": 4.657234396961827,
+              "normalized_difference": 2.735417998594471e-07
+            },
+            "mean_txy": {
+              "absolute_difference_mpa": 5.360871523172467e-18,
+              "normalization_scale_mpa": 0.0040345536434933625,
+              "normalized_difference": 1.328739681480774e-15
+            },
+            "mean_von_mises": {
+              "absolute_difference_mpa": 1.1031511899517454e-06,
+              "normalization_scale_mpa": 4.0345525403421725,
+              "normalized_difference": 2.7342590756252407e-07
+            }
+          },
+          "levels": [
+            {
+              "radial_points": 8,
+              "angular_points": 32,
+              "sample_count": 256,
+              "mean_sx": 2.3243654315875393,
+              "mean_sy": 4.657240887638313,
+              "mean_txy": -2.7376104855258987e-18,
+              "mean_von_mises": 4.034559268284156,
+              "transition_passed": false,
+              "changes": null
+            },
+            {
+              "radial_points": 16,
+              "angular_points": 64,
+              "sample_count": 1024,
+              "mean_sx": 2.324362280023822,
+              "mean_sy": 4.657234396961827,
+              "mean_txy": 3.1170812458958252e-19,
+              "mean_von_mises": 4.034553643493362,
+              "transition_passed": true,
+              "changes": {
+                "mean_sx": {
+                  "absolute_difference_mpa": 3.151563717107564e-06,
+                  "normalization_scale_mpa": 2.3243654315875393,
+                  "normalized_difference": 1.3558813404633407e-06
+                },
+                "mean_sy": {
+                  "absolute_difference_mpa": 6.490676486059499e-06,
+                  "normalization_scale_mpa": 4.657240887638313,
+                  "normalized_difference": 1.393674203816183e-06
+                },
+                "mean_txy": {
+                  "absolute_difference_mpa": 3.0493186101154812e-18,
+                  "normalization_scale_mpa": 0.004034559268284155,
+                  "normalized_difference": 7.557996815380323e-16
+                },
+                "mean_von_mises": {
+                  "absolute_difference_mpa": 5.624790793135048e-06,
+                  "normalization_scale_mpa": 4.034553643493362,
+                  "normalized_difference": 1.3941544195864903e-06
+                }
+              }
+            },
+            {
+              "radial_points": 32,
+              "angular_points": 128,
+              "sample_count": 4096,
+              "mean_sx": 2.3243616425027365,
+              "mean_sy": 4.6572331230135475,
+              "mean_txy": -5.049163398582884e-18,
+              "mean_von_mises": 4.0345525403421725,
+              "transition_passed": true,
+              "changes": {
+                "mean_sx": {
+                  "absolute_difference_mpa": 6.375210857001434e-07,
+                  "normalization_scale_mpa": 2.324362280023822,
+                  "normalized_difference": 2.7427784867237197e-07
+                },
+                "mean_sy": {
+                  "absolute_difference_mpa": 1.2739482793122647e-06,
+                  "normalization_scale_mpa": 4.657234396961827,
+                  "normalized_difference": 2.735417998594471e-07
+                },
+                "mean_txy": {
+                  "absolute_difference_mpa": 5.360871523172467e-18,
+                  "normalization_scale_mpa": 0.0040345536434933625,
+                  "normalized_difference": 1.328739681480774e-15
+                },
+                "mean_von_mises": {
+                  "absolute_difference_mpa": 1.1031511899517454e-06,
+                  "normalization_scale_mpa": 4.0345525403421725,
+                  "normalized_difference": 2.7342590756252407e-07
+                }
+              }
+            }
+          ]
+        }
+      },
+      "near_x_edge": {
+        "center_mm": [
+          48.0,
+          300.0
+        ],
+        "radius_mm": 8.0,
+        "area_mm2": 201.06192982974676,
+        "mean_sx": 2.7999564736287823,
+        "mean_sy": 2.9438554053676107,
+        "mean_txy": -2.2662631201584823e-18,
+        "mean_von_mises": 2.8839092643638775,
+        "quadrature_converged": true,
+        "quadrature": {
+          "method": "Gauss-Legendre in s=r^2/R^2; periodic midpoint in theta; bilinear tensor interpolation",
+          "relative_tolerance": 0.0005,
+          "absolute_tolerance_mpa": 1e-09,
+          "component_scale_floor_fraction": 0.001,
+          "consecutive_required": 2,
+          "consecutive_passes": 2,
+          "radial_points": 32,
+          "angular_points": 128,
+          "sample_count": 4096,
+          "total_sample_count": 5376,
+          "changes": {
+            "mean_sx": {
+              "absolute_difference_mpa": 8.042905292882097e-07,
+              "normalization_scale_mpa": 2.7999572779193116,
+              "normalized_difference": 2.8725100044593877e-07
+            },
+            "mean_sy": {
+              "absolute_difference_mpa": 1.1729295490425784e-07,
+              "normalization_scale_mpa": 2.9438555226605656,
+              "normalized_difference": 3.9843312282612326e-08
+            },
+            "mean_txy": {
+              "absolute_difference_mpa": 2.082033454130672e-18,
+              "normalization_scale_mpa": 0.0028839096986237682,
+              "normalized_difference": 7.219482132621004e-16
+            },
+            "mean_von_mises": {
+              "absolute_difference_mpa": 4.342598907136619e-07,
+              "normalization_scale_mpa": 2.8839092643638775,
+              "normalized_difference": 1.505802890818236e-07
+            }
+          },
+          "levels": [
+            {
+              "radial_points": 8,
+              "angular_points": 32,
+              "sample_count": 256,
+              "mean_sx": 2.799961656107648,
+              "mean_sy": 2.9438564877591533,
+              "mean_txy": -3.096752455161722e-18,
+              "mean_von_mises": 2.883912241040822,
+              "transition_passed": false,
+              "changes": null
+            },
+            {
+              "radial_points": 16,
+              "angular_points": 64,
+              "sample_count": 1024,
+              "mean_sx": 2.7999572779193116,
+              "mean_sy": 2.9438555226605656,
+              "mean_txy": -1.8422966602781032e-19,
+              "mean_von_mises": 2.8839096986237682,
+              "transition_passed": true,
+              "changes": {
+                "mean_sx": {
+                  "absolute_difference_mpa": 4.3781883363180896e-06,
+                  "normalization_scale_mpa": 2.799961656107648,
+                  "normalized_difference": 1.5636601046902925e-06
+                },
+                "mean_sy": {
+                  "absolute_difference_mpa": 9.65098587712987e-07,
+                  "normalization_scale_mpa": 2.9438564877591533,
+                  "normalized_difference": 3.2783479484341793e-07
+                },
+                "mean_txy": {
+                  "absolute_difference_mpa": 2.9125227891339117e-18,
+                  "normalization_scale_mpa": 0.002883912241040822,
+                  "normalized_difference": 1.0099207415835802e-15
+                },
+                "mean_von_mises": {
+                  "absolute_difference_mpa": 2.5424170537746704e-06,
+                  "normalization_scale_mpa": 2.8839096986237682,
+                  "normalized_difference": 8.815869148010904e-07
+                }
+              }
+            },
+            {
+              "radial_points": 32,
+              "angular_points": 128,
+              "sample_count": 4096,
+              "mean_sx": 2.7999564736287823,
+              "mean_sy": 2.9438554053676107,
+              "mean_txy": -2.2662631201584823e-18,
+              "mean_von_mises": 2.8839092643638775,
+              "transition_passed": true,
+              "changes": {
+                "mean_sx": {
+                  "absolute_difference_mpa": 8.042905292882097e-07,
+                  "normalization_scale_mpa": 2.7999572779193116,
+                  "normalized_difference": 2.8725100044593877e-07
+                },
+                "mean_sy": {
+                  "absolute_difference_mpa": 1.1729295490425784e-07,
+                  "normalization_scale_mpa": 2.9438555226605656,
+                  "normalized_difference": 3.9843312282612326e-08
+                },
+                "mean_txy": {
+                  "absolute_difference_mpa": 2.082033454130672e-18,
+                  "normalization_scale_mpa": 0.0028839096986237682,
+                  "normalized_difference": 7.219482132621004e-16
+                },
+                "mean_von_mises": {
+                  "absolute_difference_mpa": 4.342598907136619e-07,
+                  "normalization_scale_mpa": 2.8839092643638775,
+                  "normalized_difference": 1.505802890818236e-07
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "bottom": {
+      "center": {
+        "center_mm": [
+          500.0,
+          300.0
+        ],
+        "radius_mm": 8.0,
+        "area_mm2": 201.06192982974676,
+        "mean_sx": -8.237219675607767,
+        "mean_sy": -15.062244499101796,
+        "mean_txy": -1.3978253330855164e-12,
+        "mean_von_mises": 13.063383418769352,
+        "quadrature_converged": true,
+        "quadrature": {
+          "method": "Gauss-Legendre in s=r^2/R^2; periodic midpoint in theta; bilinear tensor interpolation",
+          "relative_tolerance": 0.0005,
+          "absolute_tolerance_mpa": 1e-09,
+          "component_scale_floor_fraction": 0.001,
+          "consecutive_required": 2,
+          "consecutive_passes": 2,
+          "radial_points": 32,
+          "angular_points": 128,
+          "sample_count": 4096,
+          "total_sample_count": 5376,
+          "changes": {
+            "mean_sx": {
+              "absolute_difference_mpa": 2.830265803055454e-06,
+              "normalization_scale_mpa": 8.237219675607767,
+              "normalized_difference": 3.43594794665547e-07
+            },
+            "mean_sy": {
+              "absolute_difference_mpa": 5.754989132356059e-06,
+              "normalization_scale_mpa": 15.062244499101796,
+              "normalized_difference": 3.82080448415191e-07
+            },
+            "mean_txy": {
+              "absolute_difference_mpa": 1.320584438761441e-16,
+              "normalization_scale_mpa": 0.013063383418769352,
+              "normalized_difference": 1.0109053653466506e-14
+            },
+            "mean_von_mises": {
+              "absolute_difference_mpa": 4.9743368339960625e-06,
+              "normalization_scale_mpa": 13.063383418769352,
+              "normalized_difference": 3.8078472280381667e-07
+            }
+          },
+          "levels": [
+            {
+              "radial_points": 8,
+              "angular_points": 32,
+              "sample_count": 256,
+              "mean_sx": -8.237204663321593,
+              "mean_sy": -15.062213972312513,
+              "mean_txy": -1.3971145099460339e-12,
+              "mean_von_mises": 13.063357032960681,
+              "transition_passed": false,
+              "changes": null
+            },
+            {
+              "radial_points": 16,
+              "angular_points": 64,
+              "sample_count": 1024,
+              "mean_sx": -8.237216845341964,
+              "mean_sy": -15.062238744112664,
+              "mean_txy": -1.3976932746416403e-12,
+              "mean_von_mises": 13.063378444432518,
+              "transition_passed": true,
+              "changes": {
+                "mean_sx": {
+                  "absolute_difference_mpa": 1.2182020370232749e-05,
+                  "normalization_scale_mpa": 8.237216845341964,
+                  "normalized_difference": 1.4789000458475873e-06
+                },
+                "mean_sy": {
+                  "absolute_difference_mpa": 2.477180015070246e-05,
+                  "normalization_scale_mpa": 15.062238744112664,
+                  "normalized_difference": 1.6446293656303215e-06
+                },
+                "mean_txy": {
+                  "absolute_difference_mpa": 5.787646956064178e-16,
+                  "normalization_scale_mpa": 0.013063378444432517,
+                  "normalized_difference": 4.4304365679085225e-14
+                },
+                "mean_von_mises": {
+                  "absolute_difference_mpa": 2.1411471836429996e-05,
+                  "normalization_scale_mpa": 13.063378444432518,
+                  "normalized_difference": 1.6390455139539613e-06
+                }
+              }
+            },
+            {
+              "radial_points": 32,
+              "angular_points": 128,
+              "sample_count": 4096,
+              "mean_sx": -8.237219675607767,
+              "mean_sy": -15.062244499101796,
+              "mean_txy": -1.3978253330855164e-12,
+              "mean_von_mises": 13.063383418769352,
+              "transition_passed": true,
+              "changes": {
+                "mean_sx": {
+                  "absolute_difference_mpa": 2.830265803055454e-06,
+                  "normalization_scale_mpa": 8.237219675607767,
+                  "normalized_difference": 3.43594794665547e-07
+                },
+                "mean_sy": {
+                  "absolute_difference_mpa": 5.754989132356059e-06,
+                  "normalization_scale_mpa": 15.062244499101796,
+                  "normalized_difference": 3.82080448415191e-07
+                },
+                "mean_txy": {
+                  "absolute_difference_mpa": 1.320584438761441e-16,
+                  "normalization_scale_mpa": 0.013063383418769352,
+                  "normalized_difference": 1.0109053653466506e-14
+                },
+                "mean_von_mises": {
+                  "absolute_difference_mpa": 4.9743368339960625e-06,
+                  "normalization_scale_mpa": 13.063383418769352,
+                  "normalized_difference": 3.8078472280381667e-07
+                }
+              }
+            }
+          ]
+        }
+      },
+      "near_y_edge": {
+        "center_mm": [
+          500.0,
+          48.0
+        ],
+        "radius_mm": 8.0,
+        "area_mm2": 201.06192982974676,
+        "mean_sx": -2.3243616425027365,
+        "mean_sy": -4.6572331230135475,
+        "mean_txy": 5.049163398582884e-18,
+        "mean_von_mises": 4.0345525403421725,
+        "quadrature_converged": true,
+        "quadrature": {
+          "method": "Gauss-Legendre in s=r^2/R^2; periodic midpoint in theta; bilinear tensor interpolation",
+          "relative_tolerance": 0.0005,
+          "absolute_tolerance_mpa": 1e-09,
+          "component_scale_floor_fraction": 0.001,
+          "consecutive_required": 2,
+          "consecutive_passes": 2,
+          "radial_points": 32,
+          "angular_points": 128,
+          "sample_count": 4096,
+          "total_sample_count": 5376,
+          "changes": {
+            "mean_sx": {
+              "absolute_difference_mpa": 6.375210857001434e-07,
+              "normalization_scale_mpa": 2.324362280023822,
+              "normalized_difference": 2.7427784867237197e-07
+            },
+            "mean_sy": {
+              "absolute_difference_mpa": 1.2739482793122647e-06,
+              "normalization_scale_mpa": 4.657234396961827,
+              "normalized_difference": 2.735417998594471e-07
+            },
+            "mean_txy": {
+              "absolute_difference_mpa": 5.360871523172467e-18,
+              "normalization_scale_mpa": 0.0040345536434933625,
+              "normalized_difference": 1.328739681480774e-15
+            },
+            "mean_von_mises": {
+              "absolute_difference_mpa": 1.1031511899517454e-06,
+              "normalization_scale_mpa": 4.0345525403421725,
+              "normalized_difference": 2.7342590756252407e-07
+            }
+          },
+          "levels": [
+            {
+              "radial_points": 8,
+              "angular_points": 32,
+              "sample_count": 256,
+              "mean_sx": -2.3243654315875393,
+              "mean_sy": -4.657240887638313,
+              "mean_txy": 2.7376104855258987e-18,
+              "mean_von_mises": 4.034559268284156,
+              "transition_passed": false,
+              "changes": null
+            },
+            {
+              "radial_points": 16,
+              "angular_points": 64,
+              "sample_count": 1024,
+              "mean_sx": -2.324362280023822,
+              "mean_sy": -4.657234396961827,
+              "mean_txy": -3.1170812458958252e-19,
+              "mean_von_mises": 4.034553643493362,
+              "transition_passed": true,
+              "changes": {
+                "mean_sx": {
+                  "absolute_difference_mpa": 3.151563717107564e-06,
+                  "normalization_scale_mpa": 2.3243654315875393,
+                  "normalized_difference": 1.3558813404633407e-06
+                },
+                "mean_sy": {
+                  "absolute_difference_mpa": 6.490676486059499e-06,
+                  "normalization_scale_mpa": 4.657240887638313,
+                  "normalized_difference": 1.393674203816183e-06
+                },
+                "mean_txy": {
+                  "absolute_difference_mpa": 3.0493186101154812e-18,
+                  "normalization_scale_mpa": 0.004034559268284155,
+                  "normalized_difference": 7.557996815380323e-16
+                },
+                "mean_von_mises": {
+                  "absolute_difference_mpa": 5.624790793135048e-06,
+                  "normalization_scale_mpa": 4.034553643493362,
+                  "normalized_difference": 1.3941544195864903e-06
+                }
+              }
+            },
+            {
+              "radial_points": 32,
+              "angular_points": 128,
+              "sample_count": 4096,
+              "mean_sx": -2.3243616425027365,
+              "mean_sy": -4.6572331230135475,
+              "mean_txy": 5.049163398582884e-18,
+              "mean_von_mises": 4.0345525403421725,
+              "transition_passed": true,
+              "changes": {
+                "mean_sx": {
+                  "absolute_difference_mpa": 6.375210857001434e-07,
+                  "normalization_scale_mpa": 2.324362280023822,
+                  "normalized_difference": 2.7427784867237197e-07
+                },
+                "mean_sy": {
+                  "absolute_difference_mpa": 1.2739482793122647e-06,
+                  "normalization_scale_mpa": 4.657234396961827,
+                  "normalized_difference": 2.735417998594471e-07
+                },
+                "mean_txy": {
+                  "absolute_difference_mpa": 5.360871523172467e-18,
+                  "normalization_scale_mpa": 0.0040345536434933625,
+                  "normalized_difference": 1.328739681480774e-15
+                },
+                "mean_von_mises": {
+                  "absolute_difference_mpa": 1.1031511899517454e-06,
+                  "normalization_scale_mpa": 4.0345525403421725,
+                  "normalized_difference": 2.7342590756252407e-07
+                }
+              }
+            }
+          ]
+        }
+      },
+      "near_x_edge": {
+        "center_mm": [
+          48.0,
+          300.0
+        ],
+        "radius_mm": 8.0,
+        "area_mm2": 201.06192982974676,
+        "mean_sx": -2.7999564736287823,
+        "mean_sy": -2.9438554053676107,
+        "mean_txy": 2.2662631201584823e-18,
+        "mean_von_mises": 2.8839092643638775,
+        "quadrature_converged": true,
+        "quadrature": {
+          "method": "Gauss-Legendre in s=r^2/R^2; periodic midpoint in theta; bilinear tensor interpolation",
+          "relative_tolerance": 0.0005,
+          "absolute_tolerance_mpa": 1e-09,
+          "component_scale_floor_fraction": 0.001,
+          "consecutive_required": 2,
+          "consecutive_passes": 2,
+          "radial_points": 32,
+          "angular_points": 128,
+          "sample_count": 4096,
+          "total_sample_count": 5376,
+          "changes": {
+            "mean_sx": {
+              "absolute_difference_mpa": 8.042905292882097e-07,
+              "normalization_scale_mpa": 2.7999572779193116,
+              "normalized_difference": 2.8725100044593877e-07
+            },
+            "mean_sy": {
+              "absolute_difference_mpa": 1.1729295490425784e-07,
+              "normalization_scale_mpa": 2.9438555226605656,
+              "normalized_difference": 3.9843312282612326e-08
+            },
+            "mean_txy": {
+              "absolute_difference_mpa": 2.082033454130672e-18,
+              "normalization_scale_mpa": 0.0028839096986237682,
+              "normalized_difference": 7.219482132621004e-16
+            },
+            "mean_von_mises": {
+              "absolute_difference_mpa": 4.342598907136619e-07,
+              "normalization_scale_mpa": 2.8839092643638775,
+              "normalized_difference": 1.505802890818236e-07
+            }
+          },
+          "levels": [
+            {
+              "radial_points": 8,
+              "angular_points": 32,
+              "sample_count": 256,
+              "mean_sx": -2.799961656107648,
+              "mean_sy": -2.9438564877591533,
+              "mean_txy": 3.096752455161722e-18,
+              "mean_von_mises": 2.883912241040822,
+              "transition_passed": false,
+              "changes": null
+            },
+            {
+              "radial_points": 16,
+              "angular_points": 64,
+              "sample_count": 1024,
+              "mean_sx": -2.7999572779193116,
+              "mean_sy": -2.9438555226605656,
+              "mean_txy": 1.8422966602781032e-19,
+              "mean_von_mises": 2.8839096986237682,
+              "transition_passed": true,
+              "changes": {
+                "mean_sx": {
+                  "absolute_difference_mpa": 4.3781883363180896e-06,
+                  "normalization_scale_mpa": 2.799961656107648,
+                  "normalized_difference": 1.5636601046902925e-06
+                },
+                "mean_sy": {
+                  "absolute_difference_mpa": 9.65098587712987e-07,
+                  "normalization_scale_mpa": 2.9438564877591533,
+                  "normalized_difference": 3.2783479484341793e-07
+                },
+                "mean_txy": {
+                  "absolute_difference_mpa": 2.9125227891339117e-18,
+                  "normalization_scale_mpa": 0.002883912241040822,
+                  "normalized_difference": 1.0099207415835802e-15
+                },
+                "mean_von_mises": {
+                  "absolute_difference_mpa": 2.5424170537746704e-06,
+                  "normalization_scale_mpa": 2.8839096986237682,
+                  "normalized_difference": 8.815869148010904e-07
+                }
+              }
+            },
+            {
+              "radial_points": 32,
+              "angular_points": 128,
+              "sample_count": 4096,
+              "mean_sx": -2.7999564736287823,
+              "mean_sy": -2.9438554053676107,
+              "mean_txy": 2.2662631201584823e-18,
+              "mean_von_mises": 2.8839092643638775,
+              "transition_passed": true,
+              "changes": {
+                "mean_sx": {
+                  "absolute_difference_mpa": 8.042905292882097e-07,
+                  "normalization_scale_mpa": 2.7999572779193116,
+                  "normalized_difference": 2.8725100044593877e-07
+                },
+                "mean_sy": {
+                  "absolute_difference_mpa": 1.1729295490425784e-07,
+                  "normalization_scale_mpa": 2.9438555226605656,
+                  "normalized_difference": 3.9843312282612326e-08
+                },
+                "mean_txy": {
+                  "absolute_difference_mpa": 2.082033454130672e-18,
+                  "normalization_scale_mpa": 0.0028839096986237682,
+                  "normalized_difference": 7.219482132621004e-16
+                },
+                "mean_von_mises": {
+                  "absolute_difference_mpa": 4.342598907136619e-07,
+                  "normalization_scale_mpa": 2.8839092643638775,
+                  "normalized_difference": 1.505802890818236e-07
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "stress_extrema": {
+    "top": {
+      "interior_maximum_von_mises": {
+        "von_mises": 13.078410290953244,
+        "location_mm": [
+          500.0,
+          300.0
+        ],
+        "bounds_mm": [
+          24.0,
+          976.0,
+          24.0,
+          576.0
+        ],
+        "sample_count": 1025,
+        "method": "maximum at corners of clipped cells of bilinear global tensor reconstruction"
+      },
+      "global_maximum_von_mises": {
+        "von_mises": 13.078410290953244,
+        "location_mm": [
+          500.0,
+          300.0
+        ],
+        "bounds_mm": [
+          0.0,
+          1000.0,
+          0.0,
+          600.0
+        ],
+        "sample_count": 1025,
+        "method": "maximum at corners of clipped cells of bilinear global tensor reconstruction"
+      }
+    },
+    "bottom": {
+      "interior_maximum_von_mises": {
+        "von_mises": 13.078410290953244,
+        "location_mm": [
+          500.0,
+          300.0
+        ],
+        "bounds_mm": [
+          24.0,
+          976.0,
+          24.0,
+          576.0
+        ],
+        "sample_count": 1025,
+        "method": "maximum at corners of clipped cells of bilinear global tensor reconstruction"
+      },
+      "global_maximum_von_mises": {
+        "von_mises": 13.078410290953244,
+        "location_mm": [
+          500.0,
+          300.0
+        ],
+        "bounds_mm": [
+          0.0,
+          1000.0,
+          0.0,
+          600.0
+        ],
+        "sample_count": 1025,
+        "method": "maximum at corners of clipped cells of bilinear global tensor reconstruction"
+      }
+    }
+  },
+  "timing_seconds": {
+    "mesh": 0.3017730000001393,
+    "solve": 0.6422949000002518,
+    "export": 0.6146097000000736
+  },
+  "mesh_quality": {
+    "aspect_ratio": 1.0,
+    "minimum_angle_degrees": 90.0,
+    "warpage_degrees": 0.0,
+    "jacobian_determinant": 156.25,
+    "normal_z_min": 1.0,
+    "normal_z_max": 1.0,
+    "source": "all generated Q4 connectivity and coordinates, uniform planar squares"
+  },
+  "solver_warning_lines": [
+    "Sparse solver maximum pivot= 129895717 at node 565 ROTY.",
+    "Sparse solver minimum pivot= 4805.2258 at node 380 UZ.",
+    "Sparse solver minimum pivot in absolute value= 4805.2258 at node 380",
+    "CHECK MODEL FOR ERRORS",
+    "The analysis data was checked and no warnings or errors were found."
+  ],
+  "runtime_directory": "C:\\Users\\arist\\AppData\\Local\\ansys_panel_runs\\20261115T221955_040917Z\\P0_h25_linear",
+  "apdl_sha256": "578c39f237fc6ea704e46951685f351e115658da3226221f90c1ad9621194dc6",
+  "fields_sha256": "4dc3ae1fee00afcafef314a3fc9ea58e81815242fc262e95bba57acbcad261ec",
+  "status": "completed"
+}

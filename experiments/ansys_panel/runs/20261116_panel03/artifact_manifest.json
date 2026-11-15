@@ -1,0 +1,32 @@
+{
+  "source_directory": ".local\\panel-refined-01",
+  "publication_source_sha256": {
+    "publish_results.py": "6106e7365b3881eca2f7f42692665cec25c9704bb0bedabd8ef9077736004099",
+    "analysis.py": "30cdaec5a3f9a87d7690242d4e13b5eb12fd184359358208cbc020b7529b0106"
+  },
+  "files": {
+    "comparison.csv": "3abde738952229244f63b8b56eb3bd31b55efd2c86da3b5b2cd4cfb474e277c0",
+    "disk_stresses.csv": "fa892f5f022d44654fcde73d5d1075d8dd61caa6209eb1213d856005e17e3927",
+    "export_audit.json": "fc41f920042ff352012af3016cf97b877b5c1b1e280b76d3fa54ac4645d42e61",
+    "figures\\deflection_convergence.png": "5d8fe880682038b1ff254d5af36646843e373531e31d986a45e01213a86aa7f1",
+    "figures\\deformed_panel.png": "0e93e61eec653327ba49621bae54b9a017f9a77ede02439a6f8d95663465ab80",
+    "figures\\initial_mesh.png": "af8ea77999cc263324ed7e3d38a14bc7e7b8f8481f3ba7b3229e1990624a159b",
+    "figures\\stress_convergence.png": "537bcd9a61dc092ac48717ee2889fae898d02f0916a730550b49c9778383b441",
+    "measurements.json": "423cdef732c2e281692a92120f5980a4ad68242d2e03935a9665d1e9595e6b8a",
+    "navier.json": "fecfab683fd880cecd8dcddf694df20cf51ad7afdc85b59ae430e114753c997d",
+    "P0_h12.5_linear.json": "2e4345d2e0162cc8806a5ba97274475b14e776e194a424e5f9745f56ae3c680c",
+    "P0_h25_linear.json": "3b0f5a394a93b5c51f42a990de85c5f5ab182fafb57aafa47a40a0c40b52c6df",
+    "P0_h3.125_linear.json": "355c4d5e01424de7aac88aea7e23fdf75f64a50537cfabf7ae2fe69ec7bed559",
+    "P0_h50_linear.json": "ee4c49e745bab8cc62d35a5220167721f4c51bb6253572ac77e5338027442433",
+    "P0_h6.25_linear.json": "d0a04c389257417b613e9343c60421413d4c9d794db49faadcb688175d467833",
+    "P1_h12.5_linear.json": "ac19486f8ca5ccf1fda48d4e06cac03c4c100e20d92503083993f853555468dd",
+    "P1_h25_linear.json": "87c9a13fe40108954cbd9649917f29f6bb937e53b271d3c1cf8ae1654af39a98",
+    "P1_h3.125_linear.json": "1e6c2978d91403a5cf64f56a9266077fc3ef5b66afce3b15f3ec1ce7d7f398ad",
+    "P1_h3.125_nonlinear.json": "4f1383f9d2aee533656d2ad66745f058869ce3ab699a461f2323f651c2499eca",
+    "P1_h50_linear.json": "8d253d40affc82b5ed6162e6f60be754ac063cc2dfc7596118c06462847a155b",
+    "P1_h6.25_linear.json": "514bbcc7d4353da22858862ff5c23c662b76360cb87c0f5096de34cfd9c4699c",
+    "solve_provenance.json": "f957304c093d027b0621091391e6e81fe3ba5aac149acfb803075ad1c9f1b290",
+    "summary.json": "efdb8424b64e774359285574485ddc79dc01ae227b5075492c4b23cf2e89f151",
+    "table.md": "fa73354e7c81c0d3cbcf88495d99bab52b8070173ecadac2751085a9b9983523"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "rows": [
+    {
+      "odd_terms_per_axis": 4,
+      "largest_odd_index": 7,
+      "central_deflection": 0.5703220083701953,
+      "absolute_difference": null,
+      "relative_difference": null,
+      "transition_passed": false
+    },
+    {
+      "odd_terms_per_axis": 8,
+      "largest_odd_index": 15,
+      "central_deflection": 0.5704120477287011,
+      "absolute_difference": 9.003935850582234e-05,
+      "relative_difference": 0.00015784967877930723,
+      "transition_passed": false
+    },
+    {
+      "odd_terms_per_axis": 16,
+      "largest_odd_index": 31,
+      "central_deflection": 0.570415311871592,
+      "absolute_difference": 3.2641428908686265e-06,
+      "relative_difference": 5.7223970376226994e-06,
+      "transition_passed": false
+    },
+    {
+      "odd_terms_per_axis": 32,
+      "largest_odd_index": 63,
+      "central_deflection": 0.5704154183851787,
+      "absolute_difference": 1.0651358672841837e-07,
+      "relative_difference": 1.867298521311954e-07,
+      "transition_passed": false
+    },
+    {
+      "odd_terms_per_axis": 64,
+      "largest_odd_index": 127,
+      "central_deflection": 0.5704154217528158,
+      "absolute_difference": 3.367637058104833e-09,
+      "relative_difference": 5.903832417006718e-09,
+      "transition_passed": true
+    },
+    {
+      "odd_terms_per_axis": 128,
+      "largest_odd_index": 255,
+      "central_deflection": 0.5704154218583822,
+      "absolute_difference": 1.0556644447490271e-10,
+      "relative_difference": 1.8506940806574445e-10,
+      "transition_passed": true
+    }
+  ],
+  "central_deflection": 0.5704154218583822,
+  "relative_tolerance": 1e-07,
+  "consecutive_passes": 2,
+  "converged": true,
+  "rigidity_n_mm": 9846153.846153846
+}

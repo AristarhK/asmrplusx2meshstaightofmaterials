@@ -1,0 +1,172 @@
+[
+  {
+    "stage_directory": ".local\\panel-refined-01",
+    "manifest": {
+      "started_utc": "20261115T222124_596076Z",
+      "config_sha256": "7022cd59fd016fbe68602c4a931372ca5a3ac6c6ed579c3f15e01f37678c4cdb",
+      "source_sha256": {
+        "analysis.py": "30cdaec5a3f9a87d7690242d4e13b5eb12fd184359358208cbc020b7529b0106",
+        "run_panel.py": "0435241e31a0329a381326d4fc1baee1693dbb3ac8d52f60af0c07de75e88025",
+        "test_analysis.py": "304731dc3831c10b5eb66619039b014eb580bb89ec5ce4e46797ccacc1dcaae7"
+      },
+      "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+      "python_executable": "C:\\Users\\arist\\Documents\\ChatGPT\\сетки\\.venv\\Scripts\\python.exe",
+      "packages": {
+        "ansys-mapdl-core": "0.74.1",
+        "ansys-mapdl-reader": "0.56.0",
+        "numpy": "2.4.6",
+        "scipy": "1.17.1",
+        "matplotlib": "3.11.2"
+      },
+      "solver_executable": "D:\\ansyss\\ANSYS Inc\\v261\\ansys\\bin\\winx64\\ANSYS261.exe",
+      "runtime_directory": "C:\\Users\\arist\\AppData\\Local\\ansys_panel_runs\\20261115T222124_596076Z",
+      "nproc": 2,
+      "additional_switches": "-smp",
+      "previous_stage": ".local\\panel-coarse-03",
+      "config": {
+        "description": "Research steel wall-panel example; not an ERSO tank geometry or approved specification",
+        "units": {
+          "force": "N",
+          "length": "mm",
+          "stress": "MPa",
+          "energy": "N mm"
+        },
+        "a": 1000.0,
+        "b": 600.0,
+        "thickness": 8.0,
+        "young": 210000.0,
+        "poisson": 0.3,
+        "yield_diagnostic": 235.0,
+        "pressure": 0.005,
+        "mesh_sizes": [
+          50.0,
+          25.0,
+          12.5,
+          6.25,
+          3.125
+        ],
+        "keyopts": {
+          "1": 0,
+          "3": 2,
+          "8": 2
+        },
+        "thickness_integration_points": 5,
+        "disk_radius": 8.0,
+        "disk_centers": {
+          "center": [
+            500.0,
+            300.0
+          ],
+          "near_y_edge": [
+            500.0,
+            48.0
+          ],
+          "near_x_edge": [
+            48.0,
+            300.0
+          ]
+        },
+        "interior_margin": 24.0,
+        "criteria": {
+          "force_balance": 0.001,
+          "deflection": 0.002,
+          "energy": 0.005,
+          "disk_von_mises": 0.01,
+          "successive_transitions": 2,
+          "nonlinear_difference": 0.02
+        }
+      }
+    },
+    "observed_session": {
+      "description": "Mapdl\n-----\nPyMAPDL Version:     0.74.1\nInterface:           grpc\nProduct:             Ansys Mechanical Enterprise\nMAPDL Version:       26.1\nRunning on:          localhost\n                     (127.0.0.1)",
+      "version": "26.1",
+      "ip": "127.0.0.1",
+      "port": 50052
+    }
+  },
+  {
+    "stage_directory": ".local\\panel-coarse-03",
+    "manifest": {
+      "started_utc": "20261115T221955_040917Z",
+      "config_sha256": "7022cd59fd016fbe68602c4a931372ca5a3ac6c6ed579c3f15e01f37678c4cdb",
+      "source_sha256": {
+        "analysis.py": "30cdaec5a3f9a87d7690242d4e13b5eb12fd184359358208cbc020b7529b0106",
+        "run_panel.py": "ef0544606427725c95209cac1015d337e7048ab218196c80cdc5e40803dfbc2e",
+        "test_analysis.py": "304731dc3831c10b5eb66619039b014eb580bb89ec5ce4e46797ccacc1dcaae7"
+      },
+      "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+      "python_executable": "C:\\Users\\arist\\Documents\\ChatGPT\\сетки\\.venv\\Scripts\\python.exe",
+      "packages": {
+        "ansys-mapdl-core": "0.74.1",
+        "ansys-mapdl-reader": "0.56.0",
+        "numpy": "2.4.6",
+        "scipy": "1.17.1",
+        "matplotlib": "3.11.2"
+      },
+      "solver_executable": "D:\\ansyss\\ANSYS Inc\\v261\\ansys\\bin\\winx64\\ANSYS261.exe",
+      "runtime_directory": "C:\\Users\\arist\\AppData\\Local\\ansys_panel_runs\\20261115T221955_040917Z",
+      "nproc": 2,
+      "additional_switches": "-smp",
+      "previous_stage": null,
+      "config": {
+        "description": "Research steel wall-panel example; not an ERSO tank geometry or approved specification",
+        "units": {
+          "force": "N",
+          "length": "mm",
+          "stress": "MPa",
+          "energy": "N mm"
+        },
+        "a": 1000.0,
+        "b": 600.0,
+        "thickness": 8.0,
+        "young": 210000.0,
+        "poisson": 0.3,
+        "yield_diagnostic": 235.0,
+        "pressure": 0.005,
+        "mesh_sizes": [
+          50.0,
+          25.0,
+          12.5,
+          6.25,
+          3.125
+        ],
+        "keyopts": {
+          "1": 0,
+          "3": 2,
+          "8": 2
+        },
+        "thickness_integration_points": 5,
+        "disk_radius": 8.0,
+        "disk_centers": {
+          "center": [
+            500.0,
+            300.0
+          ],
+          "near_y_edge": [
+            500.0,
+            48.0
+          ],
+          "near_x_edge": [
+            48.0,
+            300.0
+          ]
+        },
+        "interior_margin": 24.0,
+        "criteria": {
+          "force_balance": 0.001,
+          "deflection": 0.002,
+          "energy": 0.005,
+          "disk_von_mises": 0.01,
+          "successive_transitions": 2,
+          "nonlinear_difference": 0.02
+        }
+      }
+    },
+    "observed_session": {
+      "description": "Mapdl\n-----\nPyMAPDL Version:     0.74.1\nInterface:           grpc\nProduct:             Ansys Mechanical Enterprise\nMAPDL Version:       26.1\nRunning on:          localhost\n                     (127.0.0.1)",
+      "version": "26.1",
+      "ip": "127.0.0.1",
+      "port": 50052
+    }
+  }
+]

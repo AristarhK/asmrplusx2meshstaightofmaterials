@@ -4,3 +4,6 @@
 *.md text eol=lf
 .gitignore text eol=lf
 .gitattributes text eol=lf
+
+# Preserve panel source/provenance and generated artifact SHA-256 on checkout.
+/experiments/ansys_panel/** -text
