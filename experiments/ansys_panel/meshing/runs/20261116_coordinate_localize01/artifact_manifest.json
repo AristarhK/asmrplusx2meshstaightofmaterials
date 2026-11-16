@@ -1,0 +1,17 @@
+{
+  "files": {
+    "config.json": "e8c948fb25696d798de86dbbd9031f1564b3f368b25b6cb747870c6aa346acfb",
+    "corner_patch_diagnostics.json": "64d44a5fcc8962a175b53b42054063a4edeb90a97139a458d0ef1ac266d33784",
+    "edge_patch_diagnostics.json": "6290a27bf53fb459f1ec7eb0aeccefae77240ecb0bdd6715cb1bae12febac54a",
+    "interior_single_diagnostics.json": "1d60a4a71f4768beccc47a220419eaabd22243edf255334edfb1722fdb4e2a3c",
+    "manifest.json": "688474b1eddbc1937667c9e82727a8efa0ed651565876b323af0b2332a021b72",
+    "protocol.json": "33a448f98a536dcf864237001f6dbdfaa787a16aca30c729b43cf78b383d0e53",
+    "summary.json": "0aefcb689a9ac9ddf40e7c7eafaed094e48cc1884b47ed1045470ba129f2c625",
+    "figures/corner_patch_overview.png": "6091f6a022c5c66514407d3305e84f4626b803c412360c885ef5ae3337b516cf",
+    "figures/corner_patch_transition.png": "74210035022c26a666b4f3d231a17c337f88719efb16df1ffba677c8ab6448ad",
+    "figures/edge_patch_overview.png": "67499e1599f77d53c8029a1aa474e49e32263c7cdd68a9392c267c16c929e716",
+    "figures/edge_patch_transition.png": "2ad8de37ee102c899089444671c9a01d129697ffc7f9343cd81776558c8cd9a9",
+    "figures/interior_single_overview.png": "9dd1632d7c62a38bbeb72eabd562a89573f304d222bb3d49069eca10085348b8",
+    "figures/interior_single_transition.png": "96d5b6db00e4294556c6851a3a65b7dfc07dfab7c7385ff7b948820fe03bb989"
+  }
+}

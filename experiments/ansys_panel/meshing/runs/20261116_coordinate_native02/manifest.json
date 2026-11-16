@@ -1,0 +1,87 @@
+{
+  "run_id_utc": "20261116T140954_173724Z",
+  "config": {
+    "description": "Research steel wall-panel example; not an ERSO tank geometry or approved specification",
+    "units": {
+      "force": "N",
+      "length": "mm",
+      "stress": "MPa",
+      "energy": "N mm"
+    },
+    "a": 1000.0,
+    "b": 600.0,
+    "thickness": 8.0,
+    "young": 210000.0,
+    "poisson": 0.3,
+    "yield_diagnostic": 235.0,
+    "pressure": 0.005,
+    "mesh_sizes": [
+      50.0,
+      25.0,
+      12.5,
+      6.25,
+      3.125
+    ],
+    "keyopts": {
+      "1": 0,
+      "3": 2,
+      "8": 2
+    },
+    "thickness_integration_points": 5,
+    "disk_radius": 8.0,
+    "disk_centers": {
+      "center": [
+        500.0,
+        300.0
+      ],
+      "near_y_edge": [
+        500.0,
+        48.0
+      ],
+      "near_x_edge": [
+        48.0,
+        300.0
+      ]
+    },
+    "interior_margin": 24.0,
+    "criteria": {
+      "force_balance": 0.001,
+      "deflection": 0.002,
+      "energy": 0.005,
+      "disk_von_mises": 0.01,
+      "successive_transitions": 2,
+      "nonlinear_difference": 0.02
+    },
+    "coordinate_tolerance_mm": 1e-08,
+    "quality_limits": {
+      "aspect_ratio_max": 4.0,
+      "angle_min_degrees": 30.0,
+      "angle_max_degrees": 150.0,
+      "scaled_jacobian_min": 0.2
+    }
+  },
+  "source_gate_artifact_manifest_sha256": "82b04e34874fe3b6a510813dc19d5bc58043bb5ef49f054eac14a967f48d7ebf",
+  "source_gate_execution_manifest_sha256": "b8cd14e7768fd1a854f1ddafc2ae0a4671cfc90642327a1e68aafea59218beb4",
+  "packages": {
+    "ansys-mapdl-core": "0.74.1",
+    "numpy": "2.4.6"
+  },
+  "source_sha256": {
+    "cdb_loads.py": "5f7857eb51d795b8bbf46a1d0c4896e04647a044d4ce6a53c28b4bbafbb98b59",
+    "check_optimized_native.py": "437d4afb29c5ff79b9bfcda703992414f4d2139b8056aee8db373d74c206ff58",
+    "coordinate_diagnostics.py": "822a215e38a942a4675a85bf8e25dab64cef1153c556fea2319f7c35fb77929b",
+    "optimize_coordinates.py": "65d185f292151023beac3acd1d9396b4db43bc8200dfb1f29c125b7a544dedfc",
+    "publish_mesh_gate.py": "664bb6aa3f3e266c23c5a2bf76517857bd1822f008be64c9753a5852d032ea28",
+    "run_coordinate_study.py": "b5fe19bfd6a39dc7a3ae72a88965100c36004f7aa87bb8bad0d2cbc2b7a585fb",
+    "run_mesh_gate.py": "adf5145ad1a03337997e9dacfb4c3cc19fe14285c236cfb2960b5d71b2797d6b",
+    "test_cdb_loads.py": "76d0e0873b8f9b6f0596e81133d835f27660412bcca6fda67cdd592ef1104c13",
+    "test_load_check.py": "19c2cebcad87c317ffff4edf7d955e89c759dd7c54de86b24f8b9d7a510e2c05",
+    "test_optimize_coordinates.py": "6cd14afb59799d8bef36ba8fc3db7727a6eaef3b51b8496a2fd7e8ef94bfeda0",
+    "test_validate_mesh.py": "454ea6fbab823fab62f18ff2681b3cbe09ffd1abc8d810448089e06d7375a118",
+    "validate_mesh.py": "f6fe2e5c7bb2e6f4b75ae28a6d40cd30316ab0fd9eeeabf3ca37ae6a630ca7a9",
+    "verify_coordinate_study.py": "7e6f25c4627554d04af80af3e663617c09d3a49934ff91f4d4af5440cb5d0970",
+    "verify_saved_mesh_gate.py": "fa883676828d5384ca631e4e46c7207aac514456f44db180a39f4e9c5e87646d"
+  },
+  "runtime_policy": "Fresh private runtime; native binary models, CDB and machine logs are not published",
+  "scope": "Coordinate round trip, unchanged topology/settings, native shape checks and P1 load checks only"
+}

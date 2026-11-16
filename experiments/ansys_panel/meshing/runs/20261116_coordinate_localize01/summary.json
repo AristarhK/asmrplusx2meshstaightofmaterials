@@ -1,0 +1,38 @@
+{
+  "stage": "localize",
+  "cases": [
+    {
+      "case": "interior_single",
+      "bad_element_ids": [
+        241,
+        242,
+        249,
+        250,
+        271,
+        272,
+        279,
+        280
+      ],
+      "elapsed_diagnostics_and_figures_seconds": 0.9498256999941077
+    },
+    {
+      "case": "edge_patch",
+      "bad_element_ids": [
+        297,
+        298,
+        311,
+        312
+      ],
+      "elapsed_diagnostics_and_figures_seconds": 1.9330648999966797
+    },
+    {
+      "case": "corner_patch",
+      "bad_element_ids": [
+        297,
+        298
+      ],
+      "elapsed_diagnostics_and_figures_seconds": 2.2275795999958063
+    }
+  ],
+  "no_solve": true
+}

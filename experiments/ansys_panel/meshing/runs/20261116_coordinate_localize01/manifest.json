@@ -1,0 +1,33 @@
+{
+  "stage": "localize",
+  "created_utc": "2026-11-16T13:47:31.773929+00:00",
+  "source_commit": "24bba5fd0e1c2cf7d9da25a77607b5c12fd7625b",
+  "source_artifact_manifest_sha256": "82b04e34874fe3b6a510813dc19d5bc58043bb5ef49f054eac14a967f48d7ebf",
+  "protocol_sha256": "33a448f98a536dcf864237001f6dbdfaa787a16aca30c729b43cf78b383d0e53",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "matplotlib": "3.11.2"
+  },
+  "source_sha256": {
+    "cdb_loads.py": "5f7857eb51d795b8bbf46a1d0c4896e04647a044d4ce6a53c28b4bbafbb98b59",
+    "check_optimized_native.py": "ae191ac34dd2b8c44421bdd2ad96c7dd8f5386c66d1420fd1c0388478621c15b",
+    "coordinate_diagnostics.py": "822a215e38a942a4675a85bf8e25dab64cef1153c556fea2319f7c35fb77929b",
+    "optimize_coordinates.py": "65d185f292151023beac3acd1d9396b4db43bc8200dfb1f29c125b7a544dedfc",
+    "publish_mesh_gate.py": "664bb6aa3f3e266c23c5a2bf76517857bd1822f008be64c9753a5852d032ea28",
+    "run_coordinate_study.py": "b5fe19bfd6a39dc7a3ae72a88965100c36004f7aa87bb8bad0d2cbc2b7a585fb",
+    "run_mesh_gate.py": "adf5145ad1a03337997e9dacfb4c3cc19fe14285c236cfb2960b5d71b2797d6b",
+    "test_cdb_loads.py": "76d0e0873b8f9b6f0596e81133d835f27660412bcca6fda67cdd592ef1104c13",
+    "test_load_check.py": "19c2cebcad87c317ffff4edf7d955e89c759dd7c54de86b24f8b9d7a510e2c05",
+    "test_optimize_coordinates.py": "6cd14afb59799d8bef36ba8fc3db7727a6eaef3b51b8496a2fd7e8ef94bfeda0",
+    "test_validate_mesh.py": "454ea6fbab823fab62f18ff2681b3cbe09ffd1abc8d810448089e06d7375a118",
+    "validate_mesh.py": "f6fe2e5c7bb2e6f4b75ae28a6d40cd30316ab0fd9eeeabf3ca37ae6a630ca7a9",
+    "verify_saved_mesh_gate.py": "fa883676828d5384ca631e4e46c7207aac514456f44db180a39f4e9c5e87646d"
+  },
+  "solve_performed": false,
+  "indicator_computed": false,
+  "training_performed": false,
+  "primary_goal_met": null,
+  "strict_goal_met": null,
+  "accuracy_note": "Not assessed: no solve"
+}

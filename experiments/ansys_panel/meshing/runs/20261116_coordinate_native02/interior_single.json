@@ -1,0 +1,727 @@
+{
+  "case": "interior_single",
+  "passed": false,
+  "solve_performed": false,
+  "indicator_computed": false,
+  "training_performed": false,
+  "refinement_performed": false,
+  "offline_quality": {
+    "passed": true,
+    "checks": {
+      "four_vertices_per_element": true,
+      "finite_coordinates": true,
+      "unique_positive_node_ids": true,
+      "unique_positive_element_ids": true,
+      "connectivity_nodes_exist": true,
+      "four_distinct_vertices_no_triangles": true,
+      "no_duplicate_elements": true,
+      "no_unused_nodes": true,
+      "flat_z_zero": true,
+      "inside_requested_rectangle": true,
+      "no_duplicate_nodes": true,
+      "positive_jacobians_and_normals_z": true,
+      "scaled_jacobian_threshold": true,
+      "aspect_ratio_threshold": true,
+      "angle_threshold": true,
+      "rectangle_area": true,
+      "edge_multiplicity_at_most_two": true,
+      "shared_edges_opposite_orientation": true,
+      "unshared_edges_only_on_outer_boundary": true,
+      "boundary_covers_rectangle_once": true,
+      "one_connected_element_component": true,
+      "disk_euler_identity": true,
+      "no_hanging_nodes": true,
+      "no_proper_edge_crossings": true,
+      "no_collinear_edge_overlaps": true,
+      "contacts_share_node_ids": true,
+      "no_overlapping_cell_interiors": true,
+      "preserved_type": true,
+      "preserved_mat": true,
+      "preserved_secnum": true,
+      "preserved_thickness": true
+    },
+    "metrics": {
+      "nodes": 313,
+      "elements": 280,
+      "coordinate_tolerance_mm": 1e-08,
+      "quality_limits": {
+        "aspect_ratio_max": 4.0,
+        "angle_min_degrees": 30.0,
+        "angle_max_degrees": 150.0,
+        "scaled_jacobian_min": 0.2
+      },
+      "aspect_ratio_definition": "maximum planar Q4 Jacobian singular-value ratio at four corners and four Gauss points",
+      "duplicate_node_pairs": 0,
+      "minimum_jacobian_mm2": 52.64299601120302,
+      "minimum_scaled_jacobian": 0.6737284090244205,
+      "maximum_aspect_ratio": 2.7471672665080833,
+      "minimum_angle_degrees": 42.355481546097074,
+      "maximum_angle_degrees": 133.31464001824426,
+      "maximum_side_length_ratio": 3.2993466198531576,
+      "normal_z_minimum": 1.0,
+      "signed_area_mm2": 600000.0,
+      "absolute_element_area_mm2": 600000.0,
+      "target_area_mm2": 600000.0,
+      "unique_edges": 592,
+      "boundary_edges": 64,
+      "connected_components": 1,
+      "euler_v_minus_e_plus_f": 1,
+      "node_on_foreign_edge_count": 0,
+      "proper_edge_crossings": 0,
+      "collinear_edge_overlaps": 0,
+      "unshared_edge_contacts": 0,
+      "overlapping_element_pairs": 0,
+      "actual_type_values": [
+        1.0
+      ],
+      "actual_mat_values": [
+        1.0
+      ],
+      "actual_secnum_values": [
+        1.0
+      ],
+      "actual_thickness_values": [
+        8.0
+      ],
+      "boundary_node_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        42,
+        43,
+        63,
+        64,
+        84,
+        85,
+        105,
+        106,
+        126,
+        127,
+        147,
+        148,
+        168,
+        169,
+        189,
+        190,
+        210,
+        211,
+        231,
+        232,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
+      ],
+      "boundary_nodes": 64,
+      "expected_free_dof_p1_from_topology": 1494
+    },
+    "examples": {
+      "connectivity_nodes_exist": [],
+      "four_distinct_vertices_no_triangles": [],
+      "no_duplicate_elements": [],
+      "no_unused_nodes": [],
+      "no_duplicate_nodes": [],
+      "edge_multiplicity_at_most_two": [],
+      "shared_edges_opposite_orientation": [],
+      "unshared_edges_only_on_outer_boundary": [],
+      "boundary_covers_rectangle_once": {
+        "bottom": true,
+        "top": true,
+        "left": true,
+        "right": true
+      },
+      "no_hanging_nodes": [],
+      "no_proper_edge_crossings": [],
+      "no_collinear_edge_overlaps": [],
+      "contacts_share_node_ids": [],
+      "no_overlapping_cell_interiors": []
+    },
+    "failures": [],
+    "limitations": "Topology-based expected DoF only; no solver equation count. Native shape checks and native section/attribute evidence must also be supplied by the runner."
+  },
+  "input_mesh_sha256": "3a352d8126f4d127c2dd9b1e810ecc939e087549eb6eafdc889b22f34ed65a30",
+  "input_gate_sha256": "2465233a771ce8f369e41ff5ba6060696f5d49e5635bc4b8a2d231c95afe42cd",
+  "source_gate_record_sha256": "be83341121a826b9afbff45624f51e7712dd7e6093691411ce9144aeaca07dcc",
+  "source_native_parallel_deviation_warnings": 4,
+  "source_native_parallel_deviation_errors": 0,
+  "wall_seconds": {
+    "launch": 7.6258955000012065,
+    "build": 0.31127489999926183,
+    "native_check": 0.06051949999528006,
+    "export_and_geometry_validation": 0.6330619000000297,
+    "load_validation": 0.38004730000102427,
+    "loaded_native_check": 0.07899149999866495,
+    "session_exit": 4.8793091000043205,
+    "case_total": 13.985768799997459
+  },
+  "native_messages": [
+    {
+      "stage": "build",
+      "severity": "WARNING",
+      "message": "Quadrilateral element 245 has a pair of opposite edges that are 79.07\ndegrees away from being parallel.  This exceeds the warning limit of\n70 degrees.",
+      "expected_unloaded_no_constraints_warning": false,
+      "shape_diagnostic": false
+    },
+    {
+      "stage": "build",
+      "severity": "WARNING",
+      "message": "Quadrilateral element 253 has a pair of opposite edges that are 79.07\ndegrees away from being parallel.  This exceeds the warning limit of\n70 degrees.",
+      "expected_unloaded_no_constraints_warning": false,
+      "shape_diagnostic": false
+    },
+    {
+      "stage": "build",
+      "severity": "WARNING",
+      "message": "Quadrilateral element 267 has a pair of opposite edges that are 79.07\ndegrees away from being parallel.  This exceeds the warning limit of\n70 degrees.",
+      "expected_unloaded_no_constraints_warning": false,
+      "shape_diagnostic": false
+    },
+    {
+      "stage": "build",
+      "severity": "WARNING",
+      "message": "Quadrilateral element 275 has a pair of opposite edges that are 79.07\ndegrees away from being parallel.  This exceeds the warning limit of\n70 degrees.",
+      "expected_unloaded_no_constraints_warning": false,
+      "shape_diagnostic": false
+    },
+    {
+      "stage": "check_unloaded",
+      "severity": "NOTE",
+      "message": "There is no title defined for this analysis.",
+      "expected_unloaded_no_constraints_warning": false,
+      "shape_diagnostic": false
+    },
+    {
+      "stage": "check_unloaded",
+      "severity": "NOTE",
+      "message": "Present time 0 is less than or equal to the previous time.  Time will\ndefault to 1.",
+      "expected_unloaded_no_constraints_warning": false,
+      "shape_diagnostic": false
+    },
+    {
+      "stage": "check_unloaded",
+      "severity": "WARNING",
+      "message": "No constraints have been defined using the D command.",
+      "expected_unloaded_no_constraints_warning": true,
+      "shape_diagnostic": false
+    },
+    {
+      "stage": "check_unloaded",
+      "severity": "WARNING",
+      "message": "Quadrilateral element 245 has a pair of opposite edges that are 79.07\ndegrees away from being parallel.  This exceeds the warning limit of\n70 degrees.",
+      "expected_unloaded_no_constraints_warning": false,
+      "shape_diagnostic": false
+    },
+    {
+      "stage": "check_unloaded",
+      "severity": "WARNING",
+      "message": "Quadrilateral element 253 has a pair of opposite edges that are 79.07\ndegrees away from being parallel.  This exceeds the warning limit of\n70 degrees.",
+      "expected_unloaded_no_constraints_warning": false,
+      "shape_diagnostic": false
+    },
+    {
+      "stage": "check_unloaded",
+      "severity": "WARNING",
+      "message": "Quadrilateral element 267 has a pair of opposite edges that are 79.07\ndegrees away from being parallel.  This exceeds the warning limit of\n70 degrees.",
+      "expected_unloaded_no_constraints_warning": false,
+      "shape_diagnostic": false
+    },
+    {
+      "stage": "check_unloaded",
+      "severity": "WARNING",
+      "message": "Quadrilateral element 275 has a pair of opposite edges that are 79.07\ndegrees away from being parallel.  This exceeds the warning limit of\n70 degrees.",
+      "expected_unloaded_no_constraints_warning": false,
+      "shape_diagnostic": false
+    },
+    {
+      "stage": "check_unloaded",
+      "severity": "NOTE",
+      "message": "The analysis data was checked and warning messages were found.\nPlease review output or errors file ( ) for these warning messages.",
+      "expected_unloaded_no_constraints_warning": false,
+      "shape_diagnostic": false
+    },
+    {
+      "stage": "check_loaded",
+      "severity": "NOTE",
+      "message": "There is no title defined for this analysis.",
+      "expected_unloaded_no_constraints_warning": false,
+      "shape_diagnostic": false
+    },
+    {
+      "stage": "check_loaded",
+      "severity": "NOTE",
+      "message": "Present time 0 is less than or equal to the previous time.  Time will\ndefault to 1.",
+      "expected_unloaded_no_constraints_warning": false,
+      "shape_diagnostic": false
+    },
+    {
+      "stage": "check_loaded",
+      "severity": "WARNING",
+      "message": "Quadrilateral element 245 has a pair of opposite edges that are 79.07\ndegrees away from being parallel.  This exceeds the warning limit of\n70 degrees.",
+      "expected_unloaded_no_constraints_warning": false,
+      "shape_diagnostic": false
+    },
+    {
+      "stage": "check_loaded",
+      "severity": "WARNING",
+      "message": "Quadrilateral element 253 has a pair of opposite edges that are 79.07\ndegrees away from being parallel.  This exceeds the warning limit of\n70 degrees.",
+      "expected_unloaded_no_constraints_warning": false,
+      "shape_diagnostic": false
+    },
+    {
+      "stage": "check_loaded",
+      "severity": "WARNING",
+      "message": "Quadrilateral element 267 has a pair of opposite edges that are 79.07\ndegrees away from being parallel.  This exceeds the warning limit of\n70 degrees.",
+      "expected_unloaded_no_constraints_warning": false,
+      "shape_diagnostic": false
+    },
+    {
+      "stage": "check_loaded",
+      "severity": "WARNING",
+      "message": "Quadrilateral element 275 has a pair of opposite edges that are 79.07\ndegrees away from being parallel.  This exceeds the warning limit of\n70 degrees.",
+      "expected_unloaded_no_constraints_warning": false,
+      "shape_diagnostic": false
+    },
+    {
+      "stage": "check_loaded",
+      "severity": "NOTE",
+      "message": "The analysis data was checked and warning messages were found.\nPlease review output or errors file ( ) for these warning messages.",
+      "expected_unloaded_no_constraints_warning": false,
+      "shape_diagnostic": false
+    }
+  ],
+  "native_launch_attempted": true,
+  "native_run_performed": true,
+  "native_check_performed": true,
+  "source_native_shape_tests": {
+    "Aspect Ratio": {
+      "tested": 280,
+      "warnings": 0,
+      "errors": 0,
+      "warning_or_error_percent": 0.0
+    },
+    "Parallel Deviation": {
+      "tested": 280,
+      "warnings": 4,
+      "errors": 0,
+      "warning_or_error_percent": 1.43
+    },
+    "Maximum Angle": {
+      "tested": 280,
+      "warnings": 0,
+      "errors": 0,
+      "warning_or_error_percent": 0.0
+    },
+    "Jacobian Ratio": {
+      "tested": 280,
+      "warnings": 0,
+      "errors": 0,
+      "warning_or_error_percent": 0.0
+    },
+    "Warping Factor": {
+      "tested": 280,
+      "warnings": 0,
+      "errors": 0,
+      "warning_or_error_percent": 0.0
+    },
+    "Any": {
+      "tested": 280,
+      "warnings": 4,
+      "errors": 0,
+      "warning_or_error_percent": 1.43
+    }
+  },
+  "native_version": "26.1",
+  "native_shape_tests_before_loading": {
+    "Aspect Ratio": {
+      "tested": 280,
+      "warnings": 0,
+      "errors": 0,
+      "warning_or_error_percent": 0.0
+    },
+    "Parallel Deviation": {
+      "tested": 280,
+      "warnings": 4,
+      "errors": 0,
+      "warning_or_error_percent": 1.43
+    },
+    "Maximum Angle": {
+      "tested": 280,
+      "warnings": 0,
+      "errors": 0,
+      "warning_or_error_percent": 0.0
+    },
+    "Jacobian Ratio": {
+      "tested": 280,
+      "warnings": 0,
+      "errors": 0,
+      "warning_or_error_percent": 0.0
+    },
+    "Warping Factor": {
+      "tested": 280,
+      "warnings": 0,
+      "errors": 0,
+      "warning_or_error_percent": 0.0
+    },
+    "Any": {
+      "tested": 280,
+      "warnings": 4,
+      "errors": 0,
+      "warning_or_error_percent": 1.43
+    }
+  },
+  "shape_check_control": {
+    "enabled_before_element_creation": true,
+    "all_tests_enabled_before_full_check": true,
+    "full_check_all_selected": true,
+    "limits_modified": false,
+    "status_sha256": "f68ed02cdf250abd838f4c493a8edf325f4b1a34ffb2259343285da11badf608"
+  },
+  "native_quality": {
+    "passed": true,
+    "checks": {
+      "four_vertices_per_element": true,
+      "finite_coordinates": true,
+      "unique_positive_node_ids": true,
+      "unique_positive_element_ids": true,
+      "connectivity_nodes_exist": true,
+      "four_distinct_vertices_no_triangles": true,
+      "no_duplicate_elements": true,
+      "no_unused_nodes": true,
+      "flat_z_zero": true,
+      "inside_requested_rectangle": true,
+      "no_duplicate_nodes": true,
+      "positive_jacobians_and_normals_z": true,
+      "scaled_jacobian_threshold": true,
+      "aspect_ratio_threshold": true,
+      "angle_threshold": true,
+      "rectangle_area": true,
+      "edge_multiplicity_at_most_two": true,
+      "shared_edges_opposite_orientation": true,
+      "unshared_edges_only_on_outer_boundary": true,
+      "boundary_covers_rectangle_once": true,
+      "one_connected_element_component": true,
+      "disk_euler_identity": true,
+      "no_hanging_nodes": true,
+      "no_proper_edge_crossings": true,
+      "no_collinear_edge_overlaps": true,
+      "contacts_share_node_ids": true,
+      "no_overlapping_cell_interiors": true,
+      "preserved_type": true,
+      "preserved_mat": true,
+      "preserved_secnum": true,
+      "preserved_thickness": true
+    },
+    "metrics": {
+      "nodes": 313,
+      "elements": 280,
+      "coordinate_tolerance_mm": 1e-08,
+      "quality_limits": {
+        "aspect_ratio_max": 4.0,
+        "angle_min_degrees": 30.0,
+        "angle_max_degrees": 150.0,
+        "scaled_jacobian_min": 0.2
+      },
+      "aspect_ratio_definition": "maximum planar Q4 Jacobian singular-value ratio at four corners and four Gauss points",
+      "duplicate_node_pairs": 0,
+      "minimum_jacobian_mm2": 52.64299601120279,
+      "minimum_scaled_jacobian": 0.6737284090244212,
+      "maximum_aspect_ratio": 2.7471672665080664,
+      "minimum_angle_degrees": 42.35548154609711,
+      "maximum_angle_degrees": 133.31464001824392,
+      "maximum_side_length_ratio": 3.2993466198531896,
+      "normal_z_minimum": 1.0,
+      "signed_area_mm2": 600000.0,
+      "absolute_element_area_mm2": 600000.0,
+      "target_area_mm2": 600000.0,
+      "unique_edges": 592,
+      "boundary_edges": 64,
+      "connected_components": 1,
+      "euler_v_minus_e_plus_f": 1,
+      "node_on_foreign_edge_count": 0,
+      "proper_edge_crossings": 0,
+      "collinear_edge_overlaps": 0,
+      "unshared_edge_contacts": 0,
+      "overlapping_element_pairs": 0,
+      "actual_type_values": [
+        1.0
+      ],
+      "actual_mat_values": [
+        1.0
+      ],
+      "actual_secnum_values": [
+        1.0
+      ],
+      "actual_thickness_values": [
+        8.0
+      ],
+      "boundary_node_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        42,
+        43,
+        63,
+        64,
+        84,
+        85,
+        105,
+        106,
+        126,
+        127,
+        147,
+        148,
+        168,
+        169,
+        189,
+        190,
+        210,
+        211,
+        231,
+        232,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
+      ],
+      "boundary_nodes": 64,
+      "expected_free_dof_p1_from_topology": 1494
+    },
+    "examples": {
+      "connectivity_nodes_exist": [],
+      "four_distinct_vertices_no_triangles": [],
+      "no_duplicate_elements": [],
+      "no_unused_nodes": [],
+      "no_duplicate_nodes": [],
+      "edge_multiplicity_at_most_two": [],
+      "shared_edges_opposite_orientation": [],
+      "unshared_edges_only_on_outer_boundary": [],
+      "boundary_covers_rectangle_once": {
+        "bottom": true,
+        "top": true,
+        "left": true,
+        "right": true
+      },
+      "no_hanging_nodes": [],
+      "no_proper_edge_crossings": [],
+      "no_collinear_edge_overlaps": [],
+      "contacts_share_node_ids": [],
+      "no_overlapping_cell_interiors": []
+    },
+    "failures": [],
+    "limitations": "Topology-based expected DoF only; no solver equation count. Native shape checks and native section/attribute evidence must also be supplied by the runner."
+  },
+  "round_trip": {
+    "node_ids_unchanged": true,
+    "element_ids_unchanged": true,
+    "connectivity_unchanged": true,
+    "attributes_unchanged": true,
+    "native_settings_unchanged": true,
+    "maximum_coordinate_difference_mm": 2.2737367544323206e-13,
+    "coordinate_tolerance_mm": 1e-08,
+    "coordinates_within_tolerance": true,
+    "passed": true
+  },
+  "unloaded_before_boundary_conditions": true,
+  "unloaded_other_records": [],
+  "boundary_and_pressure": {
+    "passed": true,
+    "boundary_nodes": 64,
+    "prescribed_dof": 384,
+    "expected_prescribed_dof": 384,
+    "exact_p1_dof_set": true,
+    "pressure_element_count": 280,
+    "all_elements_face1_pressure_correct": true,
+    "loaded_area_mm2": 600000.0,
+    "pressure_resultant_N": [
+      0.0,
+      0.0,
+      2999.9999999999995
+    ],
+    "other_load_or_constraint_commands": [],
+    "no_duplicate_dof_records": true,
+    "zero_imaginary_displacements": true,
+    "expected_free_dof_topology": 1494,
+    "solver_equation_count": null,
+    "dof_note": "Topology prediction only; no SOLVE/equation assembly performed"
+  },
+  "native_shape_tests_after_loading": {
+    "Aspect Ratio": {
+      "tested": 280,
+      "warnings": 0,
+      "errors": 0,
+      "warning_or_error_percent": 0.0
+    },
+    "Parallel Deviation": {
+      "tested": 280,
+      "warnings": 4,
+      "errors": 0,
+      "warning_or_error_percent": 1.43
+    },
+    "Maximum Angle": {
+      "tested": 280,
+      "warnings": 0,
+      "errors": 0,
+      "warning_or_error_percent": 0.0
+    },
+    "Jacobian Ratio": {
+      "tested": 280,
+      "warnings": 0,
+      "errors": 0,
+      "warning_or_error_percent": 0.0
+    },
+    "Warping Factor": {
+      "tested": 280,
+      "warnings": 0,
+      "errors": 0,
+      "warning_or_error_percent": 0.0
+    },
+    "Any": {
+      "tested": 280,
+      "warnings": 4,
+      "errors": 0,
+      "warning_or_error_percent": 1.43
+    }
+  },
+  "native_shape_tests": {
+    "Aspect Ratio": {
+      "tested": 280,
+      "warnings": 0,
+      "errors": 0,
+      "warning_or_error_percent": 0.0
+    },
+    "Parallel Deviation": {
+      "tested": 280,
+      "warnings": 4,
+      "errors": 0,
+      "warning_or_error_percent": 1.43
+    },
+    "Maximum Angle": {
+      "tested": 280,
+      "warnings": 0,
+      "errors": 0,
+      "warning_or_error_percent": 0.0
+    },
+    "Jacobian Ratio": {
+      "tested": 280,
+      "warnings": 0,
+      "errors": 0,
+      "warning_or_error_percent": 0.0
+    },
+    "Warping Factor": {
+      "tested": 280,
+      "warnings": 0,
+      "errors": 0,
+      "warning_or_error_percent": 0.0
+    },
+    "Any": {
+      "tested": 280,
+      "warnings": 4,
+      "errors": 0,
+      "warning_or_error_percent": 1.43
+    }
+  },
+  "native_message_counts": {
+    "WARNING": 13,
+    "NOTE": 6
+  },
+  "expected_unloaded_no_constraints_warning_count": 1,
+  "native_unexpected_warning_count": 12,
+  "native_nonshape_unexpected_warning_count": 12,
+  "native_error_or_fatal_count": 0,
+  "all_native_elements_shape_tested": true,
+  "native_shape_warning_free": false,
+  "status": "native_check_failed",
+  "private_artifact_sha256": {
+    "after_loading.cdb": "68ffbac3cd94fc1e47bf0f12a6096538b3f04edb37ae6c06b6841b408fb7165a",
+    "check_full.apdl": "fc99d0ae7f37e0f593963666f4ec62ca8faf2565835cdcac2381e01a58f6b6e9",
+    "check_full.log": "635f2bf23dc2a8721bac80ba2f93f0d81c308603e1bf4f3be41bdfd974a9afbc",
+    "check_loaded.apdl": "fc99d0ae7f37e0f593963666f4ec62ca8faf2565835cdcac2381e01a58f6b6e9",
+    "check_loaded.log": "63a4114118ff189b94a96ca67c8ef5333f5803a100943303d5b0c3450c3fa344",
+    "element_settings.txt": "d2a741ed385f308a48c94c648a210d77c82483918232945ba6ca2c31a8e46c08",
+    "file.log": "9ce664d7d8fbfa254df4b82e59be37a3d3b622d6229a00303ad4e171bca899a5",
+    "reapply_p1.apdl": "e5faac1b8f506a34870fdb10f0f7b6ce4fff805c7b81e24bc6fd2e202c136dc3",
+    "reapply_p1.log": "510b45c8f79dd87dd185dede44028fe7224622f2c8d9a616bc065cc7914592aa",
+    "rebuild_coordinates.apdl": "3378c862a1d01844f3c512f489d76fd147988677b7f4a6b3e3357e7c9d43e422",
+    "rebuild_coordinates.log": "6d95ad2c9e1cf2498e03848ed758ba5a7eebebfda06da7708cdb88305e4c7673",
+    "section_settings.txt": "403afcc57240f14a01fb7c4b69655549eac68349b81e4be68e47d13b1e0c35c9",
+    "session.apdl": "f09539bba372747c83d44d76ef93e87a87b59323072d27de878db6845007c34b",
+    "shape_status.txt": "f68ed02cdf250abd838f4c493a8edf325f4b1a34ffb2259343285da11badf608",
+    "shape_summary.txt": "38bcac6d128127f20e6bf35340a155dd9eae1c8af145ad8af571835ba7892f76",
+    "shape_summary_loaded.txt": "38bcac6d128127f20e6bf35340a155dd9eae1c8af145ad8af571835ba7892f76",
+    "unloaded.cdb": "ab937adbbafd65cdf1843b7d2ab2e56f30f8c215e8d1669353328dd2d366b679"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "source_artifact_manifest_sha256": "82b04e34874fe3b6a510813dc19d5bc58043bb5ef49f054eac14a967f48d7ebf",
+  "optimized_artifact_manifest_sha256": "2ef453e4e160b60f9462fd0ba2473ffc29b1af7caa4f6b1fff25b98fb5758f8f",
+  "native_artifact_manifest_sha256": "d9c32f4b175513df5fb46a5fa82ee36c1a3e4bc0c9da0a4fb19aee3aa0747f38",
+  "earlier_native_artifact_manifest_sha256": "9f63b5a1e73a974b8b156ff89e16c2e1a9475d63fdeb34bfb4830f5c86badfea",
+  "collector_sha256": "0a8b189f81e52b9c8f4475ab0902216392cb2bb974b6e5d33b1b12b73694e2c0",
+  "native01_total_wall_seconds": 45.22352929999761,
+  "native02_total_wall_seconds": 42.864748100000725,
+  "classification_note": "Recomputed nonshape warnings from original messages: native02's legacy nonshape counter also counted repeated Parallel Deviation messages. Native shape tables and all acceptance outcomes are unchanged.",
+  "no_optimization_or_native_rerun": true
+}
