@@ -1,0 +1,17 @@
+{
+  "source_run_id_utc": "20261116T112055_224224Z",
+  "execution_manifest_sha256": "b8cd14e7768fd1a854f1ddafc2ae0a4671cfc90642327a1e68aafea59218beb4",
+  "postprocessing": "Correct native DBLOCK/SFEBLOCK decoding of original immutable CDB; no model or mesh rerun",
+  "source_execution_artifact_manifest_sha256": "74f190c13903e60568b66e32c27d74c75ea9e97c4d487a94acee9828680c72cc",
+  "postprocessor_source_sha256": {
+    "cdb_loads.py": "5f7857eb51d795b8bbf46a1d0c4896e04647a044d4ce6a53c28b4bbafbb98b59",
+    "publish_mesh_gate.py": "664bb6aa3f3e266c23c5a2bf76517857bd1822f008be64c9753a5852d032ea28",
+    "run_mesh_gate.py": "adf5145ad1a03337997e9dacfb4c3cc19fe14285c236cfb2960b5d71b2797d6b",
+    "test_cdb_loads.py": "76d0e0873b8f9b6f0596e81133d835f27660412bcca6fda67cdd592ef1104c13",
+    "test_load_check.py": "19c2cebcad87c317ffff4edf7d955e89c759dd7c54de86b24f8b9d7a510e2c05",
+    "test_validate_mesh.py": "454ea6fbab823fab62f18ff2681b3cbe09ffd1abc8d810448089e06d7375a118",
+    "validate_mesh.py": "f6fe2e5c7bb2e6f4b75ae28a6d40cd30316ab0fd9eeeabf3ca37ae6a630ca7a9",
+    "verify_saved_mesh_gate.py": "fa883676828d5384ca631e4e46c7207aac514456f44db180a39f4e9c5e87646d"
+  },
+  "private_runtime": "Original CDB, DB, APDL session logs remain local; only hashes and selected portable evidence published"
+}

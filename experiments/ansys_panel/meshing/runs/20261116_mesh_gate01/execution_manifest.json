@@ -1,0 +1,82 @@
+{
+  "run_id_utc": "20261116T112055_224224Z",
+  "native_version": "26.1",
+  "packages": {
+    "ansys-mapdl-core": "0.74.1",
+    "numpy": "2.4.6",
+    "matplotlib": "3.11.2"
+  },
+  "source_sha256": {
+    "run_mesh_gate.py": "b9a1345fecdf07f5d31ceb610b946f7504ab081eaaa07cdb8018387491a4856b",
+    "test_validate_mesh.py": "454ea6fbab823fab62f18ff2681b3cbe09ffd1abc8d810448089e06d7375a118",
+    "validate_mesh.py": "f6fe2e5c7bb2e6f4b75ae28a6d40cd30316ab0fd9eeeabf3ca37ae6a630ca7a9"
+  },
+  "config": {
+    "description": "Research steel wall-panel example; not an ERSO tank geometry or approved specification",
+    "units": {
+      "force": "N",
+      "length": "mm",
+      "stress": "MPa",
+      "energy": "N mm"
+    },
+    "a": 1000.0,
+    "b": 600.0,
+    "thickness": 8.0,
+    "young": 210000.0,
+    "poisson": 0.3,
+    "yield_diagnostic": 235.0,
+    "pressure": 0.005,
+    "mesh_sizes": [
+      50.0,
+      25.0,
+      12.5,
+      6.25,
+      3.125
+    ],
+    "keyopts": {
+      "1": 0,
+      "3": 2,
+      "8": 2
+    },
+    "thickness_integration_points": 5,
+    "disk_radius": 8.0,
+    "disk_centers": {
+      "center": [
+        500.0,
+        300.0
+      ],
+      "near_y_edge": [
+        500.0,
+        48.0
+      ],
+      "near_x_edge": [
+        48.0,
+        300.0
+      ]
+    },
+    "interior_margin": 24.0,
+    "criteria": {
+      "force_balance": 0.001,
+      "deflection": 0.002,
+      "energy": 0.005,
+      "disk_von_mises": 0.01,
+      "successive_transitions": 2,
+      "nonlinear_difference": 0.02
+    },
+    "coordinate_tolerance_mm": 1e-08,
+    "quality_limits": {
+      "aspect_ratio_max": 4.0,
+      "angle_min_degrees": 30.0,
+      "angle_max_degrees": 150.0,
+      "scaled_jacobian_min": 0.2
+    }
+  },
+  "refinement": {
+    "LEVEL": 1,
+    "DEPTH": 0,
+    "POST": "OFF",
+    "RETAIN": "ON"
+  },
+  "base_unloaded_cdb_sha256": "52ca68b911999274058ad55cef1cb30fe48c310c86d40b883100b8e3100146cc",
+  "machine_paths": "Private runtime pointer only; not published"
+}

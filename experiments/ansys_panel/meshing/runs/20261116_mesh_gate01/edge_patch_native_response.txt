@@ -1,0 +1,31 @@
+REFINE NODES AND ELEMENTS   AT  ALL  PICKED   ELEMENTS 
+
+ *** NOTE ***
+ Check and update your element and node component(s).                    
+
+ Additional Nodes    =      75
+ Additional Elements =      72
+
+ ------------------------------------------------------------------------------
+            <<<<<<          SHAPE TESTING SUMMARY           >>>>>>
+            <<<<<<       FOR NEW OR MODIFIED ELEMENTS       >>>>>>
+ ------------------------------------------------------------------------------
+                    --------------------------------------
+                    |  Element count       312 SHELL181  |
+                    --------------------------------------
+
+  Test                Number tested  Warning count  Error count    Warn+Err %
+  ----                -------------  -------------  -----------    ----------
+  Aspect Ratio                312              0             0         0.00 %
+  Parallel Deviation          312              6             0         1.92 %
+  Maximum Angle               312              0             0         0.00 %
+  Jacobian Ratio              312              0             0         0.00 %
+  Warping Factor              312              0             0         0.00 %
+
+  Any                         312              6             0         1.92 %
+ ------------------------------------------------------------------------------
+
+ *** WARNING ***
+ Shape testing revealed that 6 of the 312 new or modified elements       
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.
