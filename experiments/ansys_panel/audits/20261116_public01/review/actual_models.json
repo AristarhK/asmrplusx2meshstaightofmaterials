@@ -1,0 +1,1146 @@
+[
+  {
+    "case": "P0_h50_linear",
+    "passed": true,
+    "checks": {
+      "grid_dimensions": true,
+      "actual_node_ids": true,
+      "actual_node_coordinates": true,
+      "actual_element_connectivity": true,
+      "actual_positive_z_normals": true,
+      "exact_boundary_dof_set": true,
+      "fixed_settings_and_load_commands": true,
+      "no_unexpected_commands": true,
+      "actual_solver_equations": true,
+      "completed_final_time": true,
+      "no_build_solve_warning_error_markers": true,
+      "no_solve_failure_marker": true,
+      "printed_minimum_pivots_positive": true,
+      "nonlinear_record_cnvg": true,
+      "field_coordinates_equal_actual_model": true,
+      "physical_center_and_displacement": true,
+      "record_input_hashes": true
+    },
+    "details": {
+      "actual_node_ids": {
+        "count": 273
+      },
+      "actual_node_coordinates": {
+        "requested_bounds_mm": [
+          0,
+          1000.0,
+          0,
+          600.0,
+          0,
+          0
+        ]
+      },
+      "actual_element_connectivity": {
+        "count": 240
+      },
+      "exact_boundary_dof_set": {
+        "actual_constraint_count": 67,
+        "expected_constraint_count": 67,
+        "boundary_nodes": 64,
+        "counts_by_dof": {
+          "UX": 1,
+          "UY": 2,
+          "UZ": 64,
+          "ROTX": 0,
+          "ROTY": 0,
+          "ROTZ": 0
+        },
+        "p0_inplane_anchors_mm": [
+          [
+            0,
+            0,
+            "UX=UY=0"
+          ],
+          [
+            1000.0,
+            0,
+            "UY=0"
+          ]
+        ]
+      },
+      "fixed_settings_and_load_commands": {
+        "missing": []
+      },
+      "no_unexpected_commands": {
+        "unexpected": []
+      },
+      "actual_solver_equations": {
+        "solver_equations": 1571,
+        "from_exact_dofs": 1571
+      },
+      "completed_final_time": {
+        "completed_substeps": 1,
+        "final_substep": 1,
+        "cumulative_iterations": 1,
+        "final_time": 1.0
+      },
+      "no_build_solve_warning_error_markers": {
+        "markers": []
+      },
+      "printed_minimum_pivots_positive": {
+        "printed_minimum_pivots": [
+          2212.0384
+        ]
+      },
+      "nonlinear_record_cnvg": {
+        "raw_record_solu_cnvg": 0,
+        "linear_flag_not_assumed_to_be_one": true
+      },
+      "physical_center_and_displacement": {
+        "node_number": 137,
+        "coordinates_mm": [
+          500.0,
+          300.0,
+          0.0
+        ],
+        "uz_mm": 0.5687533736745127
+      }
+    },
+    "input_hashes": {
+      "model.apdl": "cb9cfb6af1f18eeb61700b122f17e27aeb15802fbcaac6309de27cfabaa8027a",
+      "solve_response.txt": "7ac6f29ccdf877269ac3e3c8465dc13da15aff70a9e98cd68bc5c1d6bb0aaf1d",
+      "build.log": "25c333d673b20855ffb6f3eb9ef518d9bde4b39288bc705bb56e81ea010463eb",
+      "fields.npz": "9a27b277ca8d571c065af5cbc5a1f21d97a7cb013070454924489000021cd72e"
+    },
+    "limitation": "Saved-input and listing audit; no new solve, no modal mechanism test, no proof of the quantitative cause of the P0/Navier discrepancy"
+  },
+  {
+    "case": "P1_h50_linear",
+    "passed": true,
+    "checks": {
+      "grid_dimensions": true,
+      "actual_node_ids": true,
+      "actual_node_coordinates": true,
+      "actual_element_connectivity": true,
+      "actual_positive_z_normals": true,
+      "exact_boundary_dof_set": true,
+      "fixed_settings_and_load_commands": true,
+      "no_unexpected_commands": true,
+      "actual_solver_equations": true,
+      "completed_final_time": true,
+      "no_build_solve_warning_error_markers": true,
+      "no_solve_failure_marker": true,
+      "printed_minimum_pivots_positive": true,
+      "nonlinear_record_cnvg": true,
+      "field_coordinates_equal_actual_model": true,
+      "physical_center_and_displacement": true,
+      "record_input_hashes": true
+    },
+    "details": {
+      "actual_node_ids": {
+        "count": 273
+      },
+      "actual_node_coordinates": {
+        "requested_bounds_mm": [
+          0,
+          1000.0,
+          0,
+          600.0,
+          0,
+          0
+        ]
+      },
+      "actual_element_connectivity": {
+        "count": 240
+      },
+      "exact_boundary_dof_set": {
+        "actual_constraint_count": 384,
+        "expected_constraint_count": 384,
+        "boundary_nodes": 64,
+        "counts_by_dof": {
+          "UX": 64,
+          "UY": 64,
+          "UZ": 64,
+          "ROTX": 64,
+          "ROTY": 64,
+          "ROTZ": 64
+        },
+        "p0_inplane_anchors_mm": []
+      },
+      "fixed_settings_and_load_commands": {
+        "missing": []
+      },
+      "no_unexpected_commands": {
+        "unexpected": []
+      },
+      "actual_solver_equations": {
+        "solver_equations": 1254,
+        "from_exact_dofs": 1254
+      },
+      "completed_final_time": {
+        "completed_substeps": 1,
+        "final_substep": 1,
+        "cumulative_iterations": 1,
+        "final_time": 1.0
+      },
+      "no_build_solve_warning_error_markers": {
+        "markers": []
+      },
+      "printed_minimum_pivots_positive": {
+        "printed_minimum_pivots": [
+          4207.44674
+        ]
+      },
+      "nonlinear_record_cnvg": {
+        "raw_record_solu_cnvg": 0,
+        "linear_flag_not_assumed_to_be_one": true
+      },
+      "physical_center_and_displacement": {
+        "node_number": 137,
+        "coordinates_mm": [
+          500.0,
+          300.0,
+          0.0
+        ],
+        "uz_mm": 0.15308729259443626
+      }
+    },
+    "input_hashes": {
+      "model.apdl": "93aae95b6d82722a4b147267c2f24c60f685d2b30314f8511372730386f50efd",
+      "solve_response.txt": "f1fe7e1d3f4ea5df3e5d929034824cfc86317d8b2b870f3ce5c108dfe326adb9",
+      "build.log": "2ae98f96b12e6b0546f0f2152b0e1cb5c4a0901756549382cb087741b6ba8774",
+      "fields.npz": "642a7f74a119354555038c777712b5689cb9c5c1d2f312d0efe79b0bd4d0d4e6"
+    },
+    "limitation": "Saved-input and listing audit; no new solve, no modal mechanism test, no proof of the quantitative cause of the P0/Navier discrepancy"
+  },
+  {
+    "case": "P0_h25_linear",
+    "passed": true,
+    "checks": {
+      "grid_dimensions": true,
+      "actual_node_ids": true,
+      "actual_node_coordinates": true,
+      "actual_element_connectivity": true,
+      "actual_positive_z_normals": true,
+      "exact_boundary_dof_set": true,
+      "fixed_settings_and_load_commands": true,
+      "no_unexpected_commands": true,
+      "actual_solver_equations": true,
+      "completed_final_time": true,
+      "no_build_solve_warning_error_markers": true,
+      "no_solve_failure_marker": true,
+      "printed_minimum_pivots_positive": true,
+      "nonlinear_record_cnvg": true,
+      "field_coordinates_equal_actual_model": true,
+      "physical_center_and_displacement": true,
+      "record_input_hashes": true
+    },
+    "details": {
+      "actual_node_ids": {
+        "count": 1025
+      },
+      "actual_node_coordinates": {
+        "requested_bounds_mm": [
+          0,
+          1000.0,
+          0,
+          600.0,
+          0,
+          0
+        ]
+      },
+      "actual_element_connectivity": {
+        "count": 960
+      },
+      "exact_boundary_dof_set": {
+        "actual_constraint_count": 131,
+        "expected_constraint_count": 131,
+        "boundary_nodes": 128,
+        "counts_by_dof": {
+          "UX": 1,
+          "UY": 2,
+          "UZ": 128,
+          "ROTX": 0,
+          "ROTY": 0,
+          "ROTZ": 0
+        },
+        "p0_inplane_anchors_mm": [
+          [
+            0,
+            0,
+            "UX=UY=0"
+          ],
+          [
+            1000.0,
+            0,
+            "UY=0"
+          ]
+        ]
+      },
+      "fixed_settings_and_load_commands": {
+        "missing": []
+      },
+      "no_unexpected_commands": {
+        "unexpected": []
+      },
+      "actual_solver_equations": {
+        "solver_equations": 6019,
+        "from_exact_dofs": 6019
+      },
+      "completed_final_time": {
+        "completed_substeps": 1,
+        "final_substep": 1,
+        "cumulative_iterations": 1,
+        "final_time": 1.0
+      },
+      "no_build_solve_warning_error_markers": {
+        "markers": []
+      },
+      "printed_minimum_pivots_positive": {
+        "printed_minimum_pivots": [
+          4805.2258
+        ]
+      },
+      "nonlinear_record_cnvg": {
+        "raw_record_solu_cnvg": 0,
+        "linear_flag_not_assumed_to_be_one": true
+      },
+      "physical_center_and_displacement": {
+        "node_number": 513,
+        "coordinates_mm": [
+          500.0,
+          300.0,
+          0.0
+        ],
+        "uz_mm": 0.571410473504982
+      }
+    },
+    "input_hashes": {
+      "model.apdl": "578c39f237fc6ea704e46951685f351e115658da3226221f90c1ad9621194dc6",
+      "solve_response.txt": "8a5edf364c909f07bf9a01c38ef5c39da4b1833642414882c641d649c99b7a7d",
+      "build.log": "76ee56586a02227fc1d397e9a61b2d1923a4f2394b040a1a62d7474f564586ab",
+      "fields.npz": "4dc3ae1fee00afcafef314a3fc9ea58e81815242fc262e95bba57acbcad261ec"
+    },
+    "limitation": "Saved-input and listing audit; no new solve, no modal mechanism test, no proof of the quantitative cause of the P0/Navier discrepancy"
+  },
+  {
+    "case": "P1_h25_linear",
+    "passed": true,
+    "checks": {
+      "grid_dimensions": true,
+      "actual_node_ids": true,
+      "actual_node_coordinates": true,
+      "actual_element_connectivity": true,
+      "actual_positive_z_normals": true,
+      "exact_boundary_dof_set": true,
+      "fixed_settings_and_load_commands": true,
+      "no_unexpected_commands": true,
+      "actual_solver_equations": true,
+      "completed_final_time": true,
+      "no_build_solve_warning_error_markers": true,
+      "no_solve_failure_marker": true,
+      "printed_minimum_pivots_positive": true,
+      "nonlinear_record_cnvg": true,
+      "field_coordinates_equal_actual_model": true,
+      "physical_center_and_displacement": true,
+      "record_input_hashes": true
+    },
+    "details": {
+      "actual_node_ids": {
+        "count": 1025
+      },
+      "actual_node_coordinates": {
+        "requested_bounds_mm": [
+          0,
+          1000.0,
+          0,
+          600.0,
+          0,
+          0
+        ]
+      },
+      "actual_element_connectivity": {
+        "count": 960
+      },
+      "exact_boundary_dof_set": {
+        "actual_constraint_count": 768,
+        "expected_constraint_count": 768,
+        "boundary_nodes": 128,
+        "counts_by_dof": {
+          "UX": 128,
+          "UY": 128,
+          "UZ": 128,
+          "ROTX": 128,
+          "ROTY": 128,
+          "ROTZ": 128
+        },
+        "p0_inplane_anchors_mm": []
+      },
+      "fixed_settings_and_load_commands": {
+        "missing": []
+      },
+      "no_unexpected_commands": {
+        "unexpected": []
+      },
+      "actual_solver_equations": {
+        "solver_equations": 5382,
+        "from_exact_dofs": 5382
+      },
+      "completed_final_time": {
+        "completed_substeps": 1,
+        "final_substep": 1,
+        "cumulative_iterations": 1,
+        "final_time": 1.0
+      },
+      "no_build_solve_warning_error_markers": {
+        "markers": []
+      },
+      "printed_minimum_pivots_positive": {
+        "printed_minimum_pivots": [
+          4116.02289
+        ]
+      },
+      "nonlinear_record_cnvg": {
+        "raw_record_solu_cnvg": 0,
+        "linear_flag_not_assumed_to_be_one": true
+      },
+      "physical_center_and_displacement": {
+        "node_number": 513,
+        "coordinates_mm": [
+          500.0,
+          300.0,
+          0.0
+        ],
+        "uz_mm": 0.15491684281654095
+      }
+    },
+    "input_hashes": {
+      "model.apdl": "7fdfe15736a3b7a61bbfede467ba35f7b0fd0e6984fcb9f090a4b92715024bbb",
+      "solve_response.txt": "1602f6ae59294dbe164bdf6202beaa403321b2598f6a7d50f9e708c6f6a9e520",
+      "build.log": "8f77b35841b70de2eb46beddea5a69a0e3f86f703397e98b0a7fcc71bcfc9f34",
+      "fields.npz": "1f935c6ecbd9479ebb959d940dda3ba72aaa6a67e26ab424ac5f0b445e4b338f"
+    },
+    "limitation": "Saved-input and listing audit; no new solve, no modal mechanism test, no proof of the quantitative cause of the P0/Navier discrepancy"
+  },
+  {
+    "case": "P0_h12.5_linear",
+    "passed": true,
+    "checks": {
+      "grid_dimensions": true,
+      "actual_node_ids": true,
+      "actual_node_coordinates": true,
+      "actual_element_connectivity": true,
+      "actual_positive_z_normals": true,
+      "exact_boundary_dof_set": true,
+      "fixed_settings_and_load_commands": true,
+      "no_unexpected_commands": true,
+      "actual_solver_equations": true,
+      "completed_final_time": true,
+      "no_build_solve_warning_error_markers": true,
+      "no_solve_failure_marker": true,
+      "printed_minimum_pivots_positive": true,
+      "nonlinear_record_cnvg": true,
+      "field_coordinates_equal_actual_model": true,
+      "physical_center_and_displacement": true,
+      "record_input_hashes": true
+    },
+    "details": {
+      "actual_node_ids": {
+        "count": 3969
+      },
+      "actual_node_coordinates": {
+        "requested_bounds_mm": [
+          0,
+          1000.0,
+          0,
+          600.0,
+          0,
+          0
+        ]
+      },
+      "actual_element_connectivity": {
+        "count": 3840
+      },
+      "exact_boundary_dof_set": {
+        "actual_constraint_count": 259,
+        "expected_constraint_count": 259,
+        "boundary_nodes": 256,
+        "counts_by_dof": {
+          "UX": 1,
+          "UY": 2,
+          "UZ": 256,
+          "ROTX": 0,
+          "ROTY": 0,
+          "ROTZ": 0
+        },
+        "p0_inplane_anchors_mm": [
+          [
+            0,
+            0,
+            "UX=UY=0"
+          ],
+          [
+            1000.0,
+            0,
+            "UY=0"
+          ]
+        ]
+      },
+      "fixed_settings_and_load_commands": {
+        "missing": []
+      },
+      "no_unexpected_commands": {
+        "unexpected": []
+      },
+      "actual_solver_equations": {
+        "solver_equations": 23555,
+        "from_exact_dofs": 23555
+      },
+      "completed_final_time": {
+        "completed_substeps": 1,
+        "final_substep": 1,
+        "cumulative_iterations": 1,
+        "final_time": 1.0
+      },
+      "no_build_solve_warning_error_markers": {
+        "markers": []
+      },
+      "printed_minimum_pivots_positive": {
+        "printed_minimum_pivots": [
+          11874.5605
+        ]
+      },
+      "nonlinear_record_cnvg": {
+        "raw_record_solu_cnvg": 0,
+        "linear_flag_not_assumed_to_be_one": true
+      },
+      "physical_center_and_displacement": {
+        "node_number": 1985,
+        "coordinates_mm": [
+          500.0,
+          300.0,
+          0.0
+        ],
+        "uz_mm": 0.5728816367106925
+      }
+    },
+    "input_hashes": {
+      "model.apdl": "ad7eaf1abd76daecf90a10e7c10ed92483f8a8dc1b786ae90b3a4b661f643479",
+      "solve_response.txt": "442ee58ddb8d99a333099752e4c3dc6f34881d306892c6f0fb53e79ad764df7a",
+      "build.log": "a292481128fec0c8230a29893ed0a73f9e79c172f0d8a839282aa1dddab6bd5d",
+      "fields.npz": "15440c03178158b7db3d6fb26a8f4b1b47af58d572b7084c3ef5963085da8bac"
+    },
+    "limitation": "Saved-input and listing audit; no new solve, no modal mechanism test, no proof of the quantitative cause of the P0/Navier discrepancy"
+  },
+  {
+    "case": "P1_h12.5_linear",
+    "passed": true,
+    "checks": {
+      "grid_dimensions": true,
+      "actual_node_ids": true,
+      "actual_node_coordinates": true,
+      "actual_element_connectivity": true,
+      "actual_positive_z_normals": true,
+      "exact_boundary_dof_set": true,
+      "fixed_settings_and_load_commands": true,
+      "no_unexpected_commands": true,
+      "actual_solver_equations": true,
+      "completed_final_time": true,
+      "no_build_solve_warning_error_markers": true,
+      "no_solve_failure_marker": true,
+      "printed_minimum_pivots_positive": true,
+      "nonlinear_record_cnvg": true,
+      "field_coordinates_equal_actual_model": true,
+      "physical_center_and_displacement": true,
+      "record_input_hashes": true
+    },
+    "details": {
+      "actual_node_ids": {
+        "count": 3969
+      },
+      "actual_node_coordinates": {
+        "requested_bounds_mm": [
+          0,
+          1000.0,
+          0,
+          600.0,
+          0,
+          0
+        ]
+      },
+      "actual_element_connectivity": {
+        "count": 3840
+      },
+      "exact_boundary_dof_set": {
+        "actual_constraint_count": 1536,
+        "expected_constraint_count": 1536,
+        "boundary_nodes": 256,
+        "counts_by_dof": {
+          "UX": 256,
+          "UY": 256,
+          "UZ": 256,
+          "ROTX": 256,
+          "ROTY": 256,
+          "ROTZ": 256
+        },
+        "p0_inplane_anchors_mm": []
+      },
+      "fixed_settings_and_load_commands": {
+        "missing": []
+      },
+      "no_unexpected_commands": {
+        "unexpected": []
+      },
+      "actual_solver_equations": {
+        "solver_equations": 22278,
+        "from_exact_dofs": 22278
+      },
+      "completed_final_time": {
+        "completed_substeps": 1,
+        "final_substep": 1,
+        "cumulative_iterations": 1,
+        "final_time": 1.0
+      },
+      "no_build_solve_warning_error_markers": {
+        "markers": []
+      },
+      "printed_minimum_pivots_positive": {
+        "printed_minimum_pivots": [
+          16129.8032
+        ]
+      },
+      "nonlinear_record_cnvg": {
+        "raw_record_solu_cnvg": 0,
+        "linear_flag_not_assumed_to_be_one": true
+      },
+      "physical_center_and_displacement": {
+        "node_number": 1985,
+        "coordinates_mm": [
+          500.0,
+          300.0,
+          0.0
+        ],
+        "uz_mm": 0.15536977379002326
+      }
+    },
+    "input_hashes": {
+      "model.apdl": "4aa7e150bd5d8a1d7642abb90d7422c08dbaf720fcc3aa16cb32c2ed5ef83296",
+      "solve_response.txt": "32f07af90aa6a6e7cc91d154f13ec308035ddfcf811ae2c148bc8471dca46160",
+      "build.log": "53c1aa4f4773c3233b1a522e1e169f4a3a6897cba94fa79a5fba87e5f8b4e43d",
+      "fields.npz": "90b888443dc214b774d36c1a2fd582fc44ecd731ad4d263d7221446b46869c8d"
+    },
+    "limitation": "Saved-input and listing audit; no new solve, no modal mechanism test, no proof of the quantitative cause of the P0/Navier discrepancy"
+  },
+  {
+    "case": "P0_h6.25_linear",
+    "passed": true,
+    "checks": {
+      "grid_dimensions": true,
+      "actual_node_ids": true,
+      "actual_node_coordinates": true,
+      "actual_element_connectivity": true,
+      "actual_positive_z_normals": true,
+      "exact_boundary_dof_set": true,
+      "fixed_settings_and_load_commands": true,
+      "no_unexpected_commands": true,
+      "actual_solver_equations": true,
+      "completed_final_time": true,
+      "no_build_solve_warning_error_markers": true,
+      "no_solve_failure_marker": true,
+      "printed_minimum_pivots_positive": true,
+      "nonlinear_record_cnvg": true,
+      "field_coordinates_equal_actual_model": true,
+      "physical_center_and_displacement": true,
+      "record_input_hashes": true
+    },
+    "details": {
+      "actual_node_ids": {
+        "count": 15617
+      },
+      "actual_node_coordinates": {
+        "requested_bounds_mm": [
+          0,
+          1000.0,
+          0,
+          600.0,
+          0,
+          0
+        ]
+      },
+      "actual_element_connectivity": {
+        "count": 15360
+      },
+      "exact_boundary_dof_set": {
+        "actual_constraint_count": 515,
+        "expected_constraint_count": 515,
+        "boundary_nodes": 512,
+        "counts_by_dof": {
+          "UX": 1,
+          "UY": 2,
+          "UZ": 512,
+          "ROTX": 0,
+          "ROTY": 0,
+          "ROTZ": 0
+        },
+        "p0_inplane_anchors_mm": [
+          [
+            0,
+            0,
+            "UX=UY=0"
+          ],
+          [
+            1000.0,
+            0,
+            "UY=0"
+          ]
+        ]
+      },
+      "fixed_settings_and_load_commands": {
+        "missing": []
+      },
+      "no_unexpected_commands": {
+        "unexpected": []
+      },
+      "actual_solver_equations": {
+        "solver_equations": 93187,
+        "from_exact_dofs": 93187
+      },
+      "completed_final_time": {
+        "completed_substeps": 1,
+        "final_substep": 1,
+        "cumulative_iterations": 1,
+        "final_time": 1.0
+      },
+      "no_build_solve_warning_error_markers": {
+        "markers": []
+      },
+      "printed_minimum_pivots_positive": {
+        "printed_minimum_pivots": [
+          47558.5702
+        ]
+      },
+      "nonlinear_record_cnvg": {
+        "raw_record_solu_cnvg": 0,
+        "linear_flag_not_assumed_to_be_one": true
+      },
+      "physical_center_and_displacement": {
+        "node_number": 7809,
+        "coordinates_mm": [
+          500.0,
+          300.0,
+          0.0
+        ],
+        "uz_mm": 0.5739642413477427
+      }
+    },
+    "input_hashes": {
+      "model.apdl": "db7ad87643d4300ff4e04739cc35b48b4028738500b68f199c2a0e33bd7a55e2",
+      "solve_response.txt": "85808c02c5387de605a45119d0fad9e509168ec7b531b3661f3e6775bf7475ca",
+      "build.log": "054c32b223dc3032d2c278d6368631760e536aeebdcaab5c344589773212a121",
+      "fields.npz": "00e8d7d433a4d43de885875a63ef78f834d8104cc864d5906614049f17074230"
+    },
+    "limitation": "Saved-input and listing audit; no new solve, no modal mechanism test, no proof of the quantitative cause of the P0/Navier discrepancy"
+  },
+  {
+    "case": "P1_h6.25_linear",
+    "passed": true,
+    "checks": {
+      "grid_dimensions": true,
+      "actual_node_ids": true,
+      "actual_node_coordinates": true,
+      "actual_element_connectivity": true,
+      "actual_positive_z_normals": true,
+      "exact_boundary_dof_set": true,
+      "fixed_settings_and_load_commands": true,
+      "no_unexpected_commands": true,
+      "actual_solver_equations": true,
+      "completed_final_time": true,
+      "no_build_solve_warning_error_markers": true,
+      "no_solve_failure_marker": true,
+      "printed_minimum_pivots_positive": true,
+      "nonlinear_record_cnvg": true,
+      "field_coordinates_equal_actual_model": true,
+      "physical_center_and_displacement": true,
+      "record_input_hashes": true
+    },
+    "details": {
+      "actual_node_ids": {
+        "count": 15617
+      },
+      "actual_node_coordinates": {
+        "requested_bounds_mm": [
+          0,
+          1000.0,
+          0,
+          600.0,
+          0,
+          0
+        ]
+      },
+      "actual_element_connectivity": {
+        "count": 15360
+      },
+      "exact_boundary_dof_set": {
+        "actual_constraint_count": 3072,
+        "expected_constraint_count": 3072,
+        "boundary_nodes": 512,
+        "counts_by_dof": {
+          "UX": 512,
+          "UY": 512,
+          "UZ": 512,
+          "ROTX": 512,
+          "ROTY": 512,
+          "ROTZ": 512
+        },
+        "p0_inplane_anchors_mm": []
+      },
+      "fixed_settings_and_load_commands": {
+        "missing": []
+      },
+      "no_unexpected_commands": {
+        "unexpected": []
+      },
+      "actual_solver_equations": {
+        "solver_equations": 90630,
+        "from_exact_dofs": 90630
+      },
+      "completed_final_time": {
+        "completed_substeps": 1,
+        "final_substep": 1,
+        "cumulative_iterations": 1,
+        "final_time": 1.0
+      },
+      "no_build_solve_warning_error_markers": {
+        "markers": []
+      },
+      "printed_minimum_pivots_positive": {
+        "printed_minimum_pivots": [
+          57143.1363
+        ]
+      },
+      "nonlinear_record_cnvg": {
+        "raw_record_solu_cnvg": 0,
+        "linear_flag_not_assumed_to_be_one": true
+      },
+      "physical_center_and_displacement": {
+        "node_number": 7809,
+        "coordinates_mm": [
+          500.0,
+          300.0,
+          0.0
+        ],
+        "uz_mm": 0.1554829091758411
+      }
+    },
+    "input_hashes": {
+      "model.apdl": "93f2c4913d4dcc7f27440baf157599dc7c8a1c7d2c1e219dbc896b04dae4e8a9",
+      "solve_response.txt": "562551beb8562488ef7d81c8d8aa9b34a835edcea09a16c6ad6e4ed5bd5fe1a8",
+      "build.log": "1bbfbddd99d3e8c530d733de2fc88f8cb1da2f12f81d74b284de46532b401b8a",
+      "fields.npz": "2a293da5d9ca9a1fbdb4426994b050cf94f64655aa149ba8af0d3f30d253503a"
+    },
+    "limitation": "Saved-input and listing audit; no new solve, no modal mechanism test, no proof of the quantitative cause of the P0/Navier discrepancy"
+  },
+  {
+    "case": "P0_h3.125_linear",
+    "passed": true,
+    "checks": {
+      "grid_dimensions": true,
+      "actual_node_ids": true,
+      "actual_node_coordinates": true,
+      "actual_element_connectivity": true,
+      "actual_positive_z_normals": true,
+      "exact_boundary_dof_set": true,
+      "fixed_settings_and_load_commands": true,
+      "no_unexpected_commands": true,
+      "actual_solver_equations": true,
+      "completed_final_time": true,
+      "no_build_solve_warning_error_markers": true,
+      "no_solve_failure_marker": true,
+      "printed_minimum_pivots_positive": true,
+      "nonlinear_record_cnvg": true,
+      "field_coordinates_equal_actual_model": true,
+      "physical_center_and_displacement": true,
+      "record_input_hashes": true
+    },
+    "details": {
+      "actual_node_ids": {
+        "count": 61953
+      },
+      "actual_node_coordinates": {
+        "requested_bounds_mm": [
+          0,
+          1000.0,
+          0,
+          600.0,
+          0,
+          0
+        ]
+      },
+      "actual_element_connectivity": {
+        "count": 61440
+      },
+      "exact_boundary_dof_set": {
+        "actual_constraint_count": 1027,
+        "expected_constraint_count": 1027,
+        "boundary_nodes": 1024,
+        "counts_by_dof": {
+          "UX": 1,
+          "UY": 2,
+          "UZ": 1024,
+          "ROTX": 0,
+          "ROTY": 0,
+          "ROTZ": 0
+        },
+        "p0_inplane_anchors_mm": [
+          [
+            0,
+            0,
+            "UX=UY=0"
+          ],
+          [
+            1000.0,
+            0,
+            "UY=0"
+          ]
+        ]
+      },
+      "fixed_settings_and_load_commands": {
+        "missing": []
+      },
+      "no_unexpected_commands": {
+        "unexpected": []
+      },
+      "actual_solver_equations": {
+        "solver_equations": 370691,
+        "from_exact_dofs": 370691
+      },
+      "completed_final_time": {
+        "completed_substeps": 1,
+        "final_substep": 1,
+        "cumulative_iterations": 1,
+        "final_time": 1.0
+      },
+      "no_build_solve_warning_error_markers": {
+        "markers": []
+      },
+      "printed_minimum_pivots_positive": {
+        "printed_minimum_pivots": [
+          4308.75873
+        ]
+      },
+      "nonlinear_record_cnvg": {
+        "raw_record_solu_cnvg": 0,
+        "linear_flag_not_assumed_to_be_one": true
+      },
+      "physical_center_and_displacement": {
+        "node_number": 30977,
+        "coordinates_mm": [
+          500.0,
+          300.0,
+          0.0
+        ],
+        "uz_mm": 0.574506578399155
+      }
+    },
+    "input_hashes": {
+      "model.apdl": "ef2d3dc56f1b2cccc96eeab1cdb7c67ab9cadd183fc14a1da6c4af5f9adf58e5",
+      "solve_response.txt": "7777ce0994c4a573327f61717b5aa1b44e8369ebf0f6f9a17e476e8b9bc7a8e5",
+      "build.log": "b5ec2d89c573bb85f9f3b85fd7ebc10f614cf043c4664b996bc2078d585d131b",
+      "fields.npz": "24125f02ef848b026652034055fb2f29feda5187fd0092bacec3629db1e9020b"
+    },
+    "limitation": "Saved-input and listing audit; no new solve, no modal mechanism test, no proof of the quantitative cause of the P0/Navier discrepancy"
+  },
+  {
+    "case": "P1_h3.125_linear",
+    "passed": true,
+    "checks": {
+      "grid_dimensions": true,
+      "actual_node_ids": true,
+      "actual_node_coordinates": true,
+      "actual_element_connectivity": true,
+      "actual_positive_z_normals": true,
+      "exact_boundary_dof_set": true,
+      "fixed_settings_and_load_commands": true,
+      "no_unexpected_commands": true,
+      "actual_solver_equations": true,
+      "completed_final_time": true,
+      "no_build_solve_warning_error_markers": true,
+      "no_solve_failure_marker": true,
+      "printed_minimum_pivots_positive": true,
+      "nonlinear_record_cnvg": true,
+      "field_coordinates_equal_actual_model": true,
+      "physical_center_and_displacement": true,
+      "record_input_hashes": true
+    },
+    "details": {
+      "actual_node_ids": {
+        "count": 61953
+      },
+      "actual_node_coordinates": {
+        "requested_bounds_mm": [
+          0,
+          1000.0,
+          0,
+          600.0,
+          0,
+          0
+        ]
+      },
+      "actual_element_connectivity": {
+        "count": 61440
+      },
+      "exact_boundary_dof_set": {
+        "actual_constraint_count": 6144,
+        "expected_constraint_count": 6144,
+        "boundary_nodes": 1024,
+        "counts_by_dof": {
+          "UX": 1024,
+          "UY": 1024,
+          "UZ": 1024,
+          "ROTX": 1024,
+          "ROTY": 1024,
+          "ROTZ": 1024
+        },
+        "p0_inplane_anchors_mm": []
+      },
+      "fixed_settings_and_load_commands": {
+        "missing": []
+      },
+      "no_unexpected_commands": {
+        "unexpected": []
+      },
+      "actual_solver_equations": {
+        "solver_equations": 365574,
+        "from_exact_dofs": 365574
+      },
+      "completed_final_time": {
+        "completed_substeps": 1,
+        "final_substep": 1,
+        "cumulative_iterations": 1,
+        "final_time": 1.0
+      },
+      "no_build_solve_warning_error_markers": {
+        "markers": []
+      },
+      "printed_minimum_pivots_positive": {
+        "printed_minimum_pivots": [
+          38890.5604
+        ]
+      },
+      "nonlinear_record_cnvg": {
+        "raw_record_solu_cnvg": 0,
+        "linear_flag_not_assumed_to_be_one": true
+      },
+      "physical_center_and_displacement": {
+        "node_number": 30977,
+        "coordinates_mm": [
+          500.0,
+          300.0,
+          0.0
+        ],
+        "uz_mm": 0.15551121657326225
+      }
+    },
+    "input_hashes": {
+      "model.apdl": "8037e23edacf0890d4ac9a4cf0df427b00f803a62d79d170d43b42bcfbf120dc",
+      "solve_response.txt": "7bffefeab5555c135e673b8072f3f73b9a396aac911a7bec61a20ff9fbf2345c",
+      "build.log": "cd59a211b8d2c359004a11425acf1c654a584a6dd79b43f78de1c1b83302375d",
+      "fields.npz": "da78a3d380792bac42167aeb59787ecae15083274c2f583a4cb5d2adaf8c4355"
+    },
+    "limitation": "Saved-input and listing audit; no new solve, no modal mechanism test, no proof of the quantitative cause of the P0/Navier discrepancy"
+  },
+  {
+    "case": "P1_h3.125_nonlinear",
+    "passed": true,
+    "checks": {
+      "grid_dimensions": true,
+      "actual_node_ids": true,
+      "actual_node_coordinates": true,
+      "actual_element_connectivity": true,
+      "actual_positive_z_normals": true,
+      "exact_boundary_dof_set": true,
+      "fixed_settings_and_load_commands": true,
+      "no_unexpected_commands": true,
+      "actual_solver_equations": true,
+      "completed_final_time": true,
+      "no_build_solve_warning_error_markers": true,
+      "no_solve_failure_marker": true,
+      "printed_minimum_pivots_positive": true,
+      "nonlinear_record_cnvg": true,
+      "field_coordinates_equal_actual_model": true,
+      "physical_center_and_displacement": true,
+      "record_input_hashes": true
+    },
+    "details": {
+      "actual_node_ids": {
+        "count": 61953
+      },
+      "actual_node_coordinates": {
+        "requested_bounds_mm": [
+          0,
+          1000.0,
+          0,
+          600.0,
+          0,
+          0
+        ]
+      },
+      "actual_element_connectivity": {
+        "count": 61440
+      },
+      "exact_boundary_dof_set": {
+        "actual_constraint_count": 6144,
+        "expected_constraint_count": 6144,
+        "boundary_nodes": 1024,
+        "counts_by_dof": {
+          "UX": 1024,
+          "UY": 1024,
+          "UZ": 1024,
+          "ROTX": 1024,
+          "ROTY": 1024,
+          "ROTZ": 1024
+        },
+        "p0_inplane_anchors_mm": []
+      },
+      "fixed_settings_and_load_commands": {
+        "missing": []
+      },
+      "no_unexpected_commands": {
+        "unexpected": []
+      },
+      "actual_solver_equations": {
+        "solver_equations": 365574,
+        "from_exact_dofs": 365574
+      },
+      "completed_final_time": {
+        "completed_substeps": 4,
+        "final_substep": 4,
+        "cumulative_iterations": 5,
+        "final_time": 1.0
+      },
+      "no_build_solve_warning_error_markers": {
+        "markers": []
+      },
+      "printed_minimum_pivots_positive": {
+        "printed_minimum_pivots": [
+          38890.5604
+        ]
+      },
+      "nonlinear_record_cnvg": {
+        "raw_record_solu_cnvg": 1,
+        "linear_flag_not_assumed_to_be_one": true
+      },
+      "physical_center_and_displacement": {
+        "node_number": 30977,
+        "coordinates_mm": [
+          500.0,
+          300.0,
+          0.0
+        ],
+        "uz_mm": 0.15547680213517623
+      }
+    },
+    "input_hashes": {
+      "model.apdl": "fb75073ba4934d46635f411e855dd13aaea4cfad3e939746ac0231c6a14a6409",
+      "solve_response.txt": "799014a3cee90af1a42c4841234eda743e9884682ac2258abf3a6613b2bcb536",
+      "build.log": "cc88bc3f010cb2a5b60b2ceb6580faffde2223fc11e9e442e731117a6ff31317",
+      "fields.npz": "531269c09c981b93e955f7df92d3f92bce076e38a80a61e7542bffe1ba128d0f"
+    },
+    "limitation": "Saved-input and listing audit; no new solve, no modal mechanism test, no proof of the quantitative cause of the P0/Navier discrepancy"
+  }
+]

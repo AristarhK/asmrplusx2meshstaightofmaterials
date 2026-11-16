@@ -15,6 +15,12 @@ venv/
 
 # Local ANSYS models, scratch calculations and machine-specific settings.
 /.local/
+
+# Original audit reports contain local runtime paths and filesystem snapshots.
+# Keep unchanged private originals; publish sanitized copies with publish_audit.py.
+/experiments/ansys_panel/audits/20261116_review01/
+/experiments/ansys_panel/audits/20261116_rst01/
+/experiments/ansys_panel/audits/20261116_rst_diagnostics01/
 /tmp/
 /scratch/
 

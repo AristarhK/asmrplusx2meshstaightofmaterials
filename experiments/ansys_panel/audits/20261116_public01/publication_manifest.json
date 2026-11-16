@@ -1,0 +1,45 @@
+{
+  "published_utc": "2026-11-16T08:01:06.120436+00:00",
+  "scope": "Sanitized copies only; no numerical recomputation, solver or RST-reader execution",
+  "source_reports_unchanged": true,
+  "rst_reading_status": "FAILED; retained explicitly, no reader repair performed",
+  "removed_metadata": [
+    "input_directory",
+    "mtime_ns",
+    "python",
+    "runtime_directory",
+    "source_files_after",
+    "source_files_before"
+  ],
+  "policy": "Retain numerical evidence, logical IDs, hashes and package versions; omit local paths, source snapshot dictionaries and mtimes. Source and public hashes differ intentionally.",
+  "raw_report_sha256_by_logical_id": {
+    "review/actual_models.json": "eaeb5c605f714b5bfb8689fb18fb612ac0e991341d0bb59f0eec9d5f70073570",
+    "review/disk_means.csv": "cbd7a42a769006125a736fc899f4fdda9f56db7397f0bbc743d9d9069449d7c2",
+    "review/export_audit_repeat.json": "81c65c292e88e35ec90bbbeaef7be8cebefac5b50b5fe4ab27edbb5b89b7d599",
+    "review/manifest.json": "d1d8d11f74e85a592089f2bb15b56280fd5bc3e08732fdc61ed3ed666d690440",
+    "review/mesh_transitions.csv": "ee4d98a9d0069a27fed1fa7678f9ad675e52e7c43c1cc1ac208df3a92ffc94dc",
+    "review/nonlinear_comparison.csv": "f12d3c44e91584f86958116b33635dcb548124087d7a7ad9c5c90f1e700a94f3",
+    "review/quadrature_crosscheck.json": "8c9a95fb43c8d803dc67f951b4ab30175a1914077e737168acc06da517edfdf0",
+    "review/reference_by_metric.csv": "47a4fe60c2d65e32a95d21d2d1282f85038339219a8b035116116c94012bb800",
+    "review/review.json": "fa8c757d2ebc0f22d2fd470ef6b67edcf23e316f5279a01f9f8ece8ea89fe573",
+    "review/tables.md": "b7c8e5684c7f4ac1a4898134315254ff89ec16e4a0b94be91ba22d66c6fef2ec",
+    "rst/rst_displacement_audit.json": "960a511d3e151aea7b9f0591afe2484c5426deb54fa6807d358b6db0e7acc543",
+    "rst_diagnostics/coordinate_modes.json": "a8b61e43cfeb82ee3aa9fccb9f8e5026d895483470d9649e1349556d158aea1b",
+    "rst_diagnostics/record_readers.json": "8c146cec571ac40f5464ec71f6832bc730c91dffeaa379b1d3c9d82e758f0db4"
+  },
+  "publisher_sha256": "fede512a9b51bd66447be2a848dad3c7c7989d583064c9b110b7e6744d759a7a",
+  "files": {
+    "review/actual_models.json": "eaeb5c605f714b5bfb8689fb18fb612ac0e991341d0bb59f0eec9d5f70073570",
+    "review/disk_means.csv": "cbd7a42a769006125a736fc899f4fdda9f56db7397f0bbc743d9d9069449d7c2",
+    "review/export_audit_repeat.json": "e54bc9666cfafc29cea2e4406a8e961b5daa59f59cf3200105369ffb995b5525",
+    "review/mesh_transitions.csv": "ee4d98a9d0069a27fed1fa7678f9ad675e52e7c43c1cc1ac208df3a92ffc94dc",
+    "review/nonlinear_comparison.csv": "f12d3c44e91584f86958116b33635dcb548124087d7a7ad9c5c90f1e700a94f3",
+    "review/quadrature_crosscheck.json": "8c9a95fb43c8d803dc67f951b4ab30175a1914077e737168acc06da517edfdf0",
+    "review/reference_by_metric.csv": "47a4fe60c2d65e32a95d21d2d1282f85038339219a8b035116116c94012bb800",
+    "review/review.json": "f07b8d771db86f1d6d6a6608db943f349062d63e529330273a9912b6c6719797",
+    "review/tables.md": "b7c8e5684c7f4ac1a4898134315254ff89ec16e4a0b94be91ba22d66c6fef2ec",
+    "rst/rst_displacement_audit.json": "823f0e8faa81127c669abc43603d9e34e9aa7407598b19a97590acf67cb13284",
+    "rst_diagnostics/coordinate_modes.json": "8fb83b435c1a26ed19e574bca40b48d62a73c5933f1c65bdb6d96c5573a7ef78",
+    "rst_diagnostics/record_readers.json": "59628d7d0d90d22d1526f9fba4fb49d044e689e903c019b2dcff9755b137787f"
+  }
+}

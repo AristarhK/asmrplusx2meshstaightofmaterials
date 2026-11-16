@@ -1,0 +1,1075 @@
+{
+  "created_utc": "2026-11-15T23:03:39.842386+00:00",
+  "case_count": 11,
+  "passed": false,
+  "method": "Existing ansys.mapdl.reader.read_binary(file.rst), nodal_solution(-1), explicit result_dof UZ column, all IDs matched before comparison",
+  "absolute_tolerance_mm": 1e-10,
+  "packages": {
+    "ansys-mapdl-reader": "0.56.0",
+    "numpy": "2.4.6",
+    "pyvista": "0.49.2"
+  },
+  "source_files_unchanged": true,
+  "cases": [
+    {
+      "case": "P0_h50_linear",
+      "passed": false,
+      "checks": {
+        "finite_binary_solution": true,
+        "final_result_time_one": true,
+        "explicit_uz_dof_column": true,
+        "unique_node_ids_match_all_exported_nodes": true,
+        "binary_mesh_ids_match_exported_nodes": true,
+        "binary_mesh_coordinates_match_export": true,
+        "all_uz_match_export": false,
+        "unique_physical_center": true,
+        "center_matches_published_measurement": false,
+        "maximum_uz_matches_published_measurement": false,
+        "raw_hashes_match_published_record": true,
+        "raw_files_unchanged": true
+      },
+      "details": {
+        "explicit_uz_dof_column": {
+          "labels": [
+            "UX",
+            "UY",
+            "UZ",
+            "ROTX",
+            "ROTY",
+            "ROTZ"
+          ]
+        },
+        "unique_node_ids_match_all_exported_nodes": {
+          "rst_nodes": 273,
+          "exported_nodes": 273
+        },
+        "all_uz_match_export": {
+          "maximum_absolute_difference_mm": 0.5687533736745127,
+          "at_node": 137,
+          "absolute_tolerance_mm": 1e-10
+        },
+        "center_matches_published_measurement": {
+          "node": 137,
+          "xyz_mm": [
+            500.0,
+            300.0,
+            0.0
+          ],
+          "binary_uz_mm": 0.0,
+          "exported_uz_mm": 0.5687533736745127,
+          "published_uz_mm": 0.5687533736745127,
+          "absolute_difference_mm": 0.5687533736745127
+        },
+        "reader_result": {
+          "class": "ansys.mapdl.reader.rst.Result",
+          "result_index": -1,
+          "time_values": [
+            1.0
+          ],
+          "solution_shape": [
+            273,
+            6
+          ],
+          "mesh_coordinate_shape": [
+            273,
+            3
+          ],
+          "uz_column": 2,
+          "maximum_absolute_binary_uz_mm": 0.0
+        }
+      },
+      "raw_files_before": {
+        "file.rst": {
+          "sha256": "084486bf0a0a65746af6df69095fd24a74dcfe74a19f2f8038daaa5817f13f43",
+          "bytes": 655360
+        },
+        "fields.npz": {
+          "sha256": "9a27b277ca8d571c065af5cbc5a1f21d97a7cb013070454924489000021cd72e",
+          "bytes": 9595
+        },
+        "model.apdl": {
+          "sha256": "cb9cfb6af1f18eeb61700b122f17e27aeb15802fbcaac6309de27cfabaa8027a",
+          "bytes": 9808
+        }
+      },
+      "raw_files_after": {
+        "file.rst": {
+          "sha256": "084486bf0a0a65746af6df69095fd24a74dcfe74a19f2f8038daaa5817f13f43",
+          "bytes": 655360
+        },
+        "fields.npz": {
+          "sha256": "9a27b277ca8d571c065af5cbc5a1f21d97a7cb013070454924489000021cd72e",
+          "bytes": 9595
+        },
+        "model.apdl": {
+          "sha256": "cb9cfb6af1f18eeb61700b122f17e27aeb15802fbcaac6309de27cfabaa8027a",
+          "bytes": 9808
+        }
+      }
+    },
+    {
+      "case": "P1_h50_linear",
+      "passed": false,
+      "checks": {
+        "finite_binary_solution": true,
+        "final_result_time_one": true,
+        "explicit_uz_dof_column": true,
+        "unique_node_ids_match_all_exported_nodes": true,
+        "binary_mesh_ids_match_exported_nodes": true,
+        "binary_mesh_coordinates_match_export": true,
+        "all_uz_match_export": false,
+        "unique_physical_center": true,
+        "center_matches_published_measurement": false,
+        "maximum_uz_matches_published_measurement": false,
+        "raw_hashes_match_published_record": true,
+        "raw_files_unchanged": true
+      },
+      "details": {
+        "explicit_uz_dof_column": {
+          "labels": [
+            "UX",
+            "UY",
+            "UZ",
+            "ROTX",
+            "ROTY",
+            "ROTZ"
+          ]
+        },
+        "unique_node_ids_match_all_exported_nodes": {
+          "rst_nodes": 273,
+          "exported_nodes": 273
+        },
+        "all_uz_match_export": {
+          "maximum_absolute_difference_mm": 0.15308729259443626,
+          "at_node": 137,
+          "absolute_tolerance_mm": 1e-10
+        },
+        "center_matches_published_measurement": {
+          "node": 137,
+          "xyz_mm": [
+            500.0,
+            300.0,
+            0.0
+          ],
+          "binary_uz_mm": 0.0,
+          "exported_uz_mm": 0.15308729259443626,
+          "published_uz_mm": 0.15308729259443626,
+          "absolute_difference_mm": 0.15308729259443626
+        },
+        "reader_result": {
+          "class": "ansys.mapdl.reader.rst.Result",
+          "result_index": -1,
+          "time_values": [
+            1.0
+          ],
+          "solution_shape": [
+            273,
+            6
+          ],
+          "mesh_coordinate_shape": [
+            273,
+            3
+          ],
+          "uz_column": 2,
+          "maximum_absolute_binary_uz_mm": 0.0
+        }
+      },
+      "raw_files_before": {
+        "file.rst": {
+          "sha256": "02e60c1ea05a955023089db172ed819e62f1561371e9ff3f99e976ae3418bc04",
+          "bytes": 655360
+        },
+        "fields.npz": {
+          "sha256": "642a7f74a119354555038c777712b5689cb9c5c1d2f312d0efe79b0bd4d0d4e6",
+          "bytes": 11404
+        },
+        "model.apdl": {
+          "sha256": "93aae95b6d82722a4b147267c2f24c60f685d2b30314f8511372730386f50efd",
+          "bytes": 13816
+        }
+      },
+      "raw_files_after": {
+        "file.rst": {
+          "sha256": "02e60c1ea05a955023089db172ed819e62f1561371e9ff3f99e976ae3418bc04",
+          "bytes": 655360
+        },
+        "fields.npz": {
+          "sha256": "642a7f74a119354555038c777712b5689cb9c5c1d2f312d0efe79b0bd4d0d4e6",
+          "bytes": 11404
+        },
+        "model.apdl": {
+          "sha256": "93aae95b6d82722a4b147267c2f24c60f685d2b30314f8511372730386f50efd",
+          "bytes": 13816
+        }
+      }
+    },
+    {
+      "case": "P0_h25_linear",
+      "passed": false,
+      "checks": {
+        "finite_binary_solution": true,
+        "final_result_time_one": true,
+        "explicit_uz_dof_column": true,
+        "unique_node_ids_match_all_exported_nodes": true,
+        "binary_mesh_ids_match_exported_nodes": true,
+        "binary_mesh_coordinates_match_export": true,
+        "all_uz_match_export": false,
+        "unique_physical_center": true,
+        "center_matches_published_measurement": false,
+        "maximum_uz_matches_published_measurement": false,
+        "raw_hashes_match_published_record": true,
+        "raw_files_unchanged": true
+      },
+      "details": {
+        "explicit_uz_dof_column": {
+          "labels": [
+            "UX",
+            "UY",
+            "UZ",
+            "ROTX",
+            "ROTY",
+            "ROTZ"
+          ]
+        },
+        "unique_node_ids_match_all_exported_nodes": {
+          "rst_nodes": 1025,
+          "exported_nodes": 1025
+        },
+        "all_uz_match_export": {
+          "maximum_absolute_difference_mm": 0.571410473504982,
+          "at_node": 513,
+          "absolute_tolerance_mm": 1e-10
+        },
+        "center_matches_published_measurement": {
+          "node": 513,
+          "xyz_mm": [
+            500.0,
+            300.0,
+            0.0
+          ],
+          "binary_uz_mm": 0.0,
+          "exported_uz_mm": 0.571410473504982,
+          "published_uz_mm": 0.571410473504982,
+          "absolute_difference_mm": 0.571410473504982
+        },
+        "reader_result": {
+          "class": "ansys.mapdl.reader.rst.Result",
+          "result_index": -1,
+          "time_values": [
+            1.0
+          ],
+          "solution_shape": [
+            1025,
+            6
+          ],
+          "mesh_coordinate_shape": [
+            1025,
+            3
+          ],
+          "uz_column": 2,
+          "maximum_absolute_binary_uz_mm": 0.0
+        }
+      },
+      "raw_files_before": {
+        "file.rst": {
+          "sha256": "24a0bbed61050a2b86bea7048cdf012a1f3518449df0b1f8039670c4946aa4b2",
+          "bytes": 1638400
+        },
+        "fields.npz": {
+          "sha256": "4dc3ae1fee00afcafef314a3fc9ea58e81815242fc262e95bba57acbcad261ec",
+          "bytes": 32503
+        },
+        "model.apdl": {
+          "sha256": "578c39f237fc6ea704e46951685f351e115658da3226221f90c1ad9621194dc6",
+          "bytes": 36943
+        }
+      },
+      "raw_files_after": {
+        "file.rst": {
+          "sha256": "24a0bbed61050a2b86bea7048cdf012a1f3518449df0b1f8039670c4946aa4b2",
+          "bytes": 1638400
+        },
+        "fields.npz": {
+          "sha256": "4dc3ae1fee00afcafef314a3fc9ea58e81815242fc262e95bba57acbcad261ec",
+          "bytes": 32503
+        },
+        "model.apdl": {
+          "sha256": "578c39f237fc6ea704e46951685f351e115658da3226221f90c1ad9621194dc6",
+          "bytes": 36943
+        }
+      }
+    },
+    {
+      "case": "P1_h25_linear",
+      "passed": false,
+      "checks": {
+        "finite_binary_solution": true,
+        "final_result_time_one": true,
+        "explicit_uz_dof_column": true,
+        "unique_node_ids_match_all_exported_nodes": true,
+        "binary_mesh_ids_match_exported_nodes": true,
+        "binary_mesh_coordinates_match_export": true,
+        "all_uz_match_export": false,
+        "unique_physical_center": true,
+        "center_matches_published_measurement": false,
+        "maximum_uz_matches_published_measurement": false,
+        "raw_hashes_match_published_record": true,
+        "raw_files_unchanged": true
+      },
+      "details": {
+        "explicit_uz_dof_column": {
+          "labels": [
+            "UX",
+            "UY",
+            "UZ",
+            "ROTX",
+            "ROTY",
+            "ROTZ"
+          ]
+        },
+        "unique_node_ids_match_all_exported_nodes": {
+          "rst_nodes": 1025,
+          "exported_nodes": 1025
+        },
+        "all_uz_match_export": {
+          "maximum_absolute_difference_mm": 0.15491684281654095,
+          "at_node": 513,
+          "absolute_tolerance_mm": 1e-10
+        },
+        "center_matches_published_measurement": {
+          "node": 513,
+          "xyz_mm": [
+            500.0,
+            300.0,
+            0.0
+          ],
+          "binary_uz_mm": 0.0,
+          "exported_uz_mm": 0.15491684281654095,
+          "published_uz_mm": 0.15491684281654095,
+          "absolute_difference_mm": 0.15491684281654095
+        },
+        "reader_result": {
+          "class": "ansys.mapdl.reader.rst.Result",
+          "result_index": -1,
+          "time_values": [
+            1.0
+          ],
+          "solution_shape": [
+            1025,
+            6
+          ],
+          "mesh_coordinate_shape": [
+            1025,
+            3
+          ],
+          "uz_column": 2,
+          "maximum_absolute_binary_uz_mm": 0.0
+        }
+      },
+      "raw_files_before": {
+        "file.rst": {
+          "sha256": "86d75e6f89a939465cc9d8a80fd466d38caca115914a4c31ec676fea96ec19e2",
+          "bytes": 1638400
+        },
+        "fields.npz": {
+          "sha256": "1f935c6ecbd9479ebb959d940dda3ba72aaa6a67e26ab424ac5f0b445e4b338f",
+          "bytes": 36349
+        },
+        "model.apdl": {
+          "sha256": "7fdfe15736a3b7a61bbfede467ba35f7b0fd0e6984fcb9f090a4b92715024bbb",
+          "bytes": 45225
+        }
+      },
+      "raw_files_after": {
+        "file.rst": {
+          "sha256": "86d75e6f89a939465cc9d8a80fd466d38caca115914a4c31ec676fea96ec19e2",
+          "bytes": 1638400
+        },
+        "fields.npz": {
+          "sha256": "1f935c6ecbd9479ebb959d940dda3ba72aaa6a67e26ab424ac5f0b445e4b338f",
+          "bytes": 36349
+        },
+        "model.apdl": {
+          "sha256": "7fdfe15736a3b7a61bbfede467ba35f7b0fd0e6984fcb9f090a4b92715024bbb",
+          "bytes": 45225
+        }
+      }
+    },
+    {
+      "case": "P0_h12.5_linear",
+      "passed": false,
+      "checks": {
+        "finite_binary_solution": true,
+        "final_result_time_one": true,
+        "explicit_uz_dof_column": true,
+        "unique_node_ids_match_all_exported_nodes": true,
+        "binary_mesh_ids_match_exported_nodes": true,
+        "binary_mesh_coordinates_match_export": true,
+        "all_uz_match_export": false,
+        "unique_physical_center": true,
+        "center_matches_published_measurement": false,
+        "maximum_uz_matches_published_measurement": false,
+        "raw_hashes_match_published_record": true,
+        "raw_files_unchanged": true
+      },
+      "details": {
+        "explicit_uz_dof_column": {
+          "labels": [
+            "UX",
+            "UY",
+            "UZ",
+            "ROTX",
+            "ROTY",
+            "ROTZ"
+          ]
+        },
+        "unique_node_ids_match_all_exported_nodes": {
+          "rst_nodes": 3969,
+          "exported_nodes": 3969
+        },
+        "all_uz_match_export": {
+          "maximum_absolute_difference_mm": 0.5728816367106925,
+          "at_node": 1985,
+          "absolute_tolerance_mm": 1e-10
+        },
+        "center_matches_published_measurement": {
+          "node": 1985,
+          "xyz_mm": [
+            500.0,
+            300.0,
+            0.0
+          ],
+          "binary_uz_mm": 0.0,
+          "exported_uz_mm": 0.5728816367106925,
+          "published_uz_mm": 0.5728816367106925,
+          "absolute_difference_mm": 0.5728816367106925
+        },
+        "reader_result": {
+          "class": "ansys.mapdl.reader.rst.Result",
+          "result_index": -1,
+          "time_values": [
+            1.0
+          ],
+          "solution_shape": [
+            3969,
+            6
+          ],
+          "mesh_coordinate_shape": [
+            3969,
+            3
+          ],
+          "uz_column": 2,
+          "maximum_absolute_binary_uz_mm": 0.0
+        }
+      },
+      "raw_files_before": {
+        "file.rst": {
+          "sha256": "0ae29f404fc998878fc9c5a0d7f7277480a3cb07e5c4e21c186eb2752c8d4821",
+          "bytes": 5636096
+        },
+        "fields.npz": {
+          "sha256": "15440c03178158b7db3d6fb26a8f4b1b47af58d572b7084c3ef5963085da8bac",
+          "bytes": 132646
+        },
+        "model.apdl": {
+          "sha256": "ad7eaf1abd76daecf90a10e7c10ed92483f8a8dc1b786ae90b3a4b661f643479",
+          "bytes": 164870
+        }
+      },
+      "raw_files_after": {
+        "file.rst": {
+          "sha256": "0ae29f404fc998878fc9c5a0d7f7277480a3cb07e5c4e21c186eb2752c8d4821",
+          "bytes": 5636096
+        },
+        "fields.npz": {
+          "sha256": "15440c03178158b7db3d6fb26a8f4b1b47af58d572b7084c3ef5963085da8bac",
+          "bytes": 132646
+        },
+        "model.apdl": {
+          "sha256": "ad7eaf1abd76daecf90a10e7c10ed92483f8a8dc1b786ae90b3a4b661f643479",
+          "bytes": 164870
+        }
+      }
+    },
+    {
+      "case": "P1_h12.5_linear",
+      "passed": false,
+      "checks": {
+        "finite_binary_solution": true,
+        "final_result_time_one": true,
+        "explicit_uz_dof_column": true,
+        "unique_node_ids_match_all_exported_nodes": true,
+        "binary_mesh_ids_match_exported_nodes": true,
+        "binary_mesh_coordinates_match_export": true,
+        "all_uz_match_export": false,
+        "unique_physical_center": true,
+        "center_matches_published_measurement": false,
+        "maximum_uz_matches_published_measurement": false,
+        "raw_hashes_match_published_record": true,
+        "raw_files_unchanged": true
+      },
+      "details": {
+        "explicit_uz_dof_column": {
+          "labels": [
+            "UX",
+            "UY",
+            "UZ",
+            "ROTX",
+            "ROTY",
+            "ROTZ"
+          ]
+        },
+        "unique_node_ids_match_all_exported_nodes": {
+          "rst_nodes": 3969,
+          "exported_nodes": 3969
+        },
+        "all_uz_match_export": {
+          "maximum_absolute_difference_mm": 0.15536977379002326,
+          "at_node": 1985,
+          "absolute_tolerance_mm": 1e-10
+        },
+        "center_matches_published_measurement": {
+          "node": 1985,
+          "xyz_mm": [
+            500.0,
+            300.0,
+            0.0
+          ],
+          "binary_uz_mm": 0.0,
+          "exported_uz_mm": 0.15536977379002326,
+          "published_uz_mm": 0.15536977379002326,
+          "absolute_difference_mm": 0.15536977379002326
+        },
+        "reader_result": {
+          "class": "ansys.mapdl.reader.rst.Result",
+          "result_index": -1,
+          "time_values": [
+            1.0
+          ],
+          "solution_shape": [
+            3969,
+            6
+          ],
+          "mesh_coordinate_shape": [
+            3969,
+            3
+          ],
+          "uz_column": 2,
+          "maximum_absolute_binary_uz_mm": 0.0
+        }
+      },
+      "raw_files_before": {
+        "file.rst": {
+          "sha256": "eef013f743feb4b2d0157aa7d7a2689ce8c647f51b5d224fb4941d4368ea7c7e",
+          "bytes": 5701632
+        },
+        "fields.npz": {
+          "sha256": "90b888443dc214b774d36c1a2fd582fc44ecd731ad4d263d7221446b46869c8d",
+          "bytes": 141928
+        },
+        "model.apdl": {
+          "sha256": "4aa7e150bd5d8a1d7642abb90d7422c08dbaf720fcc3aa16cb32c2ed5ef83296",
+          "bytes": 182040
+        }
+      },
+      "raw_files_after": {
+        "file.rst": {
+          "sha256": "eef013f743feb4b2d0157aa7d7a2689ce8c647f51b5d224fb4941d4368ea7c7e",
+          "bytes": 5701632
+        },
+        "fields.npz": {
+          "sha256": "90b888443dc214b774d36c1a2fd582fc44ecd731ad4d263d7221446b46869c8d",
+          "bytes": 141928
+        },
+        "model.apdl": {
+          "sha256": "4aa7e150bd5d8a1d7642abb90d7422c08dbaf720fcc3aa16cb32c2ed5ef83296",
+          "bytes": 182040
+        }
+      }
+    },
+    {
+      "case": "P0_h6.25_linear",
+      "passed": false,
+      "checks": {
+        "finite_binary_solution": true,
+        "final_result_time_one": true,
+        "explicit_uz_dof_column": true,
+        "unique_node_ids_match_all_exported_nodes": true,
+        "binary_mesh_ids_match_exported_nodes": true,
+        "binary_mesh_coordinates_match_export": true,
+        "all_uz_match_export": false,
+        "unique_physical_center": true,
+        "center_matches_published_measurement": false,
+        "maximum_uz_matches_published_measurement": false,
+        "raw_hashes_match_published_record": true,
+        "raw_files_unchanged": true
+      },
+      "details": {
+        "explicit_uz_dof_column": {
+          "labels": [
+            "UX",
+            "UY",
+            "UZ",
+            "ROTX",
+            "ROTY",
+            "ROTZ"
+          ]
+        },
+        "unique_node_ids_match_all_exported_nodes": {
+          "rst_nodes": 15617,
+          "exported_nodes": 15617
+        },
+        "all_uz_match_export": {
+          "maximum_absolute_difference_mm": 0.5739642413477427,
+          "at_node": 7809,
+          "absolute_tolerance_mm": 1e-10
+        },
+        "center_matches_published_measurement": {
+          "node": 7809,
+          "xyz_mm": [
+            500.0,
+            300.0,
+            0.0
+          ],
+          "binary_uz_mm": 0.0,
+          "exported_uz_mm": 0.5739642413477427,
+          "published_uz_mm": 0.5739642413477427,
+          "absolute_difference_mm": 0.5739642413477427
+        },
+        "reader_result": {
+          "class": "ansys.mapdl.reader.rst.Result",
+          "result_index": -1,
+          "time_values": [
+            1.0
+          ],
+          "solution_shape": [
+            15617,
+            6
+          ],
+          "mesh_coordinate_shape": [
+            15617,
+            3
+          ],
+          "uz_column": 2,
+          "maximum_absolute_binary_uz_mm": 0.0
+        }
+      },
+      "raw_files_before": {
+        "file.rst": {
+          "sha256": "0847f40ce42f1978724852ab2373b956981e14179c68dccd625d235e6b5a947f",
+          "bytes": 21626880
+        },
+        "fields.npz": {
+          "sha256": "00e8d7d433a4d43de885875a63ef78f834d8104cc864d5906614049f17074230",
+          "bytes": 537936
+        },
+        "model.apdl": {
+          "sha256": "db7ad87643d4300ff4e04739cc35b48b4028738500b68f199c2a0e33bd7a55e2",
+          "bytes": 721485
+        }
+      },
+      "raw_files_after": {
+        "file.rst": {
+          "sha256": "0847f40ce42f1978724852ab2373b956981e14179c68dccd625d235e6b5a947f",
+          "bytes": 21626880
+        },
+        "fields.npz": {
+          "sha256": "00e8d7d433a4d43de885875a63ef78f834d8104cc864d5906614049f17074230",
+          "bytes": 537936
+        },
+        "model.apdl": {
+          "sha256": "db7ad87643d4300ff4e04739cc35b48b4028738500b68f199c2a0e33bd7a55e2",
+          "bytes": 721485
+        }
+      }
+    },
+    {
+      "case": "P1_h6.25_linear",
+      "passed": false,
+      "checks": {
+        "finite_binary_solution": false,
+        "final_result_time_one": true,
+        "explicit_uz_dof_column": true,
+        "unique_node_ids_match_all_exported_nodes": true,
+        "binary_mesh_ids_match_exported_nodes": true,
+        "binary_mesh_coordinates_match_export": true,
+        "all_uz_match_export": false,
+        "unique_physical_center": true,
+        "center_matches_published_measurement": false,
+        "maximum_uz_matches_published_measurement": false,
+        "raw_hashes_match_published_record": true,
+        "raw_files_unchanged": true
+      },
+      "details": {
+        "explicit_uz_dof_column": {
+          "labels": [
+            "UX",
+            "UY",
+            "UZ",
+            "ROTX",
+            "ROTY",
+            "ROTZ"
+          ]
+        },
+        "unique_node_ids_match_all_exported_nodes": {
+          "rst_nodes": 15617,
+          "exported_nodes": 15617
+        },
+        "all_uz_match_export": {
+          "maximum_absolute_difference_mm": 0.1554829091758411,
+          "at_node": 7809,
+          "absolute_tolerance_mm": 1e-10
+        },
+        "center_matches_published_measurement": {
+          "node": 7809,
+          "xyz_mm": [
+            500.0,
+            300.0,
+            0.0
+          ],
+          "binary_uz_mm": 0.0,
+          "exported_uz_mm": 0.1554829091758411,
+          "published_uz_mm": 0.1554829091758411,
+          "absolute_difference_mm": 0.1554829091758411
+        },
+        "reader_result": {
+          "class": "ansys.mapdl.reader.rst.Result",
+          "result_index": -1,
+          "time_values": [
+            1.0
+          ],
+          "solution_shape": [
+            15617,
+            6
+          ],
+          "mesh_coordinate_shape": [
+            15617,
+            3
+          ],
+          "uz_column": 2,
+          "maximum_absolute_binary_uz_mm": 0.0
+        }
+      },
+      "raw_files_before": {
+        "file.rst": {
+          "sha256": "78942619e45f708c874ac3007390338165d3139b51bea359bf233e46e2700813",
+          "bytes": 21692416
+        },
+        "fields.npz": {
+          "sha256": "2a293da5d9ca9a1fbdb4426994b050cf94f64655aa149ba8af0d3f30d253503a",
+          "bytes": 561494
+        },
+        "model.apdl": {
+          "sha256": "93f2c4913d4dcc7f27440baf157599dc7c8a1c7d2c1e219dbc896b04dae4e8a9",
+          "bytes": 757545
+        }
+      },
+      "raw_files_after": {
+        "file.rst": {
+          "sha256": "78942619e45f708c874ac3007390338165d3139b51bea359bf233e46e2700813",
+          "bytes": 21692416
+        },
+        "fields.npz": {
+          "sha256": "2a293da5d9ca9a1fbdb4426994b050cf94f64655aa149ba8af0d3f30d253503a",
+          "bytes": 561494
+        },
+        "model.apdl": {
+          "sha256": "93f2c4913d4dcc7f27440baf157599dc7c8a1c7d2c1e219dbc896b04dae4e8a9",
+          "bytes": 757545
+        }
+      }
+    },
+    {
+      "case": "P0_h3.125_linear",
+      "passed": false,
+      "checks": {
+        "finite_binary_solution": false,
+        "final_result_time_one": true,
+        "explicit_uz_dof_column": true,
+        "unique_node_ids_match_all_exported_nodes": true,
+        "binary_mesh_ids_match_exported_nodes": true,
+        "binary_mesh_coordinates_match_export": true,
+        "all_uz_match_export": false,
+        "unique_physical_center": true,
+        "center_matches_published_measurement": false,
+        "maximum_uz_matches_published_measurement": false,
+        "raw_hashes_match_published_record": true,
+        "raw_files_unchanged": true
+      },
+      "details": {
+        "explicit_uz_dof_column": {
+          "labels": [
+            "UX",
+            "UY",
+            "UZ",
+            "ROTX",
+            "ROTY",
+            "ROTZ"
+          ]
+        },
+        "unique_node_ids_match_all_exported_nodes": {
+          "rst_nodes": 61953,
+          "exported_nodes": 61953
+        },
+        "all_uz_match_export": {
+          "maximum_absolute_difference_mm": 0.574506578399155,
+          "at_node": 30977,
+          "absolute_tolerance_mm": 1e-10
+        },
+        "center_matches_published_measurement": {
+          "node": 30977,
+          "xyz_mm": [
+            500.0,
+            300.0,
+            0.0
+          ],
+          "binary_uz_mm": 0.0,
+          "exported_uz_mm": 0.574506578399155,
+          "published_uz_mm": 0.574506578399155,
+          "absolute_difference_mm": 0.574506578399155
+        },
+        "reader_result": {
+          "class": "ansys.mapdl.reader.rst.Result",
+          "result_index": -1,
+          "time_values": [
+            1.0
+          ],
+          "solution_shape": [
+            61953,
+            6
+          ],
+          "mesh_coordinate_shape": [
+            61953,
+            3
+          ],
+          "uz_column": 2,
+          "maximum_absolute_binary_uz_mm": 0.0
+        }
+      },
+      "raw_files_before": {
+        "file.rst": {
+          "sha256": "df8ce54dfc9bf1e7ed955d0046c9e7c00051d7028cc5ca869b7e7956265025b5",
+          "bytes": 86048768
+        },
+        "fields.npz": {
+          "sha256": "24125f02ef848b026652034055fb2f29feda5187fd0092bacec3629db1e9020b",
+          "bytes": 2140078
+        },
+        "model.apdl": {
+          "sha256": "ef2d3dc56f1b2cccc96eeab1cdb7c67ab9cadd183fc14a1da6c4af5f9adf58e5",
+          "bytes": 3147909
+        }
+      },
+      "raw_files_after": {
+        "file.rst": {
+          "sha256": "df8ce54dfc9bf1e7ed955d0046c9e7c00051d7028cc5ca869b7e7956265025b5",
+          "bytes": 86048768
+        },
+        "fields.npz": {
+          "sha256": "24125f02ef848b026652034055fb2f29feda5187fd0092bacec3629db1e9020b",
+          "bytes": 2140078
+        },
+        "model.apdl": {
+          "sha256": "ef2d3dc56f1b2cccc96eeab1cdb7c67ab9cadd183fc14a1da6c4af5f9adf58e5",
+          "bytes": 3147909
+        }
+      }
+    },
+    {
+      "case": "P1_h3.125_linear",
+      "passed": false,
+      "checks": {
+        "finite_binary_solution": true,
+        "final_result_time_one": true,
+        "explicit_uz_dof_column": true,
+        "unique_node_ids_match_all_exported_nodes": true,
+        "binary_mesh_ids_match_exported_nodes": true,
+        "binary_mesh_coordinates_match_export": true,
+        "all_uz_match_export": false,
+        "unique_physical_center": true,
+        "center_matches_published_measurement": false,
+        "maximum_uz_matches_published_measurement": false,
+        "raw_hashes_match_published_record": true,
+        "raw_files_unchanged": true
+      },
+      "details": {
+        "explicit_uz_dof_column": {
+          "labels": [
+            "UX",
+            "UY",
+            "UZ",
+            "ROTX",
+            "ROTY",
+            "ROTZ"
+          ]
+        },
+        "unique_node_ids_match_all_exported_nodes": {
+          "rst_nodes": 61953,
+          "exported_nodes": 61953
+        },
+        "all_uz_match_export": {
+          "maximum_absolute_difference_mm": 0.15551121657326225,
+          "at_node": 30977,
+          "absolute_tolerance_mm": 1e-10
+        },
+        "center_matches_published_measurement": {
+          "node": 30977,
+          "xyz_mm": [
+            500.0,
+            300.0,
+            0.0
+          ],
+          "binary_uz_mm": 0.0,
+          "exported_uz_mm": 0.15551121657326225,
+          "published_uz_mm": 0.15551121657326225,
+          "absolute_difference_mm": 0.15551121657326225
+        },
+        "reader_result": {
+          "class": "ansys.mapdl.reader.rst.Result",
+          "result_index": -1,
+          "time_values": [
+            1.0
+          ],
+          "solution_shape": [
+            61953,
+            6
+          ],
+          "mesh_coordinate_shape": [
+            61953,
+            3
+          ],
+          "uz_column": 2,
+          "maximum_absolute_binary_uz_mm": 0.0
+        }
+      },
+      "raw_files_before": {
+        "file.rst": {
+          "sha256": "aaa9e054a061069366b31bfc4a64766af303b6ba227adb85220d964f210f7fa1",
+          "bytes": 86048768
+        },
+        "fields.npz": {
+          "sha256": "da78a3d380792bac42167aeb59787ecae15083274c2f583a4cb5d2adaf8c4355",
+          "bytes": 2206961
+        },
+        "model.apdl": {
+          "sha256": "8037e23edacf0890d4ac9a4cf0df427b00f803a62d79d170d43b42bcfbf120dc",
+          "bytes": 3221621
+        }
+      },
+      "raw_files_after": {
+        "file.rst": {
+          "sha256": "aaa9e054a061069366b31bfc4a64766af303b6ba227adb85220d964f210f7fa1",
+          "bytes": 86048768
+        },
+        "fields.npz": {
+          "sha256": "da78a3d380792bac42167aeb59787ecae15083274c2f583a4cb5d2adaf8c4355",
+          "bytes": 2206961
+        },
+        "model.apdl": {
+          "sha256": "8037e23edacf0890d4ac9a4cf0df427b00f803a62d79d170d43b42bcfbf120dc",
+          "bytes": 3221621
+        }
+      }
+    },
+    {
+      "case": "P1_h3.125_nonlinear",
+      "passed": false,
+      "checks": {
+        "finite_binary_solution": false,
+        "final_result_time_one": true,
+        "explicit_uz_dof_column": true,
+        "unique_node_ids_match_all_exported_nodes": true,
+        "binary_mesh_ids_match_exported_nodes": true,
+        "binary_mesh_coordinates_match_export": true,
+        "all_uz_match_export": false,
+        "unique_physical_center": true,
+        "center_matches_published_measurement": false,
+        "maximum_uz_matches_published_measurement": false,
+        "raw_hashes_match_published_record": true,
+        "raw_files_unchanged": true
+      },
+      "details": {
+        "explicit_uz_dof_column": {
+          "labels": [
+            "UX",
+            "UY",
+            "UZ",
+            "ROTX",
+            "ROTY",
+            "ROTZ"
+          ]
+        },
+        "unique_node_ids_match_all_exported_nodes": {
+          "rst_nodes": 61953,
+          "exported_nodes": 61953
+        },
+        "all_uz_match_export": {
+          "maximum_absolute_difference_mm": 0.15547680213517623,
+          "at_node": 30977,
+          "absolute_tolerance_mm": 1e-10
+        },
+        "center_matches_published_measurement": {
+          "node": 30977,
+          "xyz_mm": [
+            500.0,
+            300.0,
+            0.0
+          ],
+          "binary_uz_mm": 0.0,
+          "exported_uz_mm": 0.15547680213517623,
+          "published_uz_mm": 0.15547680213517623,
+          "absolute_difference_mm": 0.15547680213517623
+        },
+        "reader_result": {
+          "class": "ansys.mapdl.reader.rst.Result",
+          "result_index": -1,
+          "time_values": [
+            0.2,
+            0.4,
+            0.7000000000000001,
+            1.0
+          ],
+          "solution_shape": [
+            61953,
+            6
+          ],
+          "mesh_coordinate_shape": [
+            61953,
+            3
+          ],
+          "uz_column": 2,
+          "maximum_absolute_binary_uz_mm": 0.0
+        }
+      },
+      "raw_files_before": {
+        "file.rst": {
+          "sha256": "0e2a26e204dcf296328ca8f99844aac19c8537bbe1b462608cf628b7e954153b",
+          "bytes": 385810432
+        },
+        "fields.npz": {
+          "sha256": "531269c09c981b93e955f7df92d3f92bce076e38a80a61e7542bffe1ba128d0f",
+          "bytes": 5840694
+        },
+        "model.apdl": {
+          "sha256": "fb75073ba4934d46635f411e855dd13aaea4cfad3e939746ac0231c6a14a6409",
+          "bytes": 3221626
+        }
+      },
+      "raw_files_after": {
+        "file.rst": {
+          "sha256": "0e2a26e204dcf296328ca8f99844aac19c8537bbe1b462608cf628b7e954153b",
+          "bytes": 385810432
+        },
+        "fields.npz": {
+          "sha256": "531269c09c981b93e955f7df92d3f92bce076e38a80a61e7542bffe1ba128d0f",
+          "bytes": 5840694
+        },
+        "model.apdl": {
+          "sha256": "fb75073ba4934d46635f411e855dd13aaea4cfad3e939746ac0231c6a14a6409",
+          "bytes": 3221626
+        }
+      }
+    }
+  ],
+  "limitation": "Confirms saved RST versus saved extraction/indexing; no new solve, independent FE solution, or proof of the P0/Navier discrepancy's origin"
+}

@@ -1,0 +1,58 @@
+{
+  "case": "P0_h50_linear",
+  "modes": {
+    "False": {
+      "shape": [
+        273,
+        6
+      ],
+      "labels": [
+        "UX",
+        "UY",
+        "UZ",
+        "ROTX",
+        "ROTY",
+        "ROTZ"
+      ],
+      "center_repr": "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]",
+      "maximum_abs_by_dof_repr": "[0.0, 2.813764324173392e+291, 0.0, 3.23071878935e-312, 0.0, 0.27734350323268425]",
+      "nonfinite": 0,
+      "max_uz_difference": 0.5687533736745127,
+      "angle_shape": [
+        273,
+        3
+      ],
+      "angle_min_repr": "np.float64(0.0)",
+      "angle_max_repr": "np.float64(0.0)",
+      "nonfinite_angles": 0,
+      "angle_first_repr": "[[0.0, 0.0, 0.0], [0.0, 0.0, 0.0], [0.0, 0.0, 0.0]]"
+    },
+    "True": {
+      "shape": [
+        273,
+        6
+      ],
+      "labels": [
+        "UX",
+        "UY",
+        "UZ",
+        "ROTX",
+        "ROTY",
+        "ROTZ"
+      ],
+      "center_repr": "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]",
+      "maximum_abs_by_dof_repr": "[0.0, 2.813764324173392e+291, 0.0, 3.23071878935e-312, 0.0, 0.27734350323268425]",
+      "nonfinite": 0,
+      "max_uz_difference": 0.5687533736745127,
+      "angle_shape": [
+        273,
+        3
+      ],
+      "angle_min_repr": "np.float64(0.0)",
+      "angle_max_repr": "np.float64(0.0)",
+      "nonfinite_angles": 0,
+      "angle_first_repr": "[[0.0, 0.0, 0.0], [0.0, 0.0, 0.0], [0.0, 0.0, 0.0]]"
+    }
+  },
+  "rst_unchanged": true
+}
