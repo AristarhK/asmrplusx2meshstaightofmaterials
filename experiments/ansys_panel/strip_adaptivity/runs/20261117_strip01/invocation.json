@@ -1,0 +1,66 @@
+{
+  "run_id_utc": "20261116T225727_412531Z",
+  "protocol_sha256": "6a39259b18d9c97023f41fa4ff77792d7fd8c7b3def05f9a668462759f732870",
+  "source_commit": "4582fefd4e66804e866d7ae9432472588d344f6e",
+  "reference_sha256": "1e6c2978d91403a5cf64f56a9266077fc3ef5b66afce3b15f3ec1ce7d7f398ad",
+  "config": {
+    "description": "Research steel wall-panel example; not an ERSO tank geometry or approved specification",
+    "units": {
+      "force": "N",
+      "length": "mm",
+      "stress": "MPa",
+      "energy": "N mm"
+    },
+    "a": 1000.0,
+    "b": 600.0,
+    "thickness": 8.0,
+    "young": 210000.0,
+    "poisson": 0.3,
+    "yield_diagnostic": 235.0,
+    "pressure": 0.005,
+    "mesh_sizes": [
+      50.0,
+      25.0,
+      12.5,
+      6.25,
+      3.125
+    ],
+    "keyopts": {
+      "1": 0,
+      "3": 2,
+      "8": 2
+    },
+    "thickness_integration_points": 5,
+    "disk_radius": 8.0,
+    "disk_centers": {
+      "center": [
+        500.0,
+        300.0
+      ],
+      "near_y_edge": [
+        500.0,
+        48.0
+      ],
+      "near_x_edge": [
+        48.0,
+        300.0
+      ]
+    },
+    "interior_margin": 24.0,
+    "criteria": {
+      "force_balance": 0.001,
+      "deflection": 0.002,
+      "energy": 0.005,
+      "disk_von_mises": 0.01,
+      "successive_transitions": 2,
+      "nonlinear_difference": 0.02
+    },
+    "coordinate_tolerance_mm": 1e-08,
+    "quality_limits": {
+      "aspect_ratio_max": 4.0,
+      "angle_min_degrees": 30.0,
+      "angle_max_degrees": 150.0,
+      "scaled_jacobian_min": 0.2
+    }
+  }
+}

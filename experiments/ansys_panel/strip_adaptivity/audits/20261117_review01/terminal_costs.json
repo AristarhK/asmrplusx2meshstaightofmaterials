@@ -1,0 +1,27 @@
+{
+  "methods": [
+    {
+      "method": "adaptive",
+      "last_completed_case": "adaptive2",
+      "last_actual_dof": 3330,
+      "primary_goal_met": false,
+      "strict_goal_met": false,
+      "completed_stage_prefix_seconds": 14.868657200000598,
+      "subsequent_rejected_proposal_seconds": 0.13712220001616515,
+      "terminal_stage_seconds": 15.005779400016763,
+      "terminal_including_operational_overhead_seconds": 296.8333678740746
+    },
+    {
+      "method": "uniform",
+      "last_completed_case": "uniform25",
+      "last_actual_dof": 5382,
+      "primary_goal_met": true,
+      "strict_goal_met": false,
+      "completed_stage_prefix_seconds": 12.9264506999898,
+      "subsequent_rejected_proposal_seconds": 0.0,
+      "terminal_stage_seconds": 12.9264506999898,
+      "terminal_including_operational_overhead_seconds": 294.75403917404765
+    }
+  ],
+  "note": "Original comparison.csv rows end at each completed solve; final rejection is additional work, never represented as an extra solve; final reporting cost is separate wall_measurement.json"
+}

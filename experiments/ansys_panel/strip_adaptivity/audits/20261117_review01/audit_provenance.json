@@ -1,0 +1,19 @@
+{
+  "source_artifact_manifest_sha256": "8322af78c67ff6d4da56950571fdfa42ed290314e338f6356925f8c4839be130",
+  "source_commit": "4582fefd4e66804e866d7ae9432472588d344f6e",
+  "audit_source_sha256": {
+    "audit_saved.py": "28b771c22a43d8aae1f4aa1fdb306edb3702e40e796890d35a435f0dea138212",
+    "native_export.py": "5d7fbcb0016cd95e5971818703e287780e47e6a611ee10f04f87ff642fe4ba48",
+    "publish_results.py": "c1fe236464e7654304c7a3749351c4bbf5b8bee3c2c24d5b617707bb0efe908c",
+    "recovery.py": "e8d239d8f39b0522a832ae69f6373fbbd8e0ac5c5c3f5f701c69d69b3c2b61b9",
+    "run_experiment.py": "0e1260ed0564367b5d5c4fc28d41b052af9bbdfab7dc81044867b60eac8b7e52",
+    "strip_mesh.py": "35bb4d8e0015f9c361b0bee4d5f7c08f966d22afcce8f726ffb5509cfbb3a94b",
+    "test_recovery.py": "632ae9eff85fea2be2206270a2ab31620efed02f34f4c17ac7c27c7d4a301c2b",
+    "test_runner_contract.py": "15de29ae2082984170f3fbb812106f9a244a45f3be1f6fffcc7c37d5421c0f0d",
+    "test_strip_mesh.py": "38c8643c49a834b8f6cff0056fe80af7d6b28972e453cd62bf55d5d9d50aaf97",
+    "verify_run.py": "8fd2e45fd6da3a4ebe7b5c66ace0769fd444cc85f06a68110fd3d993129e40cb"
+  },
+  "note": "Producer manifest source hashes are preserved, including the initial verifier; current verifier fixes only equation-line parsing to exclude Maximum wavefront. Historical produced files and manifests unchanged.",
+  "solve_performed": false,
+  "neural_training_or_inference": false
+}

@@ -1,0 +1,50 @@
+{
+  "id": "P1_strip_NMQ_recovery_20261117_v1",
+  "source_commit": "4582fefd4e66804e866d7ae9432472588d344f6e",
+  "theta": 0.5,
+  "max_adaptive_steps": 3,
+  "active_dof_cap": 5382,
+  "initial_intervals_xy": [
+    20,
+    12
+  ],
+  "uniform_comparison_h_mm": 25.0,
+  "marking": "minimal prefix descending eta_K_squared, ties ascending element ID; no reference access",
+  "mark_to_intervals": "each marked cell bisects its longer original physical interval; equal lengths select X; deduplicate selected intervals; add global coordinate lines at midpoints",
+  "quality_closure": "while max(max(dx)/min(dy),max(dy)/min(dx))>4 bisect largest offending interval; equal-length ties X then lower index; all added lines count",
+  "over_budget_action": "reject entire proposal before solve and stop adaptive branch; never drop marks or change theta",
+  "recovery": "area-weighted affine least squares at nodes, local normalized coordinates, expand shared-vertex element rings until rank3 and condition<=1e8; no constant fallback",
+  "indicator": "integral (Nstar-Nh)^T Ainv (Nstar-Nh)+(Mstar-Mh)^T Dinv (Mstar-Mh)+(Qstar-Qh)^T Sinv (Qstar-Qh); unsmoothed native centroid Nh/Mh/Qh constant per cell",
+  "indicator_quadrature_orders": [
+    2,
+    3,
+    5
+  ],
+  "indicator_quadrature_rtol": 0.001,
+  "patch_condition_limit": 100000000.0,
+  "basis": "native ESYS=0, default KEYOPT11=0 verified; rect I-J along +X, first parametric tangent +X, normal +Z; explicit tensor rotation",
+  "shear": "native section PROP,E and Q/gamma cross-check; single isotropic layer documented automatic stiffness (5/6)Gt only with explicit verified section/default evidence",
+  "quality_limits": {
+    "aspect_ratio_max": 4.0,
+    "angle_min_degrees": 30.0,
+    "angle_max_degrees": 150.0,
+    "scaled_jacobian_min": 0.2
+  },
+  "force_balance_relative_limit": 0.001,
+  "moment_balance_relative_limit": 0.001,
+  "linear_energy_relative_limit": 0.001,
+  "primary_targets": {
+    "central_deflection": 0.01,
+    "each_disk_VM": 0.05
+  },
+  "strict_targets": {
+    "central_deflection": 0.002,
+    "each_disk_VM": 0.01
+  },
+  "reference_role": "h=3.125 saved P1 linear only for error assessment; never marking or recovery or observation",
+  "time_accounting": "one shared start solve and common export/recovery/graph workflow charged in full to each standalone method; adaptive adds marking/remesh/rejections; uniform includes common start then new h25; actual shared work not summed twice; development and artifact verification separate; each method receives same session-launch charge and measured final close charge; physical per-stage and end-to-end wall times retained",
+  "uniform_indicator": "computed and exported with the same diagnostic workflow for comparable postprocessing, not used to refine uniform grid",
+  "stop": "three adaptive solves or next complete proposal over budget or required validation failure; report both accuracy goals independently at every completed level",
+  "neural_experiment": false,
+  "training": false
+}

@@ -1,0 +1,7 @@
+{
+  "final_invocation_wall_including_publication_seconds": 1.8231749999977183,
+  "publication_seconds": 1.269486400007736,
+  "all_attempts_wall_including_publication_seconds": 308.04602427406644,
+  "end_event": "all comparison artifacts published; final small stamp/hash writes excluded",
+  "development_and_user_license_repair_wait_excluded": true
+}

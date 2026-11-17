@@ -1,0 +1,9 @@
+{
+  "source": "native SHEL PROP E and TS11/TS22/TS12",
+  "section_S": "for verified single isotropic MID layer and zero off-diagonals, Sii=Eii*TSii",
+  "validation": "native E=GtI, TSii approximately5/6, TS12=0; resulting S SPD and isotropic; unchanged material, section and solver settings",
+  "Q_gamma": "reported as diagnostic only; exact equality of independently exported centroid quantities is not the definition of section S and is not guaranteed",
+  "rejected_attempt": "constitutive_extraction_rejected.json; original constant Q-gamma identification failed on variable geometry and is not used in the valid strip trajectory",
+  "preservation": "old shared0 indicator/proposal archived without modification; corrected native-section indicator produces exactly the same54 marked IDs and X/Y lines, proven in section_reprocessing_proof.json; completed adaptive1 solve reused without any new solve",
+  "unchanged": "A/D/S metric from the original plan, seven control errors/goals, theta0.5, longest-interval rule, quality/native checks, P1 physics and budget"
+}

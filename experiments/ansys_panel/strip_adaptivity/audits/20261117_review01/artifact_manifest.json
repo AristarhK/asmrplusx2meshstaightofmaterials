@@ -1,0 +1,8 @@
+{
+  "files": {
+    "audit_provenance.json": "ec6726d5b48a981320516316a47a0c57dafda4c4842122fe3426f170655ee5c4",
+    "numerical_audit.json": "81075a37ca3e3651efd4022bce19c039c77ba30e686a62cc8abfce049e65af93",
+    "terminal_costs.csv": "41c0551c476a76a68b1aebe2ae70dd5ab993a93605ccaef1e52e1ce821836993",
+    "terminal_costs.json": "aea1a7cfd21b7529f46de878c2a01014054d73d28634997b761a890d7e52e998"
+  }
+}

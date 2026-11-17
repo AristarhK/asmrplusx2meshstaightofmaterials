@@ -1,0 +1,27 @@
+{
+  "portable_audit_passed": true,
+  "solve_performed": false,
+  "neural_inference": false,
+  "physical_cases": {
+    "shared0": {
+      "elements": 240,
+      "actual_dof": 1254,
+      "indicator_sum_N_mm": 6.1965791210636025
+    },
+    "adaptive1": {
+      "elements": 408,
+      "actual_dof": 2178,
+      "indicator_sum_N_mm": 5.71935947167588
+    },
+    "adaptive2": {
+      "elements": 608,
+      "actual_dof": 3330,
+      "indicator_sum_N_mm": 2.8079987536278144
+    },
+    "uniform25": {
+      "elements": 960,
+      "actual_dof": 5382,
+      "indicator_sum_N_mm": 1.6341923734953985
+    }
+  }
+}

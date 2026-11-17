@@ -1,0 +1,20 @@
+{
+  "section_S": [
+    [
+      538461.5341538463,
+      0.0
+    ],
+    [
+      0.0,
+      538461.5341538463
+    ]
+  ],
+  "old_eta2_sum": 6.196581322215758,
+  "new_eta2_sum": 6.1965791210636025,
+  "marked_ids_identical": true,
+  "x_lines_identical": true,
+  "y_lines_identical": true,
+  "old_marked_count": 54,
+  "new_marked_count": 54,
+  "solve_performed": false
+}

@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-11-16T23:50:16.816235+00:00",
+  "source_sha256": {
+    "native_export.py": "5d7fbcb0016cd95e5971818703e287780e47e6a611ee10f04f87ff642fe4ba48",
+    "publish_results.py": "c1fe236464e7654304c7a3749351c4bbf5b8bee3c2c24d5b617707bb0efe908c",
+    "recovery.py": "e8d239d8f39b0522a832ae69f6373fbbd8e0ac5c5c3f5f701c69d69b3c2b61b9",
+    "run_experiment.py": "0e1260ed0564367b5d5c4fc28d41b052af9bbdfab7dc81044867b60eac8b7e52",
+    "strip_mesh.py": "35bb4d8e0015f9c361b0bee4d5f7c08f966d22afcce8f726ffb5509cfbb3a94b",
+    "test_recovery.py": "632ae9eff85fea2be2206270a2ab31620efed02f34f4c17ac7c27c7d4a301c2b",
+    "test_runner_contract.py": "15de29ae2082984170f3fbb812106f9a244a45f3be1f6fffcc7c37d5421c0f0d",
+    "test_strip_mesh.py": "38c8643c49a834b8f6cff0056fe80af7d6b28972e453cd62bf55d5d9d50aaf97",
+    "verify_run.py": "9354272a58172e950b767f57221bd03e32dec23afd4b3c1af46ba7ed4af248c9"
+  },
+  "protocol_sha256": "6a39259b18d9c97023f41fa4ff77792d7fd8c7b3def05f9a668462759f732870",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "matplotlib": "3.11.2",
+    "ansys-mapdl-core": "0.74.1"
+  },
+  "runtime": "Private new directory; DB/RST/full native logs excluded from Git",
+  "native_checkpoints": {
+    "adaptive1": "eefe96ec8cb0e3b2d9d6ec3a08b4eb8a9798389547ee1158b277285a2a7b2820",
+    "adaptive2": "d30d122606e7ca596b8bcd63e6cf4771c9051df839c86263928efe21a6668bc8",
+    "shared0": "644941141367b1e5cc567e1a5db6ffc59ccee575b528a74bfb2b85ec33319503",
+    "uniform25": "affa637201b77dd376a479ec706cfeb675e1f8677a7dc94a7a33f0302d534627"
+  }
+}
